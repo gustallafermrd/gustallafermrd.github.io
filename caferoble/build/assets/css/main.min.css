@@ -190,7 +190,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #fff;
+  background: white;
   font-size: 14px;
   line-height: 1.6;
   font-size: 14px;
@@ -212,16 +212,16 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  padding: 20px 60px;
-  color: black;
+  padding: 10px 20px;
+  color: white;
   text-align: center;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
-  background-color: white;
-  border-radius: 4px;
+  background-color: #D54745;
+  border-radius: 5px;
   cursor: pointer;
   box-sizing: border-box;
   transition: all 0.2s ease; }
@@ -371,3 +371,45 @@ hr {
     text-decoration: none;
     font-weight: 900;
     text-transform: uppercase; }
+
+#products, #locations {
+  background: #007852;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 4px 5px 3px rgba(0, 0, 0, 0.3); }
+  #products h3, #locations h3 {
+    color: white; }
+  #products .product, #locations .product {
+    width: 25%;
+    float: left;
+    display: block; }
+    #products .product img, #locations .product img {
+      width: 50%; }
+    #products .product a:hover, #locations .product a:hover {
+      background: white;
+      color: #D54745; }
+  #products .label, #locations .label {
+    display: flex;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    background: #A96E27;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    position: absolute;
+    top: 13%;
+    left: 0; }
+    #products .label p, #locations .label p {
+      margin: 0; }
+    #products .label img, #locations .label img {
+      padding-right: 5px; }
+
+#locations {
+  background: white; }
+  #locations h3 {
+    color: #443E40;
+    margin: 0; }
+  #locations .location {
+    width: 33.33%; }
