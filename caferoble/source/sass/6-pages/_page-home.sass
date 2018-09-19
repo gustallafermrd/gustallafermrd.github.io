@@ -1,6 +1,7 @@
 #header
   background: url("../img/headerBg.png") no-repeat
   background-size: cover
+  background-attachment: fixed
   height: 615px
   color: white
   text-align: center
@@ -93,3 +94,60 @@
     position: absolute
     top: 13%
     left: 0
+
+#multimedia
+  position: relative
+
+  .label
+    display: flex
+    color: white
+    padding: 10px
+    border-radius: 0 5px 5px 0
+    background: $cafeGreen
+    font-weight: bold
+    text-align: left
+    text-transform: uppercase
+    position: absolute
+    top: 13%
+    left: 0
+
+  img
+    padding-right: 5px
+
+.multimedia
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  padding: 10px
+
+  .rrss
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-gap: 1px
+
+#footer
+  background: url("/assets/img/footerBg.png") no-repeat
+  background-size: cover
+  background-attachment: fixed
+  color: white
+  padding: 20px
+
+  .copyright
+    font-size: 0.8em
+    font-style: italic
+    text-align: center
+
+  .menu
+    display: flex
+    margin: 20px auto
+
+    li
+      list-style: none
+
+    a
+      color: white
+      display: block
+      border-radius: 5px
+      padding: 10px 50px
+      text-decoration: none
+      font-weight: 900
+      text-transform: uppercase

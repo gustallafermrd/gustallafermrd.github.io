@@ -347,6 +347,7 @@ hr {
 #header {
   background: url("../img/headerBg.png") no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 615px;
   color: white;
   text-align: center; }
@@ -426,3 +427,96 @@ hr {
     position: absolute;
     top: 13%;
     left: 0; }
+
+#multimedia {
+  position: relative; }
+  #multimedia .label {
+    display: flex;
+    color: white;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    background: #007852;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    position: absolute;
+    top: 13%;
+    left: 0; }
+  #multimedia img {
+    padding-right: 5px; }
+
+.multimedia {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px; }
+  .multimedia .rrss {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1px; }
+
+#footer {
+  background: url("/assets/img/footerBg.png") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 20px; }
+  #footer .copyright {
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: center; }
+  #footer .menu {
+    display: flex;
+    margin: 20px auto; }
+    #footer .menu li {
+      list-style: none; }
+    #footer .menu a {
+      color: white;
+      display: block;
+      border-radius: 5px;
+      padding: 10px 50px;
+      text-decoration: none;
+      font-weight: 900;
+      text-transform: uppercase; }
+
+#header2 {
+  background: #007852;
+  color: white;
+  text-align: center; }
+
+.main-nav {
+  display: flex;
+  margin-top: 20px; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav li:first-child {
+    margin: auto; }
+  .main-nav a {
+    color: white;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase; }
+
+#product-features {
+  margin-top: 30px; }
+  #product-features .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    #product-features .wrapper .features {
+      display: grid;
+      grid-template-rows: repeat(2, 1fr); }
+      #product-features .wrapper .features .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        margin: 0 auto; }
+      #product-features .wrapper .features .cart {
+        text-align: center; }
+        #product-features .wrapper .features .cart .details {
+          width: 60%;
+          margin: 10px auto;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          grid-column-gap: 20px; }

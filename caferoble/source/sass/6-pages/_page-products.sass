@@ -1,0 +1,49 @@
+#header2
+  background: $cafeGreen
+  color: white
+  text-align: center
+
+.main-nav
+  display: flex
+  margin-top: 20px
+
+  li
+    list-style: none
+  li:first-child
+    margin: auto
+  a
+    color: white
+    display: block
+    border-radius: 5px
+    padding: 10px 50px
+    text-decoration: none
+    font-weight: 900
+    text-transform: uppercase
+
+#product-features
+  margin-top: 30px
+  .wrapper
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    .features
+      display: grid
+      grid-template-rows: repeat(2, 1fr)
+
+      .gallery
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        grid-gap: 50px
+        margin: 0 auto
+
+      .cart
+        text-align: center
+        .details
+          width: 60%
+          margin: 10px auto
+          display: grid
+          grid-template-columns: repeat(4, 1fr)
+          grid-column-gap: 20px
+
+#product-details
+  li
+    list-style:disc
