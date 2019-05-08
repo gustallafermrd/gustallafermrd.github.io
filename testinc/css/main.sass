@@ -11,232 +11,247 @@
   font-family: 'helvetica'
   src: url('/fonts/helvetica-light.otf')
 
-html
+// Color Palette
+$mirage: #1b2238
+$apple-blossom: #a9464a
+$juniper: #628484
+$mine-shaft: #363434
+$white: #fff
+
+html, body
   font-family: 'helvetica'
   font-size: 16px
+  color: $white
 
-  h1,h2,h3,h4,h5,h6
-    font-family: 'muller'
-  
-// Header + Video Background
-.v-header
-  height: 100vh
-  display: flex
-  align-items: center
-  color: #fff
-
-.container
-  max-width: 960px
-  padding-left: 1rem
-  padding-right: 1rem
-  margin: auto
-  text-align: center
-
-.video-wrap
-  position: absolute
-  top: 0
-  left: 0
-  width: 100%
-  height: 100vh
-  overflow: hidden
-
-.video-wrap video
-  min-height: 100%
-  min-width: 100%
-
-.header-overlay
-  height: 100vh
-  position: absolute
-  top: 0
-  left: 0
-  width: 100vw
-  z-index: 1
-  background: #131d37
-  opacity: 0.75
-
-.header-content
-  z-index: 2
-
-.header-content h1
-  font-size: 50px
-  margin-bottom: 0
-
-.header-content p
-  font-size: 1.5rem
-  display: block
-  padding-bottom: 10px
-
-.video-wrap
-  height: 100vh
-  display: flex
-  align-items: center
-  color: white 
-
-// Navigation
-nav
-  display: flex
-  justify-content: space-around
-  align-items: center
-  color: #f1f1f1
-  z-index: 2
-  position: absolute
-  top: 0
-  left: 0
-  padding: 1%
-  width: 100%
-
-.nav-links
-  display: flex
-  justify-content: space-around
-  width: 40%
-
-.nav-links li
-  list-style-type: none
-
-.nav-links a
-  color: #f8f8f8
-  text-decoration: none
-  letter-spacing: 2px
-
-// Services + Skewed borders
-.servicios
-  display: flex
-  background: #060c21
-  justify-content: center
-  align-content: center
-  padding: 100px 0 20px 0
-
-.servicios-links
+header
+  background: url(/images/home-bg.jpg)
+  background-attachment: fixed
+  background-repeat: no-repeat
+  background-size: auto
+  max-width: 100%
   display: grid
-  width: 95%
+  height: 100vh
   position: relative
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr))
-  grid-template-rows: auto
-  grid-gap: 0 40px
+  grid-template-columns: 3fr 1fr
+  grid-template-areas: "nav sidebar"
 
-.servicios-links .box
+#logo
   position: relative
-  height: 400px
-  background: #060c21
+  width: 180px
+  height: 80px
+  margin: 10px
+
+.nav
+  grid-area: nav
+  position: relative
   display: flex
-  justify-content: center
-  align-content: center
-  border: 1px solid #000
 
-.servicios-links .box:before
-  content: ''
-  position: absolute
-  top: -2px
-  right: -2px
-  left: -2px
-  bottom: -2px
-  background: #fff
-  transform: skew(2deg, 2deg)
-  z-index: -1
+  #menu
+    position: relative
+    width: 60px
+    height: 100px
+    color: $white
+    display: flex
+    padding: 20px
+    background: $mirage
+    justify-content: center
+    align-items: center
 
-.servicios-links .box:after
-  content: ''
-  position: absolute
-  top: 0
-  left: 0
-  width: 50%
-  height: 100%
-  background: rgba(255,255,255,.05)
-  pointer-events: none
 
-.content
+.sidebar
+  grid-area: sidebar
+  background: $white
   position: relative
-  padding: 20px
-  transform: translateY(40px)
+
+  .rrss
+    padding: 10px
+    text-align: right
+  img
+    width: 30px
+    height: 30px
   
-.box .content h2
-  position: absolute
-  top: -60px
-  right: 20px
-  margin: 0
-  padding: 0
-  font-size: 10em
-  color: rgba(255,255,255,.05)
-  transition: 0.5s
+  .rotate
+    color: $apple-blossom
+    font-family: 'muller'
+    font-size: 4em
+    font-weight: bold
+    position: absolute
+    bottom: 100px
+    transform: rotate(-90deg)
+  .circle
+    position: absolute
+    top: 100%
+    -webkit-transform: translateY(-50%)
+    -ms-transform: translateY(-50%)
+    transform: translateY(-50%)
+    left: 0
+    right: 0
+    margin: 0 50px
+    text-align: right
 
-.box:hover .content h2
-  top: -140px 
-
-.box .content h3
-  margin: 0 0 10px
-  padding: 0
-  font-size: 24px
-  font-weight: 500
-  color: #fff
-
-.box .content p
-  margin: 0
-  padding: 0
-  color: #fff
-  font-size: 16px
-
-.box .content a
+// Servicios
+.services
+  display: block
   position: relative
-  margin: 20px 0 0
-  padding: 10px 20px
-  text-decoration: none
-  border: 1px solid #fff
-  display: inline-block
-  color: #fff
-  transition: 0.5s
-  transform: translateY(-40px)
-  opacity: 0
-  visibility: hidden
+  margin: 0
+  padding: 5em 0
+  background: url(/images/services-bg.jpg)
+  background-attachment: fixed
+  background-repeat: no-repeat
+  background-size: auto
+  min-height: 100vh
 
-.box:hover .content a
-  transform: translateY(0)
-  opacity: 1
-  visibility: visible
+  .intro
+    width: 65%
+    display: flex
+    text-align: center
+    margin: 0 auto
+    padding-bottom: 2em
+    .left
+      width: 40%
+      h1
+        color: $white
+        font-family: 'muller'
+        font-size: 6em
+        font-weight: bold
+        display: block
+      h2
+        color: $apple-blossom
+        font-family: 'muller'
+        font-size: 2em
+        letter-spacing: 1.8px
+    .right
+      width: 60%
+      display: flex
+      justify-content: center
+      align-items: center
+      text-align: justify
 
-.box .content a:hover
-  color: #000
-  background: #fff
+  .inner
+    position: relative
+    margin: 0 auto
+    width: 80%
+    display: grid
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
+    grid-gap: 0
+     
+.inner .service
+  position: relative
+  display: block
+  justify-content: center
+  align-items: center
+
+.service img
+    max-width: 100%
+    
+.content
+  padding: 10px
+  position: relative
+
+  h2
+    text-align: left
+    font-weight: bolder
+  
+  p
+    text-align: justify
 
 // Portfolio
-.portafolio
-  width: 95%
-  margin: 20px auto
-  display: grid
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr))
-  grid-column-gap: 0px
-  grid-template-rows: auto
-  justify-content: center
-  align-content: center
 
-.item
+.portfolio
+  width: 100%
+  padding: 2em 0
+  max-height: 90vh
   position: relative
+  font-family: 'muller'
+  display: grid
+  grid-template-columns: 1fr 1fr 2fr 1fr
+  grid-template-rows: auto
+  grid-gap: 0
+  grid-template-areas: "port1 port2 port3 port4" "port5 port6 port3 port7"
+  .port1
+    grid-area: port1
+  .port2
+    grid-area: port2
+    background: $mirage
+    text-transform: uppercase
+    span
+      font-size: 2em
+  .port3
+    grid-area: port3
+    position: relative
+    text-transform: uppercase
+    p
+      position: absolute
+      top: 10px
+      left: 10px
+    span
+      font-size: 2em
+  .port4
+    grid-area: port4
+    background: $apple-blossom
+    p
+      text-transform: uppercase
+      font-family: 2em
+  .port5
+    grid-area: port5
+    background: #dcdee4
+    text-transform: uppercase
+    p
+      color: $mirage
+    span
+      color: $apple-blossom
+      font-size: 2em
+  .port6
+    grid-area: port6
 
-img
-  display: block
-  width: 100%
-  height: auto
+  .port7
+    grid-area: port7
+    background: $mine-shaft
+  img
+      max-width: 100%
+      min-height: 100%
+      display: block
 
-.overlay
-  position: absolute
-  bottom: 0
-  left: 0
-  right: 0
-  background: rgba(0,0,0,0.35)
-  width: 100%
-  height: 0
-  transition: 0.6s ease-in
-  overflow: hidden
- 
-.content
-  position: absolute
-  top: 45%
-  left: 45%
-  transform: translate(-50%, -50%)
-  color: #fff
-  text-align: center
-  overflow: hidden
+// footer
+.wrapper
+  position: relative
+  display: grid
+  height: 35vh
+  background: $white
+  grid-template-columns: 1fr 1fr 1fr 1fr
+  grid-gap: 0 25px
+  color: $mirage
+  h3
+    font-size: 1.2em
+    font-weight: bold  
 
-.item:hover .overlay
-  height: 100%
+.menu-bottom
+  
+  text-transform: uppercase
+  font-size: 1.3em
+  padding: 1.3em  
 
-footer
+  li
+    list-style-type: none
+    padding-bottom: 8px
+  a
+    text-decoration: none
+.address
+  padding: 1.3em
+  h2
+    text-transform: uppercase
+    font-weight: bold
+    color: $apple-blossom
+  div
+    padding-bottom: 10px
+.redes 
+  padding: 1.3em
+  p
+    text-transform: uppercase
+    font-weight: bold
+  img
+    width: 30px
+    height: 30px
+
+.copyright
+  padding: 1.3em
