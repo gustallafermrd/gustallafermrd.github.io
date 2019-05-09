@@ -43,8 +43,25 @@ header
 
 .nav
   grid-area: nav
-  position: relative
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background: $mirage
+  transition: 0.5s
   display: flex
+.toggle
+  position: absolute
+  top: 10px
+  left: 10px
+  width: 80px
+  height: 80px
+  background: $white
+  cursor: pointer
+  display: flex
+  justify-content: center
+  align-items: center
 
   #menu
     position: relative
