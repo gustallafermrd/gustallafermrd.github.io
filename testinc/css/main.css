@@ -22,7 +22,7 @@ html, body {
 }
 
 header {
-  background: url(/images/home-bg.jpg);
+  background: url(../images/home-bg.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: auto;
@@ -116,7 +116,7 @@ header {
   position: relative;
   margin: 0;
   padding: 5em 0;
-  background: url(/images/services-bg.jpg);
+  background: url(../images/services-bg.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: auto;
