@@ -1,0 +1,141 @@
+/*=================================================================
+  Latest Posts
+==================================================================*/
+
+
+.blog-item{
+  h3{
+    font-size: 22px;
+  }
+
+   h2{
+    font-size: 34px;
+    line-height: 43px;
+  }
+ 
+  -webkit-transition: all .35s ease;
+     -moz-transition: all .35s ease;
+      -ms-transition: all .35s ease;
+       -o-transition: all .35s ease;
+          transition: all .35s ease;
+   
+}
+
+
+
+.sidebar-widget {
+    .list-group-item {
+        background-color: transparent;
+        border: 0px ;
+
+    }
+
+    .list-group-item:first-child {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+
+    h5{
+    background: $border-color;
+    padding: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+}
+
+.tag-option a{
+  padding: 5px 15px;
+  border: 1px solid $border-color;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $black-light;
+}
+
+.tags{
+  a{
+    background:$black-light;
+    padding: 3px 15px;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: $light;
+  }
+}
+
+.comment-form {
+  .form-control{
+    border-color: #eee;
+  }
+}
+.post-navigation a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: 1px solid $border-color;
+  text-align: center;
+  padding-top: 4px;
+  margin-right: 6px;
+  font-weight: 700;
+}
+.post-navigation a.current{
+  background: $primary-color;
+  color: $light;
+  border-color: $primary-color;
+}
+
+
+h3.quote {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: normal;
+    padding: 0px 25px 0px 85px;
+    margin: 65px 0 65px 0 !important;
+    position: relative;
+}
+
+h3.quote::before {
+    content: '';
+    width: 55px;
+    height: 2px;
+    background: $primary-color;
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+
+
+
+// .latest-blog{
+//   position: relative;
+//   @extend .overly-2;
+//   padding-bottom: 150px;
+// }
+
+.mt-70{
+  margin-top: -70px;
+}
+
+.border-1{
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+
+.share a{
+  display: inline-block;
+  padding: 4px 12px;
+  color: $light;
+}
+a.fb{
+  background: #3b5999;
+}
+a.twt{
+  background: #55acee;
+}
+a.pint{
+  background: #bd081c;
+}
+a.link{
+  background: #0077B5;
+}
