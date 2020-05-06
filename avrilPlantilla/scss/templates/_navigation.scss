@@ -10,7 +10,7 @@
 
 	.nav-link {
 		font-family: $secondary-font;
-		text-transform: capitalize;
+		text-transform: uppercase;
 		color: #f5f5f5;
 		font-weight: 600;
 		letter-spacing: 0.3px;
@@ -24,7 +24,7 @@
 
 		&:hover,
 		&:focus {
-			color: $primary-color;
+			color: $grey-color;
 		}
 	}
 
@@ -175,14 +175,14 @@ ul.dropdown-menu li {
 	transform: translateY(-80%);
 }
 .navbar-collapse {
-	text-align: left;
+	text-align: center;
 }
 .navbar-collapse.collapse.show {
-	background: $black;
+	background: $primary-color;
 }
 
 a.bg-primary:hover {
-	background: $primary-color !important;
+	background: $black !important;
 }
 
 @include mobile {

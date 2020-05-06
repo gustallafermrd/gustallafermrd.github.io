@@ -47,17 +47,19 @@
 			</div>
 		</div>
 	</div>
-	<nav class="navbar navbar-expand-lg  main-nav py-3" id="navbar">
+	<nav class="navbar main-nav py-3" id="navbar">
 		<div class="container">
 		  <a class="navbar-brand" href="index.html">
 		  	<img src="./images/logo.png" alt="logo" width="auto" height="70px"></span>
 		  </a>
 
-		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+		  <button class="navbar-toggler collapsed text-white" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="fa fa-bars"></span>
 		  </button>
 	  
-		  <div class="collapse navbar-collapse" id="navbarsExample09">
+		  
+		</div>
+		<div class="collapse navbar-collapse" id="navbarsExample09">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
 					<a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
@@ -65,17 +67,21 @@
 				<li class="nav-item"><a class="nav-link" href="quienes.html">Quienes somos</a></li>
 					<li class="nav-item"><a class="nav-link" href="servicios.html">Nuestro servicio</a></li>
 					<li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+					<li class="nav-item"><a class="nav-link" href="https://emision.avril-assistance.com/" target="_blank">Emisiones</a></li>
 			</ul>
-
-			<a href="https://emision.avril-assistance.com/" class="quote-btn ml-4 bg-primary text-white rounded-btn letter-spacing text-uppercase" target="_blank">Emisiones <i class="ti-angle-right"></i></a>
-		  </div>
 		</div>
 	</nav>
 </header>
 <!-- Header Close --> 
 
 <div class="main-wrapper">
-
+	<div class="social-box">
+		<ul class="list-unstyled">
+			<li><a href="#redes"><i class="ti-facebook text-cyan fa-2x"></i></a></li>
+			<li><a href="#redes"><i class="ti-twitter text-cyan fa-2x"></i></a></li>
+			<li><a href="#redes"><i class="fab fa-instagram fa-2x text-cyan"></i></a></li>
+		</ul>
+	</div>
 <!-- Slider Start -->
 	<section class="slider">
 		<div class="container">
@@ -101,12 +107,17 @@
 				<div class="col-lg-2">
 					<img src="./images/emisiones.png" width="80px" height="80px" alt="emisiones">
 				</div>
-				<div class="col-lg-7">
+				<div class="col-lg-6">
 					<h3 class="mb-2 text-white text-uppercase">emisiones</h3>
 					<p class="text-white">Sistema exclusivo para agencias de viaje adheridas</p>
 				</div>
-				<div class="col-lg-3 text-right">
-					<a href="https://emision.avril-assistance.com/" class="btn btn-white mb-0">ACCEDER</a>
+				<div class="col-lg-4 d-flex justify-content-between">
+					<a href="https://emision.avril-assistance.com/" class="btn btn-white mb-0">
+						REGISTRARSE
+					</a>
+					<a href="https://emision.avril-assistance.com/" class="btn btn-white mb-0">
+						ACCEDER
+					</a>					
 				</div>
 			</div>
 		</div>
@@ -123,8 +134,8 @@
 					</div>
 					
 					<div class="col-lg-7 intro-text">
-						<h2 class="mb-3">¿Quiénes somos?</h2>
-						<p>Somos una innovadora empresa fundada en el año 2016, conformada por un equipo de profesionales con gran experiencia en el sector turístico y de la Asistencia al viajero.</p>
+						<h2 class="mb-3">La Empresa</h2>
+						<p>Fundada en el año 2016, conformada por un equipo de profesionales con gran experiencia en el sector turístico y de la Asistencia al viajero.</p>
 						<p><span class="name">avril assistance</span> cuenta con una estructura orientada a solucionar de manera rápida y eficiente cualquier imprevisto ocurrido en el viaje de tus pasajeros, en cualquier parte del mundo, los 365 días del año, los 7 días de la semana, las 24 hs del día.</p>
 						<p><span class="name">AVRIL ASSISTANCE</span> es calidad y tranquilidad para tus pasajeros.</p>
 						<p><span class="name">PROTEGIDO VAYAS DONDE VAYAS.</span></p>
@@ -142,35 +153,104 @@
 
 				<div class="col-lg-6 ml-auto">
 					<div class="row">
-						<div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200" >
-							<div class="intro-item mb-4 mb-lg-0">
-								<img src="./images/condiciones.png" alt="Condiciones" width="60px" height="60px">
-								<!-- <i class="ti-wand text-color"></i> -->
-								<h4 class="mt-4 text-center">Condiciones Generales</h4>
-								<p>Todo lo que tenés que saber a la hora de utilizar nuestros servicios.</p>
+						<div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
+							<div class="team-item-wrap">
+								<img src="images/test-1.jpg" alt="" class="img-fluid w-75 rounded">
+								<div class="team-item-content">
+									<p class="text-sm mb-0">CEO</p>
+									<h3 class="mt-0 mb-2 text-capitalize">Martín Ortiz</h3>
+									<p class="text-sm mb-0">"Las cosas buenas pasan a quienes las esperan. Las mejores a quienes van por ellas."</p>
+									<!-- <ul class="team-social list-inline ">
+										<li class="list-inline-item">
+											<a href="#" class="facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+										</li>
+										<li class="list-inline-item">
+											<a href="#" class="twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+										</li>
+										<li class="list-inline-item">
+											<a href="#" class="instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+										</li>
+										<li class="list-inline-item">
+											<a href="#" class="linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+										</li>
+									</ul> -->
+								</div>
 							</div>
 						</div>
+
 						<div class="col-lg-6 col-md-6">
-							<div class="intro-item mb-4 mb-lg-0"  data-aos="fade-up" data-aos-delay="300" >
-								<img src="./images/folleto.png" alt="Condiciones" width="60px" height="60px" text-align="center">
-								<!-- <i class="ti-medall text-color"></i> -->
-								<h4 class="mt-4 text-center">Folleto Comercial</h4>
-								<p>Descubrí nuestros productos y sus tarifas nacionales e internacionales.</p>
+							<div class="intro-item mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="300" >
+								<div class="team-item-wrap">
+									<img src="images/test-1.jpg" alt="" class="img-fluid w-75 rounded">
+									<div class="team-item-content">
+										<p class="text-sm mb-0">CEO</p>
+										<h3 class="mt-0 mb-2 text-capitalize">Martín Ortiz</h3>
+										<p class="text-sm mb-0">"Las cosas buenas pasan a quienes las esperan. Las mejores a quienes van por ellas."</p>
+									</div>
+								</div>
 							</div>
 						</div>
+
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- Porque elegirnos -->
-	<section class="section service">
+	<!-- counter v2.0 -->
+	<section class="counter position-relative">
+		<div class="bg-5"></div>
+		<div class="container">
+			<div class="col-lg-8 mb-3 justify-content-center text-center">
+				<h2 class="text-white">¿Por qué nos elegís?</h2>
+			</div>
+			<div class="row">		
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="counter-item mb-5 mb-lg-0 " data-aos="fade-up" data-aos-delay="100">
+						<i class="ti-user text-white text-md float-left"></i>
+						<div class="pl-5 ml-2">
+							<h3 class="mt-2 mb-0 text-white"><span class="counter-stat">800</span></h3>
+							<p class="text-white mb-0">Prestadores Mundiales</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="counter-item mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+						<i class="ti-check text-white text-md float-left"></i>
+						<div class="pl-5 ml-2">
+							<h3 class="mt-2 mb-0 text-white"><span class="counter-stat">9.000</span></h3>
+							<p class="text-white mb-0">Asistencias Coordinadas</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="counter-item mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+						<i class="ti-medall text-white text-md float-left"></i>
+						<div class="pl-5 ml-2">
+							<h3 class="mt-2 mb-0 text-white"><span class="counter-stat">1.200</span></h3>
+							<p class="text-white mb-0">Reintegros</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="counter-item mb-5 mb-lg-0 " data-aos="fade-up" data-aos-delay="100">
+						<i class="ti-home text-white text-md float-left"></i>
+						<div class="pl-5 ml-2">
+							<h3 class="mt-2 mb-0 text-white"><span class="counter-stat">9.000</span></h3>
+							<p class="text-white mb-0">Contactos</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</section>
+
+	<section class="section planes pricing position-relative" id="redes">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-8 text-center">
-					<h2 class="mb-5">¿Por qué elegirnos?</h2>
-				</div>	
+					<h2 class="mb-3">todos nuestros productos cuentan con</h2>
+				</div>
 			</div>
 
 			<div class="row justify-content-center text-center ">
@@ -226,50 +306,11 @@
 		</div>
 	</section>
 
-	<!-- counter v2.0 -->
-	<section class="counter position-relative">
-		<div class="bg-5"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="counter-item mb-5 mb-lg-0 " data-aos="fade-up" data-aos-delay="100">
-						<i class="ti-user text-white text-md float-left"></i>
-						<div class="pl-5 ml-2">
-							<h3 class="mt-2 mb-0 text-white"><span class="counter-stat">800</span></h3>
-							<p class="text-white mb-0">Prestadores Mundiales</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="counter-item mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-						<i class="ti-check text-white text-md float-left"></i>
-						<div class="pl-5 ml-2">
-							<h3 class="mt-2 mb-0 text-white"><span class="counter-stat">9.000</span></h3>
-							<p class="text-white mb-0">Asistencias Coordinadas</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="counter-item mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-						<i class="ti-medall text-white text-md float-left"></i>
-						<div class="pl-5 ml-2">
-							<h3 class="mt-2 mb-0 text-white"><span class="counter-stat">1.200</span></h3>
-							<p class="text-white mb-0">Reintegros</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="counter-item mb-5 mb-lg-0 " data-aos="fade-up" data-aos-delay="100">
-						<i class="ti-home text-white text-md float-left"></i>
-						<div class="pl-5 ml-2">
-							<h3 class="mt-2 mb-0 text-white"><span class="counter-stat">9.000</span></h3>
-							<p class="text-white mb-0">Contactos</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+	<!-- Porque elegirnos 
+	<section class="section ">
+		
 	</section>
+	-->
 
 	<!-- Promociones -->
 	<section class="section promos bg-gray">
@@ -281,92 +322,30 @@
 			</div>
 
 			<div class="row arriba">
-				<div class="col-lg-4 text-center" data-aos="fade-right" data-aos-delay="200">
-					<a href="./images/promo_avril.jpg" data-toggle="lightbox" data-gallery="gallery">
-						<img src="./images/promo_avril.jpg" width="50%" class="img-fluid rounded">
-					</a>
-				</div>
-				<div class="col-lg-4 text-center" data-aos="fade-right" data-aos-delay="400">
-					<a href="./images/promo_avril.jpg" data-toggle="lightbox" data-gallery="gallery">
-						<img src="./images/promo_avril.jpg" width="50%" class="img-fluid rounded">
-					</a>
-				</div>
-				<div class="col-lg-4 text-center" data-aos="fade-right" data-aos-delay="600">
-					<a href="./images/promo_avril.jpg" data-toggle="lightbox" data-gallery="gallery">
-						<img src="./images/promo_avril.jpg" width="50%" class="img-fluid rounded">
+				<div class="col-lg-12 text-center" data-aos="fade-right" data-aos-delay="200">
+					<a href="./images/bg/estadisticas.jpg" data-toggle="lightbox" data-gallery="gallery">
+						<img src="./images/bg/estadisticas.jpg" width="95%" class="img-fluid rounded">
 					</a>
 				</div>
 			</div>
+
 		</div>
 	</section>
 
-	<section class="section planes pricing position-relative">
-		<div class="hero-img bg-overlay h70"></div>
+
+	<!-- Reintegros -->
+	<section class="section reintegros">
 		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<h2 class="mb-3 text-white">todos nuestros productos cuentan con</h2>
-				</div>
-			</div>
-
-			<div class="row justify-content-center">
-				<div class="col-lg-5">
-					<div class="card mb-md-0 mb-3 border-2 shadow-md-4" data-aos="fade-down" data-aos-delay="100" data-aos-offset="200">
-						<div class="card-body py-5">
-							<ul class="list-unstyled mt-3 text-black">
-								<li>
-									<p>Asistencia médica en caso de enfermedad y accidente.</p>
-								</li>
-								<li>
-									<p>Odontología de urgencia.</p>
-								</li>
-								<li>
-									<p>Medicamentos recetados.</p>
-								</li>
-								<li>
-									<p>Gastos de hotel por convalecencia.</p>
-								</li>
-								<li>
-									<p>Traslado y repatriación sanitaria.</p>
-								</li>
-								<li>
-									<p>Indemnización complementaria por extravío de equipaje en línea aérea comercial.</p>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-5">
-					<div class="card mb-md-0 mb-3 border-2 shadow-md-4" data-aos="fade-down" data-aos-delay="100" data-aos-offset="200">
-						<div class="card-body py-5">
-							<ul class="list-unstyled mt-3 text-black">
-								<li>
-									<p>Localización y asistencia en caso de extravío de equipaje.</p>
-								</li>
-								<li>
-									<p>Práctica de deportes amateur.</p>
-								</li>
-								<li>
-									<p>Servicio de Concierge 24/7.</p>
-								</li>
-								<li>
-									<p>Transmisión de mensajes urgentes.</p>
-								</li>
-								<li>
-									<p>Asistencia en caso de extravío de documentación.</p>
-								</li>
-								<li>
-									<p>Regreso anticipado por siniestro en domicilio.</p>
-								</li>
-							</ul>
-						</div>
-					</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>REINTEGROS</h1>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="testimonial section bg-gray bg-4">
+	<!-- Testimonials-->
+	<!-- <section class="testimonial section bg-gray bg-4">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8">
@@ -389,27 +368,25 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<!-- footer Start -->
 	<section class="section footer">
 		<div class="container">
-			<div class="d-flex flex-row justify-content-center">
-				<div class="flex-grow-1">
+			<div class="row position-relative justify-content-center">
+				<div class="col-lg-3">
 					<div class="logo mb-4">
 						<h3 class="text-white text-uppercase">avril assistance</span></h3>
-					</div>
-					<div>
-					<a href="#" class="text-white">comercial@avril-assistance.com</a><br />
-					<a href="#" class="text-white">emisiones@avril-assistance.com</a><br />
-					<a href="#" class="text-white">rrhh@avril-assistance.com</a>
 					</div>
 					<p class="mt-4 mb-3 text-white">
 						Av. Alicia Moreau de Justo 1150,<br />piso 2 Oficina 206 A, C1107<br />
 						Buenos Aires, Argentina</p>
-					<a href="tel:+54-11-5353-2662"><span class="text-white h4">+54 11 5353 2662</span></a>
+					<a href="tel:+54-11-5353-2662" class="text-white"><i class="far fa-phone-alt"></i> +54 11 5353 2662</a>
+					<div>
+						<a href="#" class="text-white"><i class="far fa-envelope"></i> comercial@avril-assistance.com</a>
+					</div>
 				</div>
-				<div class="flex-grow-1">
+				<!-- <div class="flex-grow-1">
 					<h4 class="mb-4 text-white text-uppercase">sucursales</h4>
 					<h6 class="text-white">Córdoba</h6>
 					<p class="text-white">
@@ -433,8 +410,8 @@
 							mardelplata@avril-assistance.com
 						</a>
 					</p>
-				</div>
-				<div class="flex-grow-1">
+				</div> -->
+				<div class="col-lg-3">
 					<h4 class="mb-4 text-white text-uppercase">servicios</h4>
 					
 					<ul class="list-unstyled footer-menu lh-35">
@@ -443,7 +420,7 @@
 						<li><a href="#">Folleto Comercial</a></li>
 					</ul>
 				</div>
-				<div class="col-lg-2 col-md-6 col-sm-6">
+				<div class="col-lg-3">
 					<div class="widget">
 						<h4 class="mb-4 text-white text-uppercase">menu</h4>
 
@@ -455,7 +432,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="flex-grow-1">
+				<div class="col-lg-3">
 					<h4 class="mb-4 text-white text-uppercase">seguinos</h4>
 					<ul class="list-unstyled footer-socials text-white">
 						<li><a href="https://www.facebook.com/avrilassistance/" target="_blank"><i class="ti-facebook mr-2 text-muted"></i>facebook</a></li>
