@@ -66,8 +66,9 @@
 }
 
 .slider-2 {
-	padding: 220px 0 200px 0;
 	position: relative;
+	height: 100vh;
+	display: block;
 	@extend .overly-2;
 	h1 {
 		font-size: 56px;
