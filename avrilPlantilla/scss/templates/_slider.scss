@@ -64,3 +64,24 @@
 	transform: translateY(-50%);
 	bottom: initial;
 }
+
+.slider-2 {
+	padding: 220px 0 200px 0;
+	position: relative;
+	@extend .overly-2;
+	h1 {
+		font-size: 56px;
+		line-height: 70px;
+	}
+
+	p {
+		width: 65%;
+		margin: 0 auto;
+	}
+
+	span {
+		letter-spacing: 8px;
+		color: rgba(255, 255, 255, .85);
+		font-size: 15px;
+	}
+}
