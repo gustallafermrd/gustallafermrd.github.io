@@ -1,7 +1,7 @@
 // Fonts
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat;:300,400,600,700,800|Source+Sans+Pro:300,400,600,700);
+// @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Montserrat;:300,400,600,700,800|Source+Sans+Pro:300,400,600,700);
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
 
 html {
 	overflow-x: hidden;
@@ -34,25 +34,25 @@ h6,
 .h6 {
 	font-family: $primary-font;
 	color: $black;
-	font-weight: 800;
+	font-weight: 500;
 	text-transform: none;
 }
 
 h1,
 .h1 {
-	font-size: 45px;
+	font-size: 48px;
 	text-transform: none;
 }
 
 h2,
 .h2 {
-	font-size: 42px;
-	line-height: 52px;
+	font-size: 32px;
+	line-height: 42px;
 }
 
 h3,
 .h3 {
-	font-size: 25px;
+	font-size: 24px;
 	line-height: 32px;
 }
 
@@ -80,23 +80,4 @@ h6,
 	color: $primary-color;
 	text-transform: uppercase;
 	font-weight: 600;
-}
-.rubik {
-	font-family: $rubik;
-	-webkit-font-smoothing: antialiased;
-	font-size: 16px;
-	font-weight: 400;
-	letter-spacing: 0.166667px;
-	line-height: 1.7em;
-	color: #7e8690;
-}
-
-.roboto {
-	font-family: $roboto;
-	-webkit-font-smoothing: antialiased;
-	font-size: 16px;
-	font-weight: 400;
-	letter-spacing: 0.166667px;
-	line-height: 1.7em;
-	color: #7e8690;
 }
