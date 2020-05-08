@@ -67,9 +67,8 @@
 
 .slider-2 {
 	position: relative;
-	height: 100vh;
+	height: auto;
 	display: block;
-	@extend .overly-2;
 	h1 {
 		font-size: 56px;
 		line-height: 70px;
