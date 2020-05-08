@@ -45,6 +45,12 @@
 			color: rgba(255, 255, 255, .85);
 			font-size: 18px;
 		}
+		i:hover {
+			transform: scale(1.5);
+			transition: all .3s linear;
+			overflow: hidden;
+			color: $primary-color;
+		}
 	}
 
 	.header-top-info {
