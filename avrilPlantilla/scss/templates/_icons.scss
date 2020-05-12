@@ -1,0 +1,113 @@
+@font-face {
+	font-family: 'avril';
+	src: url('../fonts/avril.eot?tvxo0j');
+	src: url('../fonts/avril.eot?tvxo0j#iefix') format('embedded-opentype'),
+		url('../fonts/avril.ttf?tvxo0j') format('truetype'), url('../fonts/avril.woff?tvxo0j') format('woff'),
+		url('../fonts/avril.svg?tvxo0j#avril') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+.icon {
+	font-family: 'avril' !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-size: 6em;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.avril-dental:before {
+	content: "\e900";
+}
+.avril-estetoscopio:before {
+	content: "\e901";
+}
+.avril-pildora:before {
+	content: "\e902";
+}
+.avril-mensaje:before {
+	content: "\e903";
+}
+.avril-pasaporte:before {
+	content: "\e904";
+}
+.avril-maletas:before {
+	content: "\e905";
+}
+.avril-gimnasio:before {
+	content: "\e906";
+}
+.avril-viaje:before {
+	content: "\e907";
+}
+
+/*Icons colors and effects */
+.avril-dental,
+.avril-estetoscopio,
+.avril-pildora,
+.avril-mensaje,
+.avril-gimnasio,
+.avril-pasaporte,
+.avril-maletas,
+.avril-viaje {
+	&:hover {
+		transform: scale(1.5);
+		transition: background-color 0.5s, transform 0.5s ease-out;
+		border-radius: 10px;
+		padding: 6px;
+	}
+}
+.avril-dental {
+	color: $dental;
+	&:hover {
+		color: #fff;
+		background: $dental;
+	}
+}
+
+.avril-estetoscopio {
+	color: $estetoscopio;
+	&:hover {
+		color: #fff;
+		background: $estetoscopio;
+	}
+}
+
+.avril-pildora {
+	color: $pildora;
+	&:hover {
+		color: #fff;
+		background: $pildora;
+	}
+}
+
+.avril-mensaje {
+	color: $mensaje;
+	&:hover {
+		color: #fff;
+		background: $mensaje;
+	}
+}
+
+.avril-pasaporte {
+	color: $pasaporte;
+	&:hover {
+		color: #fff;
+		background: $pasaporte;
+	}
+}
+
+.avril-viaje,
+.avril-gimnasio,
+.avril-maletas {
+	color: $purple;
+	&:hover {
+		color: #fff;
+		background: $purple;
+	}
+}
