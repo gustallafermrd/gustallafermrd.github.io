@@ -39,8 +39,8 @@
 .avril-maletas:before {
 	content: "\e905";
 }
-.avril-gimnasio:before {
-	content: "\e906";
+.avril-deporte:before {
+	content: "\e908";
 }
 .avril-viaje:before {
 	content: "\e907";
@@ -51,15 +51,17 @@
 .avril-estetoscopio,
 .avril-pildora,
 .avril-mensaje,
-.avril-gimnasio,
+.avril-deporte,
 .avril-pasaporte,
 .avril-maletas,
 .avril-viaje {
 	&:hover {
 		transform: scale(1.5);
 		-webkit-transform: scale(1.5);
-		transition: background-color 0.5s, transform 0.5s ease-out;
 		-webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+		transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+		transition: background-color 0.5s, transform 0.5s ease-out;
+		transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
 		border-radius: 10px;
 		padding: 6px;
 	}
@@ -105,7 +107,7 @@
 }
 
 .avril-viaje,
-.avril-gimnasio,
+.avril-deporte,
 .avril-maletas {
 	color: $purple;
 	&:hover {
