@@ -18,7 +18,7 @@ input[type="tel"] {
 
 .form-control {
 	box-shadow: none;
-	border-radius: 0;
+	border-radius: 10px;
 	&:focus {
 		box-shadow: none;
 		border: 1px solid $primary-color;
