@@ -17,6 +17,18 @@
 	p {
 		font-weight: 500;
 	}
+	.barra {
+		position: relative;
+		&:after {
+			content: "";
+			background: #2d2e83;
+			position: absolute;
+			top: 10%;
+			right: 0;
+			height: 75%;
+			width: 2px;
+		}
+	}
 }
 
 .reintegros .form-group {
