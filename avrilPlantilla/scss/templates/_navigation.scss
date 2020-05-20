@@ -27,6 +27,9 @@
 			transform: scale(1.4) translateX(20px);
 			transition: all .3s linear;
 		}
+		i {
+			color: #f5f5f5;
+		}
 	}
 
 	.btn {
@@ -59,7 +62,7 @@
 			transform: scale(1.5);
 			transition: all .3s linear;
 			overflow: hidden;
-			color: $primary-color;
+			color: #fff;
 		}
 	}
 
