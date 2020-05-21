@@ -73,6 +73,11 @@
 }
 
 @include mobile {
+	body {
+		text-align: center;
+		font-size: 15px;
+		font-weight: 300;
+	}
 	.header-top .header-top-info a {
 		margin-left: 0px;
 	}
@@ -132,6 +137,9 @@
 		display: none;
 		width: 100%;
 		text-align: center;
+	}
+	.social-box {
+		display: none;
 	}
 }
 
