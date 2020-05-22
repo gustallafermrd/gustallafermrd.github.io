@@ -71,8 +71,8 @@ input[type="tel"] {
 	@include transition (all, 0.2s, ease);
 
 	&:hover {
-		border-color: $black;
-		background: $black;
+		border-color: $black-light;
+		background: $black-light;
 		color: $light;
 	}
 }
@@ -82,8 +82,8 @@ input[type="tel"] {
 	@include transition (all, 0.2s, ease);
 
 	&:hover {
-		border-color: $primary-color;
-		background: $primary-color;
+		border-color: $black-light;
+		background: $black-light;
 		color: $light;
 	}
 }
@@ -197,7 +197,7 @@ input[type="tel"] {
 			rgba(16, 174, 190, 1) 25%,
 			rgba(81, 116, 184, 1) 75%
 		);
-		opacity: .80;
+		opacity: .50;
 	}
 }
 
