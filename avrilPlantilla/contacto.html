@@ -94,96 +94,102 @@
       </li>
     </ul>
   </div>
-  <section class="page-title bg-1">
+  <div class="bg-6">
+    <!-- <section class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center">
+              <h1 class="text-capitalize mt-5 text-lg">Contacto</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- contact form start -->
+    <section class="contact-form-wrap section">
+      <div class="container margin">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12 col-sm-12 mb-5">
+            <form id="contact-form" class="contact__form" method="post" action="mail.php">
+              <!-- form message -->
+              <div class="row">
+                <div class="col-12">
+                  <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                    Su mensaje fue enviado con exito.
+                  </div>
+                </div>
+              </div>
+              <!-- end message -->
+              <h3 class="text-md text-white">Contactate con nosotros</h3>
+              <div class="form-group">
+                <input name="name" type="text" class="form-control" placeholder="Nombre">
+              </div>
+              <div class="form-group">
+                <input name="email" type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group-2 mb-4">
+                <textarea name="message" class="form-control" rows="4" placeholder="Mensaje"></textarea>
+              </div>
+              <button class="btn btn-main text-uppercase float-right" name="submit" type="submit">Enviar</button>
+            </form>
+          </div>
+
+          <!-- <div class="col-lg-6 col-sm-12">
+            <img class="w-100 d-block" src="./images/logo_color.png" alt="Logo">
+          </div> -->
+        </div> <!-- row -->
+      </div> <!-- container -->
+    </section>
+  </div>
+
+  <section class="section">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="text-center">
-            <h1 class="text-capitalize mb-4 text-lg">Contacto</h1>
+      <div class="col-lg-12 mb-5 text-center">
+        <h2>Oficinas</h2>
+      </div>
+
+      <!-- Oficinas-->
+      <div class="row oficinas">
+        <div class="col-lg-3 col-sm-12">
+          <img class="img-fluid rounded w-100 d-block" src="./images/portfolio/bsas1.jpg" />
+          <div class="contact-content mt-5 mt-lg-0 text-center">
+            <h4>Puerto Madero</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Av. Alicia Moreau de Justo 1150</p>
+            <p>Buenos Aires, Argentina</p>
+            <p><i class="fas fa-phone"></i> +54 11 5353 2662</p>
+            <p><i class="fas fa-envelope"></i><a href="mailto:info@avril-assistance.com"> info@avril-assistance.com</a></p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-12">
+          <img class="img-fluid rounded w-100 d-block" src="./images/portfolio/cor1.jpg" />
+          <div class="contact-content mt-5 mt-lg-0 text-center">
+            <h4>Córdoba</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Avenida Colón 168</p>
+            <p>Córdoba, Argentina</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-12">
+          <img class="img-fluid rounded w-100 d-block" src="./images/portfolio/men1.jpg" />
+          <div class="contact-content mt-5 mt-lg-0 text-center">
+            <h4>Mendoza</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Patricias Mendocinas 661</p>
+            <p>Mendoza, Argentina</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-12">
+          <img class="img-fluid rounded w-100 d-block" src="./images/portfolio/mdp1.jpg" />
+          <div class="contact-content mt-5 mt-lg-0 text-center">
+            <h4>Mar del Plata</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Córdoba 2342</p>
+            <p>Mar del Plata, Argentina</p>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- contact form start -->
-  <section class="contact-form-wrap section">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 col-md-12 col-sm-12 mb-5">
-          <form id="contact-form" class="contact__form" method="post" action="mail.php">
-            <!-- form message -->
-            <div class="row">
-              <div class="col-12">
-                <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                  Su mensaje fue enviado con exito.
-                </div>
-              </div>
-            </div>
-            <!-- end message -->
-            <h3 class="text-md">Contactate con nosotros</h3>
-            <div class="form-group">
-              <input name="name" type="text" class="form-control" placeholder="Nombre">
-            </div>
-            <div class="form-group">
-              <input name="email" type="email" class="form-control" placeholder="Email">
-            </div>
-            <div class="form-group-2 mb-4">
-              <textarea name="message" class="form-control" rows="4" placeholder="Mensaje"></textarea>
-            </div>
-            <button class="btn btn-main text-uppercase float-right" name="submit" type="submit">Enviar</button>
-          </form>
-        </div>
-
-        <div class="col-lg-6 col-sm-12">
-          <img class="w-100 d-block" src="./images/logo_color.png" alt="Logo">
-        </div>
-
-        <div class="col-lg-12 mb-5 text-center">
-          <h2>Oficinas</h2>
-        </div>
-
-        <!-- Oficinas-->
-        <div class="row oficinas">
-          <div class="col-lg-3 col-sm-12">
-            <img class="img-fluid rounded w-100 d-block" src="./images/portfolio/bsas1.jpg" />
-            <div class="contact-content mt-5 mt-lg-0 text-center">
-              <h4>Puerto Madero</h4>
-              <p><i class="fas fa-map-marker-alt"></i> Av. Alicia Moreau de Justo 1150</p>
-              <p>Buenos Aires, Argentina</p>
-              <p><i class="fas fa-phone"></i> +54 11 5353 2662</p>
-              <p><i class="fas fa-envelope"></i><a href="mailto:info@avril-assistance.com"> info@avril-assistance.com</a></p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-12">
-            <img class="img-fluid rounded w-100 d-block" src="./images/portfolio/cor1.jpg" />
-            <div class="contact-content mt-5 mt-lg-0 text-center">
-              <h4>Córdoba</h4>
-              <p><i class="fas fa-map-marker-alt"></i> Avenida Colón 168</p>
-              <p>Córdoba, Argentina</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-12">
-            <img class="img-fluid rounded w-100 d-block" src="./images/portfolio/men1.jpg" />
-            <div class="contact-content mt-5 mt-lg-0 text-center">
-              <h4>Mendoza</h4>
-              <p><i class="fas fa-map-marker-alt"></i> Patricias Mendocinas 661</p>
-              <p>Mendoza, Argentina</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-12">
-            <img class="img-fluid rounded w-100 d-block" src="./images/portfolio/mdp1.jpg" />
-            <div class="contact-content mt-5 mt-lg-0 text-center">
-              <h4>Mar del Plata</h4>
-              <p><i class="fas fa-map-marker-alt"></i> Córdoba 2342</p>
-              <p>Mar del Plata, Argentina</p>
-            </div>
-          </div>
-        </div>
-      </div> <!-- row -->
-    </div> <!-- container -->
   </section>
 
 <!-- footer Start -->
