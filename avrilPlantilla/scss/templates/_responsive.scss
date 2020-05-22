@@ -176,10 +176,10 @@
 }
 
 @include desktop {
+	.margin {
+		margin: 125px auto 125px auto;
+	}
 }
 
 @include large-desktop {
-	.margin {
-		margin: 150px auto;
-	}
 }
