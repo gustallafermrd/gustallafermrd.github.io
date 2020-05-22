@@ -60,11 +60,5 @@
 	}
 }
 .margin {
-	margin: 100px auto 0 auto;
-}
-
-@include large-desktop {
-	.margin {
-		margin: 125px auto 125px auto;
-	}
+	margin: 100px 0;
 }

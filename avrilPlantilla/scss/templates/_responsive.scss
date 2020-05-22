@@ -177,9 +177,12 @@
 
 @include desktop {
 	.margin {
-		margin: 125px auto 125px auto;
+		margin: 150px 0;
 	}
 }
 
 @include large-desktop {
+	.margin {
+		margin: 150px 0;
+	}
 }
