@@ -82,5 +82,9 @@ input[type="tel"] {
 @include mobile {
 	.reintegros {
 		background-image: none;
+
+		.barra {
+			display: none;
+		}
 	}
 }
