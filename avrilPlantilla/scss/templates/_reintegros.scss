@@ -78,3 +78,9 @@ input[type="tel"] {
 		border: 1px solid $primary-color;
 	}
 }
+
+@include mobile {
+	.reintegros {
+		background-image: none;
+	}
+}
