@@ -213,6 +213,9 @@ a.bg-primary:hover {
 	.navbar-brand img {
 		height: 50px;
 	}
+	.carousel-item img {
+		height: 100vh;
+	}
 }
 
 @include mobile-xs {
