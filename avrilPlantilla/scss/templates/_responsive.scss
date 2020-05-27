@@ -141,6 +141,12 @@
 	.social-box {
 		display: none;
 	}
+	.navbar-nav {
+		position: relative;
+		width: 100%;
+		top: 0;
+		right: 0;
+	}
 }
 
 @include tablet {
