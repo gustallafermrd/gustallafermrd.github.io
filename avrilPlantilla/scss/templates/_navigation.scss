@@ -209,6 +209,10 @@ a.bg-primary:hover {
 		text-align: center;
 		padding: 20px;
 	}
+
+	.navbar-brand img {
+		height: 50px;
+	}
 }
 
 @include mobile-xs {

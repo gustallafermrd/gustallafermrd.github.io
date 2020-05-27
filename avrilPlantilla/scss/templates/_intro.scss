@@ -50,3 +50,11 @@
 		border-radius: 5px;
 	}
 }
+
+@include mobile {
+	.agencias {
+		.border {
+			margin: 15px;
+		}
+	}
+}
