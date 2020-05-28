@@ -22,8 +22,41 @@
 			color: $primary-color;
 		}
 	}
+	ul {
+		margin: 0;
+	}
 }
 
 .text-cyan {
 	color: #fff; //rgba(81, 116, 184, 1) !important;
+}
+
+.emisiones-box {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: linear-gradient(
+		90deg,
+		rgba(16, 174, 190, .5) 0%,
+		rgba(16, 174, 190, .6) 25%,
+		rgba(81, 116, 184, .5) 100%
+	);
+	padding: 10px;
+	border-radius: 10px;
+	z-index: 99999999999;
+	width: auto;
+	text-align: center;
+	color: white;
+
+	.btn-avril {
+		padding: 8px;
+		margin: 5px;
+		background: $primary-color;
+		color: white;
+
+		&:hover {
+			color: none;
+			background: white;
+		}
+	}
 }
