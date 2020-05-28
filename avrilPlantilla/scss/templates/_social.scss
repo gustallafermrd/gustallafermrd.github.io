@@ -32,6 +32,8 @@
 }
 
 .emisiones-box {
+	opacity: 1;
+	transition: opacity 0.5s ease;
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
@@ -49,7 +51,7 @@
 	color: white;
 
 	.btn-avril {
-		padding: 8px;
+		padding: 6px;
 		margin: 5px;
 		background: $primary-color;
 		color: white;
@@ -59,4 +61,9 @@
 			background: white;
 		}
 	}
+}
+
+.emisiones-hide {
+	opacity: 0;
+	pointer-events: none;
 }
