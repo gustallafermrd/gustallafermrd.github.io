@@ -3,6 +3,14 @@
 	width: 100%;
 	z-index: 500;
 }
+.navbar-toggler {
+	&:hover {
+		background: $primary-color;
+		padding: 10px;
+		transform: scale(1.4);
+		transition: all .3s linear;
+	}
+}
 #navbar {
 	li {
 		padding-left: 15px;
