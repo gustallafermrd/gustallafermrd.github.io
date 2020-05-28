@@ -53,12 +53,14 @@
 	.btn-avril {
 		padding: 6px;
 		margin: 5px;
-		background: $primary-color;
-		color: white;
+		background: white;
+		color: $primary-color;
 
 		&:hover {
-			color: none;
-			background: white;
+			color: white;
+			background: none;
+			border: 1px solid white;
+			border-radius: 3px;
 		}
 	}
 }
