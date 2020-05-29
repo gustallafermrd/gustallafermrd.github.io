@@ -1,5 +1,5 @@
 .reintegros {
-	background: url("../images/bg/reintegros.png") no-repeat;
+	background: url("../images/bg/reintegros.png") no-repeat 50% 50%;
 	background-size: contain;
 
 	.btn-reintegros {
@@ -105,5 +105,11 @@ input[type="tel"] {
 		.barra {
 			display: none;
 		}
+	}
+}
+
+@include large-desktop {
+	.reintegros {
+		background-size: cover;
 	}
 }
