@@ -34,10 +34,16 @@
 				<div class="col-lg-8 col-md-8">
 					<div class="header-top-info">
 						<a href="tel:+54-11-5353-2662"><i class="fa fa-phone mr-2"></i><span>+54 11 5353 2662</span></a>
+						<!-- <a href="www.avril-assistance.com"><i class="fa fa-globe mr-2"></i>avril-assistance.com</a> -->
 					</div>
 				</div>
 				<div class="d-none d-md-block d-lg-block col-md-4 col-lg-4">
 					<a href="#" class="text-white"><i class="far fa-envelope"></i> comercial@avril-assistance.com</a>
+					<!-- <div class="header-top-socials text-center text-lg-right">
+						<a href="https://www.facebook.com/avrilassistance/" target="_blank"><i class="ti-facebook"></i></a>
+						<a href="https://twitter.com/AssistanceAvril" target="_blank"><i class="ti-twitter"></i></a>
+						<a href="https://www.instagram.com/avril.assistance/" target="_blank"><i class="fab fa-instagram"></i></a>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -59,6 +65,7 @@
 				</li>
 				<li class="nav-item"><a class="nav-link" href="quienes.html">Quienes somos</a></li>
 					<li class="nav-item"><a class="nav-link" href="servicios.html">Nuestro servicio</a></li>
+					<li class="nav-item"><a class="nav-link" href="reintegros.html">Reintegros</a></li>
 					<li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
 					<li class="nav-item"><a class="nav-link" href="https://emision.avril-assistance.com/" target="_blank">Emisiones</a></li>
 					<li class="nav-item nav-link">
@@ -90,8 +97,8 @@
 	<!-- Emisiones Box -->
 	<div class="emisiones-box d-block text-black">
 		Emisiones
-		<a href="#" class="btn btn-avril">Ingresar</a>
-		<a href="#" class="btn btn-avril">Registrarse</a>
+		<a href="https://emision.avril-assistance.com/" target="_blank" class="btn btn-avril">Ingresar</a>
+		<a href="#" target="_blank" class="btn btn-avril">Registrarse</a>
 	</div>
 
 	<!-- Slider Start -->
@@ -100,22 +107,29 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<a href="#promos">
-						<img class="d-block w-100" srcset="./images/slider/s1-sm.jpg 440w,
-						./images/slider/slider-1.jpg 1080w,"
+						<img class="d-block w-100" srcset="./images/slider/sm/slider-1.jpg 440w,
+						./images/slider/slider-1.jpg 1920w,"
 						sizes="(max-width: 480px) 440px,
-						1080px"
-						src="./images/slider/s1-sm.jpg" alt="First slide">
+						(min-width: 780px) 1920px"
+						 alt="First slide"
+						 src="./images/slider/slider-1.jpg" >
 					</a>
-				</div>
-				<div class="carousel-item">
-					<img class="d-block w-100" src="./images/slider/slider-2.jpg" alt="Second slide">
 					<div class="carousel-caption d-none d-md-block">
-						<a href="#reintegros">
+						<a href="#planes">
 							<span class="mb-5">
 								<img src="./images/middle.png" width="50%" height="auto" alt="middle">
 							</span>
 						</a>
 					</div>
+					<!-- <div class="carousel-caption d-none d-md-block">
+						<span class="mb-5">
+							<img src="./images/middle.png" width="65%" height="auto" alt="middle">
+						</span>
+					</div>-->
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100" src="./images/slider/slider-2.jpg" alt="Second slide">
+					
 				</div>
 				<div class="carousel-item">
 					<a href="#redes">
@@ -146,7 +160,7 @@
 	</section>
 	<!-- Slider End -->
 
-	<section class="section position-relative">
+	<!-- <section class="section position-relative">
 		<div class="container agencias">
 			<div class="d-lg-flex d-md-flex justify-content-around">
 				<div>
@@ -163,9 +177,25 @@
 					</a>
 				</div>
 			</div>
-			
+			** <div class="row align-items-center bg-primary p-4 p-sm-5 rounded">
+				<div class="col-lg-2">
+					<img src="./images/emisiones.png" width="80px" height="80px" alt="emisiones">
+				</div>
+				<div class="col-lg-6">
+					<h3 class="mb-2 text-white text-uppercase">emisiones</h3>
+					<p class="text-white">Sistema exclusivo para agencias de viaje adheridas</p>
+				</div>
+				<div class="col-lg-4 d-flex justify-content-between">
+					<a href="/reintegros.html" class="btn btn-white mb-0">
+						REGISTRARSE
+					</a>
+					<a href="https://emision.avril-assistance.com/" class="btn btn-white mb-0">
+						ACCEDER
+					</a>					
+				</div> 
+			</div>  **
 		</div>
-	</section>
+	</section> /emisiones -->
 	
 	<!-- Quienes Somos Intro -->
 	<section class="section intro">
@@ -322,6 +352,12 @@
 		</div>
 	</section>
 
+	<!-- Porque elegirnos 
+	<section class="section ">
+		
+	</section>
+	-->
+
 	<!-- Promociones -->
 	<section class="section promos bg-gray" id="promos">
 		
@@ -378,44 +414,131 @@
 
 	</section>
 
+
 	<!-- Reintegros -->
-	<section class="reintegros" id="reintegros">
+	<section class="reintegros section" id="reintegros">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-lg-9 py-3">
-					<h2 class="text-center shadow">¿QUE DEBO HACER PARA SOLICITAR REINTEGROS?</h2>
-				</div>
-				<div class="d-sm-block d-md-flex d-lg-flex justify-content-center">
-					<div class="col-lg-3 text-center">
-						<!-- <div class="d-flex"> -->
-							<i class="fas fa-cog fa-2x text-center p-2 text-blue"></i>
-							<h3 class="text-blue"> Comunicate con la Central de Asistencias</h3>
-						<!-- </div> -->
-						<p>Podés encontrar los números en la parte inferior del Voucher. Los datos que van a solicitarte son: número de voucher, nombre y apellido, DNI y un teléfono de contacto. Recomendamos no realizar ningún gasto sin nuestra previa autorización.</p>					
+				<div class="col-sm-12 col-lg-6 intro-text">
+					<div class="d-flex">
+						<img src="./images/iconos/bonus.png" width="100px" height="100px" alt="Bonus icon">
+						<p class="align-self-center">Más de 500 reintegros realizados.</p>
 					</div>
-					<div class="barra"></div>
-					<div class="col-lg-3 text-center">
-						<!-- <div class="d-flex"> -->
-							<i class="fas fa-cog fa-2x align-self-center p-2 text-blue"></i>
-							<h3 class="text-blue"> ¡Guardá los comprobantes!</h3>
-						<!-- </div> -->
-						<p>Es importante que guardes todos los comprobantes de pago de medicamentos o cualquier otro gasto que generes en tu viaje para generar el trámite dentro de los 30 días desde tu llegada.</p>					
-					</div>
-					<div class="barra"></div>
-					<div class="col-lg-3 text-center">
-						<!-- <div class="d-flex"> -->
-							<i class="fas fa-cog fa-2x align-self-center p-2 text-blue"></i>
-							<h3 class="text-blue"> Proceso de Reintegros</h3>
-						<!-- </div> -->
-						<p>Finalmente, deberás enviar la documentación a <a href="mailto:reintegros@avril-assistance.com"> reintegros@avril-assistance.com</a>. Si los importes superan los 200 USD deberás presentarlos físicamente. Recordá que el proceso demora aproximadamente 20 días hábiles.</p>
+					<div class="d-flex">
+						<img src="./images/iconos/calendar.png" width="100px" height="100px" alt="Bonus icon">
+						<p class="align-self-center">De 10 a 15 días hábiles.</p>
 					</div>
 				</div>
+				<div class="col-sm-12 col-lg-4 mt-5 text-center">
+					<p class="boton">ingresa acá para gestionar.</p>
+					<a class="btn btn-reintegros" data-toggle="modal" data-target=".bd-example-modal-lg">reintegros</a>
+				</div>	
+			</div>
 
-				
+		<!-- Modal -->
+		<div class="modal fade bd-example-modal-lg main-reint" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="row justify-content-center">
+							<div class="col-lg-10">
+								<h2 class="text-center shadow">¿QUE DEBO HACER PARA SOLICITAR REINTEGROS?</h2>
+							</div>
+							<div class="d-sm-block d-md-flex d-lg-flex justify-content-center">
+								<div class="col-lg-4 text-center">
+									<!-- <div class="d-flex"> -->
+										<i class="fas fa-cog fa-2x text-center p-2 text-blue"></i>
+										<h3 class="text-blue">Comunicate con la Central de Asistencias</h3>
+									<!-- </div> -->
+									<p>Podés encontrar los números en la parte inferior del Voucher. Los datos que van a solicitarte son: número de voucher, nombre y apellido, DNI y un teléfono de contacto. Recomendamos no realizar ningún gasto sin nuestra previa autorización.</p>					
+								</div>
+								<div class="barra"></div>
+								<div class="col-lg-4 text-center">
+									<!-- <div class="d-flex"> -->
+										<i class="fas fa-cog fa-2x align-self-center p-2 text-blue"></i>
+										<h3 class="text-blue"> ¡Guardá los comprobantes!</h3>
+									<!-- </div> -->
+									<p>Es importante que guardes todos los comprobantes de pago de medicamentos o cualquier otro gasto que generes en tu viaje para generar el trámite dentro de los 30 días desde tu llegada.</p>					
+								</div>
+								<div class="barra"></div>
+								<div class="col-lg-4 text-center">
+									<!-- <div class="d-flex"> -->
+										<i class="fas fa-cog fa-2x align-self-center p-2 text-blue"></i>
+										<h3 class="text-blue"> Proceso de Reintegros</h3>
+									<!-- </div> -->
+									<p>Finalmente, deberás enviar la documentación a <a href="mailto:reintegros@avril-assistance.com"> reintegros@avril-assistance.com</a>. Si los importes superan los 200 USD deberás presentarlos físicamente. Recordá que el proceso demora aproximadamente 20 días hábiles.</p>
+								</div>
+							</div>		
+						</div>
+
+						<form action="">
+							<!-- form message -->
+							<div class="row">
+								<div class="col-12 text-center">
+									<div class="alert alert-success contact__msg" style="display: none" role="alert">
+										Su mensaje fue enviado con exito.
+									</div>
+								</div>
+							</div>
+							<!-- end message -->
+							<div class="form-group">
+								<input name="name" type="text" class="form-control" placeholder="Nombre y Apellido">
+							</div>
+							<div class="form-group">
+								<input name="voucher" type="text" class="form-control" placeholder="Nro de Voucher">
+							</div>
+							<div class="form-group">
+								<input name="email" type="email" class="form-control" placeholder="Email">
+							</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-main text-uppercase float-right" name="submit" type="submit">Enviar</button>
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 
+
+
+
+
+
+
+		</div>
+
 	</section>
+
+	<!-- Testimonials-->
+	<!-- <section class="testimonial section bg-gray bg-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="testimonial-wrap text-center">
+						<div class="testimonial-item position-relative">
+							<p class="mt-4"><i class="ti-quote-left text-color"></i> Neque ipsa consequuntur excepturi quas repudiandae aliquam iste ab laboriosam id facere ducimus odio sed officia provident doloribus explicabo, magni, corrupti sit. <i class="ti-quote-right text-color"></i></p>
+							<div class="testimonial-author">
+								<h5 class="mb-0 text-capitalize">Gonzalo Pierini</h5>
+								<p>Director Ejecutivo</p>
+							</div>
+						</div>
+						<div class="testimonial-item position-relative">
+							<p class="mt-4"><i class="ti-quote-left text-color"></i> Neque ipsa consequuntur excepturi quas repudiandae aliquam iste ab laboriosam id facere ducimus odio sed officia provident doloribus explicabo, magni, corrupti sit. <i class="ti-quote-right text-color"></i></p>
+							<div class="testimonial-author">
+								<h5 class="mb-0 text-capitalize">Eduardo Diaz</h5>
+								<p>CEO</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
 
 	<!-- footer Start -->
 	<footer class="footer section">
@@ -514,4 +637,4 @@
 
 </body>
 </html>
-	 
+   
