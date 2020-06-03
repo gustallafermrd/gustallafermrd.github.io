@@ -169,6 +169,7 @@ a.bg-primary:hover {
 
 .dropdown-menu {
 	background: $primary-color;
+	min-width: 15rem;
 }
 .dropdown-item {
 	color: white;
