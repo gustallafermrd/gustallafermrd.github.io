@@ -32,7 +32,7 @@
 
 		&:hover,
 		&:focus {
-			transform: scale(1.4) translateX(-20px);
+			transform: scale(1.2) translateX(-15px);
 			transition: all .3s linear;
 		}
 		i {
@@ -46,12 +46,13 @@
 }
 .navbar-nav {
 	background: $primary-color;
-	height: 100vh;
+	height: 60vh;
 	width: 250px;
 	padding: 20px;
 	position: fixed;
 	top: 125px;
 	right: 10px;
+	border-radius: 5px;
 }
 
 .header-top {
