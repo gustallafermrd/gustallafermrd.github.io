@@ -30,3 +30,79 @@
 
   
 </div>
+
+
+<!-- Modal Box for Form -->
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
+			Mini Pagina
+		</button>
+
+		<!-- Modal -->
+		<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="row justify-content-center">
+							<div class="col-lg-10">
+								<h2 class="text-center shadow">¿QUE DEBO HACER PARA SOLICITAR REINTEGROS?</h2>
+							</div>
+							<div class="d-sm-block d-md-flex d-lg-flex justify-content-center">
+								<div class="col-lg-4 text-center">
+									<!-- <div class="d-flex"> -->
+										<i class="fas fa-cog fa-2x text-center p-2 text-blue"></i>
+										<h3 class="text-blue">Comunicate con la Central de Asistencias</h3>
+									<!-- </div> -->
+									<p>Podés encontrar los números en la parte inferior del Voucher. Los datos que van a solicitarte son: número de voucher, nombre y apellido, DNI y un teléfono de contacto. <strong>Recomendamos NO realizar ningún gasto sin nuestra previa autorización.</strong></p>					
+								</div>
+								<div class="barra"></div>
+								<div class="col-lg-4 text-center">
+									<!-- <div class="d-flex"> -->
+										<i class="fas fa-cog fa-2x align-self-center p-2 text-blue"></i>
+										<h3 class="text-blue"> ¡Guardá los comprobantes!</h3>
+									<!-- </div> -->
+									<p>Es importante que guardes todos los comprobantes de pago de medicamentos o cualquier otro gasto que generes en tu viaje para generar el trámite dentro de los 30 días desde tu llegada.</p>					
+								</div>
+								<div class="barra"></div>
+								<div class="col-lg-4 text-center">
+									<!-- <div class="d-flex"> -->
+										<i class="fas fa-cog fa-2x align-self-center p-2 text-blue"></i>
+										<h3 class="text-blue"> Proceso de Reintegros</h3>
+									<!-- </div> -->
+									<p>Finalmente deberás adjuntar en este formulario la documentación solicitada o enviarla a <a href="mailto:reintegros@avril-assistance.com"> reintegros@avril-assistance.com</a>. <strong>Si los importes superan los 200 USD deberás presentarlos físicamente.</strong> Recordá que el proceso demora aproximadamente 20 días hábiles.</p>
+								</div>
+							</div>		
+						</div>
+
+						<form action="">
+							<!-- form message -->
+							<div class="row">
+								<div class="col-12 text-center">
+									<div class="alert alert-success contact__msg" style="display: none" role="alert">
+										Su mensaje fue enviado con exito.
+									</div>
+								</div>
+							</div>
+							<!-- end message -->
+							<div class="form-group">
+								<input name="name" type="text" class="form-control" placeholder="Nombre y Apellido">
+							</div>
+							<div class="form-group">
+								<input name="voucher" type="text" class="form-control" placeholder="Nro de Voucher">
+							</div>
+							<div class="form-group">
+								<input name="email" type="email" class="form-control" placeholder="Email">
+							</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-main text-uppercase float-right" name="submit" type="submit">Enviar</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
