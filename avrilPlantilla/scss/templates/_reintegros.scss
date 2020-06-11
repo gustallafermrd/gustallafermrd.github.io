@@ -46,6 +46,7 @@
 		background: $bg-reintegros;
 		color: #fff;
 	}
+
 	.barra {
 		position: relative;
 		&:after {
@@ -117,6 +118,13 @@ input[type="tel"] {
 	}
 }
 
+.main-reint,
+.formulario-reintegro {
+	a {
+		font-weight: 500;
+	}
+}
+
 @include mobile {
 	.reintegros {
 		background: none;
@@ -127,11 +135,5 @@ input[type="tel"] {
 		.barra {
 			display: none;
 		}
-	}
-}
-
-@include large-desktop {
-	.main-reint {
-		background-size: cover;
 	}
 }
