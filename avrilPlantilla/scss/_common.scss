@@ -131,45 +131,11 @@ input[type="tel"] {
 
 .btn-emisiones {
 	border-radius: 50%;
-	padding: 15px;
+	width: 50px;
+	padding: 15px !important;
 	color: white;
 	font-size: 14px;
-	background: $primary-color;
-	text-transform: uppercase;
-}
-
-.btn-degradado {
-	background: $bg-gradient;
-	border-radius: 50%;
-	padding: 15px;
-	color: white;
-	font-size: 14px;
-	text-transform: uppercase;
-}
-
-.btn-2 {
 	background: $bg-reintegros;
-	border-radius: 50%;
-	padding: 15px;
-	color: white;
-	font-size: 14px;
-	text-transform: uppercase;
-}
-
-.btn-purple {
-	background: $purple;
-	border-radius: 50%;
-	padding: 15px;
-	color: white;
-	font-size: 12px;
-	text-transform: uppercase;
-}
-.btn-white {
-	background: white;
-	border-radius: 50%;
-	padding: 15px;
-	color: $primary-color;
-	font-size: 12px;
 	text-transform: uppercase;
 }
 
