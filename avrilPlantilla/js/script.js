@@ -27,6 +27,12 @@ AOS.init({
 				navbar.addClass("nav-top");
 			}
 		}
+		if (st > 130) {
+			if (navbar.hasClass(".emisiones")) {
+				navbar.removeClass(".emisiones");
+				navbar.addClass(".show");
+			}
+		}
 		if (st < 150) {
 			if (navbar.hasClass("nav-top")) {
 				navbar.removeClass("nav-top sleep");

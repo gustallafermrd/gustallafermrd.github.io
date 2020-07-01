@@ -123,7 +123,13 @@
 	color: $light;
 	font-weight: 700;
 }
+.emisiones {
+	opacity: 0;
+}
 
+.show {
+	opacity: 1 !important;
+}
 .nav-top {
 	position: fixed;
 	padding: 1em 30px;
