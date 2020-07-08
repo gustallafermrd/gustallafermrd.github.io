@@ -141,13 +141,32 @@
 }
 
 /* Student section */
+.avril-estetoscopio-2 {
+	color: #ffc800;
+}
+.avril-pasaporte-2 {
+	color: $golden;
+}
+.avril-mensaje-2 {
+	color: $sun;
+}
+.avril-legal {
+	color: $poppy;
+}
+.avril-garantia {
+	color: $carrot;
+}
+.avril-gymnasio-2 {
+	color: #ff7f29;
+}
+
 .avril-legal,
 .avril-garantia,
 .avril-estetoscopio-2,
 .avril-mensaje-2,
 .avril-gymnasio-2,
 .avril-pasaporte-2 {
-	color: #ffc800;
+	/*color: #000; #ff7f29  #ffc800*/
 
 	&:hover {
 		color: #fff;
