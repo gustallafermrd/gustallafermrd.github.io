@@ -27,32 +27,56 @@
 .avril-estetoscopio:before {
 	content: "\e901";
 }
-.avril-pildora:before {
+.avril-estetoscopio-2:before {
+	content: "\e901";
+}
+.avril-garantia:before {
 	content: "\e902";
 }
-.avril-mensaje:before {
+.avril-gymnasio:before {
 	content: "\e903";
 }
-.avril-pasaporte:before {
+.avril-gymnasio-2:before {
+	content: "\e903";
+}
+.avril-legal:before {
 	content: "\e904";
 }
 .avril-maletas:before {
 	content: "\e905";
 }
-.avril-deporte:before {
+.avril-mensaje:before {
+	content: "\e906";
+}
+.avril-mensaje-2:before {
+	content: "\e906";
+}
+.avril-pasaporte:before {
+	content: "\e907";
+}
+.avril-pasaporte-2:before {
+	content: "\e907";
+}
+.avril-pildora:before {
 	content: "\e908";
 }
 .avril-viaje:before {
-	content: "\e907";
+	content: "\e909";
 }
 
 /*Icons colors and effects */
 .avril-dental,
+.avril-legal,
+.avril-garantia,
 .avril-estetoscopio,
+.avril-estetoscopio-2,
 .avril-pildora,
 .avril-mensaje,
-.avril-deporte,
+.avril-mensaje-2,
+.avril-gymnasio,
+.avril-gymnasio-2,
 .avril-pasaporte,
+.avril-pasaporte-2,
 .avril-maletas,
 .avril-viaje {
 	&:hover {
@@ -107,11 +131,26 @@
 }
 
 .avril-viaje,
-.avril-deporte,
+.avril-gymnasio,
 .avril-maletas {
 	color: $purple;
 	&:hover {
 		color: #fff;
 		background: $purple;
+	}
+}
+
+/* Student section */
+.avril-legal,
+.avril-garantia,
+.avril-estetoscopio-2,
+.avril-mensaje-2,
+.avril-gymnasio-2,
+.avril-pasaporte-2 {
+	color: #ffc800;
+
+	&:hover {
+		color: #fff;
+		background: $student-gradient;
 	}
 }

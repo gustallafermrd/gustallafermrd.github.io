@@ -42,3 +42,7 @@
 	background-size: cover;
 	@extend .overly-3;
 }
+.student {
+	background: url("../images/student.png") no-repeat 0% 50%;
+	background-size: contain;
+}
