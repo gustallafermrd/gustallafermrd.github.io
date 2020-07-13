@@ -12,6 +12,26 @@ AOS.init({
 	once: true
 });
 
+// Funcionalidad para enconder el boton de emisiones.
+$(window).scroll(function() {
+	var $this = $(this),
+		st = $this.scrollTop(),
+		emisiones = $(".navbar-emi");
+
+	if (st > 130) {
+		if (emisiones.hasClass("hide")) {
+			emisiones.removeClass("hide");
+			emisiones.addClass("show");
+		}
+	}
+	if (st < 150) {
+		if (emisiones.hasClass("show")) {
+			emisiones.removeClass("show");
+			emisiones.addClass("hide");
+		}
+	}
+});
+
 (function($) {
 	"use strict";
 
@@ -27,12 +47,6 @@ AOS.init({
 				navbar.addClass("nav-top");
 			}
 		}
-		if (st > 130) {
-			if (navbar.hasClass(".emisiones")) {
-				navbar.removeClass(".emisiones");
-				navbar.addClass(".show");
-			}
-		}
 		if (st < 150) {
 			if (navbar.hasClass("nav-top")) {
 				navbar.removeClass("nav-top sleep");
@@ -41,6 +55,12 @@ AOS.init({
 		if (st > 250) {
 			if (!navbar.hasClass("awake")) {
 				navbar.addClass("awake");
+			}
+		}
+		if (st > 250) {
+			if (!navbar.hasClass("hide")) {
+				navbar.removeClass("hide");
+				navbar.addClass("show");
 			}
 		}
 		if (st < 250) {
