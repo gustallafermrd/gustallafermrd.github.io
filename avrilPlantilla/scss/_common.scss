@@ -133,8 +133,18 @@ input[type="tel"] {
 	padding: 10px !important;
 	color: white;
 	font-size: 14px;
-	background: $bg-reintegros;
+	background: $primary-color;
 	text-transform: uppercase;
+	&:hover {
+		color: white;
+	}
+}
+.btn-avril {
+	color: white;
+	text-transform: uppercase;
+	&:hover {
+		color: $primary-color;
+	}
 }
 
 .btn.active:focus,
