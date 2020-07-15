@@ -200,11 +200,16 @@ a.bg-primary:hover {
 	}
 
 	.navbar-brand img {
-		height: 50px;
+		display: none;
 	}
 
 	.navbar-emi {
 		display: none !important;
+	}
+
+	.header-top {
+		padding: 0;
+		padding-top: 5px;
 	}
 }
 
