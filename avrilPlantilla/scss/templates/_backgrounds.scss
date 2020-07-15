@@ -46,3 +46,9 @@
 	background: url("../images/student.png") no-repeat 0% 50%;
 	background-size: contain;
 }
+
+@include mobile {
+	.student {
+		background: none;
+	}
+}
