@@ -12,29 +12,25 @@
 	}
 }
 #navbar {
-	li {
-		padding-left: 15px;
-	}
-
 	.btn {
 		padding: .5rem 1.5rem;
 	}
 }
 .navbar-nav {
-	background: rgba(43, 46, 58, .6); //rgba(0, 159, 227, .6);
+	background: rgba(0, 159, 227, .6); //rgba(43, 46, 58, .6)
 	height: auto;
 	width: auto;
-	padding: 15px;
+	padding: 0 20px;
 	position: fixed;
 	top: 160px;
 	right: 20px;
 	border-radius: 10px;
 
 	a {
-		color: $primary-color;
+		color: $black-light;
 
 		&:hover {
-			color: $primary-color;
+			color: $black-light;
 		}
 	}
 
