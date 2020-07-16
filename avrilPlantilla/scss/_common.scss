@@ -19,10 +19,18 @@ input[type="tel"] {
 .form-control {
 	box-shadow: none;
 	border-radius: 10px;
+	padding: 0 10px;
 	&:focus {
 		box-shadow: none;
 		border: 1px solid $primary-color;
 	}
+}
+
+input[type="file"] {
+	display: block;
+}
+select {
+	display: block;
 }
 
 .arriba {

@@ -145,29 +145,48 @@
 
 		<div class="container">
 			<div class="row">
-				<col-lg-8>
+				<div class="col-lg-8">
 					<form action="">
-						<div class="form-group d-flex">
-							<input name="fname" type="text" class="form-control" placeholder="Nombre">
-							<input name="lname" type="text" class="form-control" placeholder="Apellido">
+						<div class="d-flex">
+							<div>
+								<label for="fname">Nombre y Apellido</label>
+								<input name="fname" type="text" class="form-control">
+							</div>
+							<div>
+								<label for="phone">Telefono</label>
+								<input name="phone" type="text" class="form-control">
+							</div>
 						</div>
-						<div class="form-group d-flex">
-							<input name="nacimiento" type="date" class="form-control">
-							<select name="interes">
-								<option value="op">Seleccionar opcion</option>
-								<option value="ventas">Ejecutivo de Ventas</option>
-								<option value="RRHH">RRHH</option>
-								<option value="administracion">Administracion</option>
-								<option value="diseno">Diseno</option>
-								<option value="it">Soporte y Comuniciones</option>
-							</select>
+						<div class="d-flex">
+							<div>
+								<label for="nacimiento">Fecha de Nacimiento</label>
+								<input name="nacimiento" type="date" class="form-control">
+							</div>
+							<div class="d-block">
+								<label for="interes">Area de Interes</label>
+								<select name="interes">
+									<option value="op">Seleccionar opcion</option>
+									<option value="ventas">Ejecutivo de Ventas</option>
+									<option value="RRHH">RRHH</option>
+									<option value="administracion">Administracion</option>
+									<option value="diseno">Diseno</option>
+									<option value="it">Soporte y Comuniciones</option>
+								</select>
+							</div>
 						</div>
-						<div class="form-group w-100">
-							<textarea name="direccion" id="direccion" cols="44" rows="4"></textarea>
-						</div>
-						<div class="form-group d-flex">
-							<input type="file" name="CV" id="cv">
-							<button class="btn btn-emisiones">Enviar</button>
+						<div>
+							<label for="direccion">Direccion</label>
+							<div class="form-group w-100">
+								<textarea name="direccion" id="direccion" cols="44" rows="3"></textarea>
+							</div>
+						<div class="d-flex">
+							<div>
+								<label for="file">Sube tu CV</label>
+								<input type="file" name="CV" id="cv" />
+							</div>
+							<div>
+								<button class="btn btn-emisiones">Enviar</button>
+							</div>
 						</div>
 					</form>
 				</col-lg-8>
