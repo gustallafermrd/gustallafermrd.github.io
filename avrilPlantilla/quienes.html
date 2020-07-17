@@ -153,7 +153,7 @@
 								<input name="fname" type="text" class="form-control">
 							</div>
 							<div>
-								<label for="phone">Telefono</label>
+								<label for="phone">Teléfono</label>
 								<input name="phone" type="text" class="form-control">
 							</div>
 						</div>
@@ -162,29 +162,30 @@
 								<label for="nacimiento">Fecha de Nacimiento</label>
 								<input name="nacimiento" type="date" class="form-control">
 							</div>
-							<div class="d-block">
+							<div class="d-block align-self-center">
 								<label for="interes">Area de Interes</label>
 								<select name="interes">
-									<option value="op">Seleccionar opcion</option>
+									<option value="op">Seleccionar opción</option>
 									<option value="ventas">Ejecutivo de Ventas</option>
 									<option value="RRHH">RRHH</option>
-									<option value="administracion">Administracion</option>
-									<option value="diseno">Diseno</option>
+									<option value="administracion">Administración</option>
+									<option value="diseno">Diseño</option>
 									<option value="it">Soporte y Comuniciones</option>
 								</select>
 							</div>
 						</div>
 						<div>
-							<label for="direccion">Direccion</label>
+							<label for="direccion">Dirección</label>
 							<div class="form-group w-100">
 								<textarea name="direccion" id="direccion" cols="44" rows="3"></textarea>
 							</div>
 						<div class="d-flex">
 							<div>
 								<label for="file">Sube tu CV</label>
-								<input type="file" name="CV" id="cv" />
+								<input type="file" name="CV" id="cv" accept="application/pdf"/>
+								<p class="text-sm text-danger">* Formato PDF.</p>
 							</div>
-							<div>
+							<div class="align-self-center">
 								<button class="btn btn-emisiones">Enviar</button>
 							</div>
 						</div>

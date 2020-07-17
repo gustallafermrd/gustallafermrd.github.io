@@ -18,7 +18,7 @@ input[type="tel"] {
 
 .form-control {
 	box-shadow: none;
-	border-radius: 10px;
+	border-radius: 8px;
 	padding: 0 10px;
 	&:focus {
 		box-shadow: none;
@@ -31,6 +31,8 @@ input[type="file"] {
 }
 select {
 	display: block;
+	height: 38px;
+	border-radius: 8px;
 }
 
 .arriba {
