@@ -1,6 +1,22 @@
 .navbar-toggle .icon-bar {
 	background: $primary-color;
 }
+
+.w-60 {
+	width: 60%;
+}
+
+.w-90 {
+	width: 90%;
+}
+
+.w-25 {
+	width: 25%;
+}
+
+.w-30 {
+	width: 30%;
+}
 input[type="email"],
 input[type="password"],
 input[type="text"],
@@ -29,6 +45,7 @@ input[type="file"] {
 	display: block;
 }
 select {
+	width: 100%;
 	display: block;
 	height: 38px;
 	border-radius: 5px;
