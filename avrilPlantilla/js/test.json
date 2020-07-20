@@ -1,0 +1,37 @@
+[
+ {
+   "Name": "Martin Ortin",
+   "Position": "CEO de Avril Assistance",
+   "Department": "direccion"
+ },
+ {
+   "Name": "Delfina Villalba",
+   "Position": "Asistente de Direccion",
+   "Department": "direccion"   
+ },
+ {
+   "Name": "Yesica Diaz",
+   "Position": "Planificacion y Producto",
+   "Department": "direccion"   
+ },
+ {
+   "Name": "Florencia Galvan",
+   "Position": "Diseno, Imagen y Redes",
+   "Department": "direccion"   
+ },
+ {
+   "Name": "Luciana Centurion",
+   "Position": "Diseno, Imagen y Redes",
+   "Department": "direccion"   
+ },
+ {
+   "Name": "Ariel Pierini",
+   "Position": "Director de Asistencias",
+   "Department": "asistencias"   
+ },
+ {
+   "Name": "Cecilia Martinelli",
+   "Position": "Reintegros",
+   "Department": "asistencias"   
+ }
+]
