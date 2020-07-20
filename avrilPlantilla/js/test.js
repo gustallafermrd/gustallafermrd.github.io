@@ -1,17 +1,99 @@
-function direccion(data) {
-	data.filter(data.Department === "direccion");
-	console.log(data.name);
-}
-
 let main = {};
+//Direccion
+let direccion = function() {
+	const filterDireccion = main.filter((main) => main.department == "direccion");
+	document.getElementById("dire").innerHTML = `
+    ${filterDireccion
+		.map(function(dire) {
+			return `
+    <div class="persona d-flex">
+      <img src="/images/circulo.png" width="75px" height="75px" alt="">
+      <div class="content">
+        <p class="nombre ">${dire.name}</p>
+        <p class="cargo">${dire.position}</p>
+      </div>
+    </div>
+    `;
+		})
+		.join("")}
+  `;
+};
 
-let showMain = function() {
-	for (let prop in main) {
-		if (main[prop].Department === "direccion") {
-			console.log(prop);
-			console.log(main[prop]);
-		}
-	}
+//Asistencias
+let asistencia = function() {
+	const filterAsistencia = main.filter((main) => main.department == "asistencias");
+	var firstRow = filterAsistencia.slice(0, 5);
+	var secondRow = filterAsistencia.slice(5, 10);
+	document.getElementById("asis").innerHTML = `
+    ${firstRow
+		.map(function(asis) {
+			return `
+    <div class="persona d-flex">
+      <img src="/images/circulo.png" width="75px" height="75px" alt="">
+      <div class="content">
+        <p class="nombre ">${asis.name}</p>
+        <p class="cargo">${asis.position}</p>
+      </div>
+    </div>
+    `;
+		})
+		.join("")}
+  `;
+	document.getElementById("asis2").innerHTML = `
+    ${secondRow
+		.map(function(asis) {
+			return `
+    <div class="persona d-flex">
+      <img src="/images/circulo.png" width="75px" height="75px" alt="">
+      <div class="content">
+        <p class="nombre ">${asis.name}</p>
+        <p class="cargo">${asis.position}</p>
+      </div>
+    </div>
+    `;
+		})
+		.join("")}
+  `;
+};
+
+//Operaciones
+let operaciones = function() {
+	const filterOperaciones = main.filter((main) => main.department == "operaciones");
+	document.getElementById("operaciones").innerHTML = `
+    ${filterOperaciones
+		.map(function(operacion) {
+			return `
+    <div class="persona d-flex">
+      <img src="/images/circulo.png" width="75px" height="75px" alt="">
+      <div class="content">
+        <p class="nombre ">${operacion.name}</p>
+        <p class="cargo">${operacion.position}</p>
+      </div>
+    </div>
+    `;
+		})
+		.join("")}
+  `;
+};
+
+//Comerciales
+let comerciales = function() {
+	const filterComerciales = main.filter((main) => main.department == "comerciales");
+	document.getElementById("comercio").innerHTML = `
+    ${filterComerciales
+		.map(function(comercio) {
+			return `
+    <div class="persona d-flex">
+      <img src="/images/circulo.png" width="75px" height="75px" alt="">
+      <div class="content">
+        <p class="nombre ">${comercio.name}</p>
+        <p class="cargo">${comercio.position}</p>
+      </div>
+    </div>
+    `;
+		})
+		.join("")}
+  `;
 };
 
 fetch("http://127.0.0.1:5500/js/test.json")
@@ -20,5 +102,7 @@ fetch("http://127.0.0.1:5500/js/test.json")
 	})
 	.then(function(data) {
 		main = data;
-		showMain();
+		direccion();
+		asistencia();
+		operaciones();
 	});

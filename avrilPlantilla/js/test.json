@@ -1,37 +1,247 @@
 [
- {
-   "Name": "Martin Ortin",
-   "Position": "CEO de Avril Assistance",
-   "Department": "direccion"
- },
- {
-   "Name": "Delfina Villalba",
-   "Position": "Asistente de Direccion",
-   "Department": "direccion"   
- },
- {
-   "Name": "Yesica Diaz",
-   "Position": "Planificacion y Producto",
-   "Department": "direccion"   
- },
- {
-   "Name": "Florencia Galvan",
-   "Position": "Diseno, Imagen y Redes",
-   "Department": "direccion"   
- },
- {
-   "Name": "Luciana Centurion",
-   "Position": "Diseno, Imagen y Redes",
-   "Department": "direccion"   
- },
- {
-   "Name": "Ariel Pierini",
-   "Position": "Director de Asistencias",
-   "Department": "asistencias"   
- },
- {
-   "Name": "Cecilia Martinelli",
-   "Position": "Reintegros",
-   "Department": "asistencias"   
- }
+	{
+		"name": "Martin Ortiz",
+		"position": "CEO de Avril Assistance",
+		"department": "direccion"
+	},
+	{
+		"name": "Delfina Villalba",
+		"position": "Asistente de Dirección",
+		"department": "direccion"
+	},
+	{
+		"name": "Yesica Diaz",
+		"position": "Planificación y Producto",
+		"department": "direccion"
+	},
+	{
+		"name": "Florencia Galvan",
+		"position": "Diseño, Imagen y Redes",
+		"department": "direccion"
+	},
+	{
+		"name": "Luciana Centurion",
+		"position": "Diseño, Imagen y Redes",
+		"department": "direccion"
+	},
+	{
+		"name": "Ariel Pierini",
+		"position": "Director de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Cecilia Martellini",
+		"position": "Reintegros",
+		"department": "asistencias"
+	},
+	{
+		"name": "Azul Sanchez",
+		"position": "Prestadores",
+		"department": "asistencias"
+	},
+	{
+		"name": "Eduardo Rodriguez",
+		"position": "Supervisor de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Tomás Pérez",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Elyer Maldonado",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Mariem Hernández",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Gabriela Sánchez",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Gabriel Mendoza",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Mario Amaya",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Melisa Villalón",
+		"position": "Directora de Operaciones",
+		"department": "operaciones"
+	},
+	{
+		"name": "Camila Alexandre",
+		"position": "Supervisora de Administración",
+		"department": "operaciones"
+	},
+	{
+		"name": "Rocío Galdara",
+		"position": "Administración",
+		"department": "operaciones"
+	},
+	{
+		"name": "Camila Venzi",
+		"position": "Administración",
+		"department": "operaciones"
+	},
+	{
+		"name": "Naim Villalón",
+		"position": "Logística/Stock",
+		"department": "operaciones"
+	},
+	{
+		"name": "Aylén Petry",
+		"position": "Operaciones Comerciales",
+		"department": "operaciones"
+	},
+	{
+		"name": "Yanina Seib",
+		"position": "Operaciones Comerciales",
+		"department": "operaciones"
+	},
+	{
+		"name": "Marling Sosa",
+		"position": "Operaciones Comerciales",
+		"department": "operaciones"
+	},
+	{
+		"name": "Camila Altamirano",
+		"position": "Operaciones Comerciales",
+		"department": "operaciones"
+	},
+	{
+		"name": "Melina Lerana",
+		"position": "Encargada de RRHH",
+		"department": "operaciones"
+	},
+	{
+		"name": "Rocío Díaz",
+		"position": "Recepción",
+		"department": "operaciones"
+	},
+	{
+		"name": "Gisela Gavilán",
+		"position": "Mantenimiento de Oficinas",
+		"department": "operaciones"
+	},
+	{
+		"name": "Facundo Romero",
+		"position": "Mantenimiento",
+		"department": "operaciones"
+	},
+	{
+		"name": "Gustavo Tallaferro",
+		"position": "Soporte IT & Comunicaciones",
+		"department": "operaciones"
+	},
+	{
+		"name": "Fernando Seta",
+		"position": "Gerente Comercial Argentina",
+		"department": "comerciales"
+	},
+	{
+		"name": "Melisa Nadal",
+		"position": "Jefa Comercial - Córdoba",
+		"department": "comerciales"
+	},
+	{
+		"name": "Fernando Scrigna",
+		"position": "Jefe Comercial Provincia Buenos Aires",
+		"department": "comerciales"
+	},
+	{
+		"name": "Sandro Cobas",
+		"position": "Jefe Comercial - CABA/AMBA",
+		"department": "comerciales"
+	},
+	{
+		"name": "Guillermo Sallito",
+		"position": "Ejecutivo Comercial - Mendoza",
+		"department": "comerciales"
+	},
+	{
+		"name": "Elisa Mazzuco",
+		"position": "Ejecutiva Comercial Sgo del Estero & Tocumán",
+		"department": "comerciales"
+	},
+	{
+		"name": "Paola Aguirre",
+		"position": "Ejecutiva Comercial - Misiones",
+		"department": "comerciales"
+	},
+	{
+		"name": "José Perino",
+		"position": "Ejecutivo Comercial - Rosario",
+		"department": "comerciales"
+	},
+	{
+		"name": "Nahir López",
+		"position": "Ejecutivo de Atención Telefónica - AGV",
+		"department": "comerciales"
+	},
+	{
+		"name": "Emiliano Palú",
+		"position": "Ejecutivo Comercial Provincia de Córdoba",
+		"department": "comerciales"
+	},
+	{
+		"name": "Florencia Alonso",
+		"position": "Ejecutiva Comercial Ciudad de Córdoba",
+		"department": "comerciales"
+	},
+	{
+		"name": "Sol Fernández",
+		"position": "Ejecutiva Comercial MDQ - Costa Atlántica",
+		"department": "comerciales"
+	},
+	{
+		"name": "Yanina Ahumada",
+		"position": "Ejecutiva de Atención Telefónica - Interior",
+		"department": "comerciales"
+	},
+	{
+		"name": "Melisa Zugarramurdi",
+		"position": "Ejecutiva Comercial Bahía Blanca",
+		"department": "comerciales"
+	},
+	{
+		"name": "Clara Olivera",
+		"position": "Ejecutiva Comercial Provincia de Buenos Aires",
+		"department": "comerciales"
+	},
+	{
+		"name": "Alejandra Villaseca",
+		"position": "Ejecutiva de Atención Telefónica Pcia Buenos Aires",
+		"department": "comerciales"
+	},
+	{
+		"name": "Bárbara Brandan",
+		"position": "Ejecutiva Comercial - CABA/AMBA",
+		"department": "comerciales"
+	},
+	{
+		"name": "Juliana Quiroga",
+		"position": "Ejecutiva Comercial - La Plata",
+		"department": "comerciales"
+	},
+	{
+		"name": "Denisse Arjona",
+		"position": "Ejecutiva de Atención Telefónica - CABA/AMBA",
+		"department": "comerciales"
+	},
+	{
+		"name": "Adriel Tuyarot",
+		"position": "Ejecutivo Comercial Cuentas Clave - Interior",
+		"department": "comerciales"
+	}
 ]
