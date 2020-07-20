@@ -7,7 +7,7 @@ let direccion = function() {
 		.map(function(dire) {
 			return `
     <div class="persona d-flex">
-      <img src="./../images/circulo.png" width="75px" height="75px" alt="">
+      <img src="./images/circulo.png" width="75px" height="75px" alt="">
       <div class="content">
         <p class="nombre ">${dire.name}</p>
         <p class="cargo">${dire.position}</p>
@@ -59,12 +59,45 @@ let asistencia = function() {
 //Operaciones
 let operaciones = function() {
 	const filterOperaciones = main.filter((main) => main.department == "operaciones");
+	var firstOpRow = filterOperaciones.slice(0, 5);
+	var secondOpRow = filterOperaciones.slice(5, 9);
+	var thirdOpRow = filterOperaciones.slice(9, 14);
 	document.getElementById("operaciones").innerHTML = `
-    ${filterOperaciones
+    ${firstOpRow
 		.map(function(operacion) {
 			return `
     <div class="persona d-flex">
-      <img src="../images/circulo.png" width="75px" height="75px" alt="">
+      <img src="./images/circulo.png" width="75px" height="75px" alt="">
+      <div class="content">
+        <p class="nombre ">${operacion.name}</p>
+        <p class="cargo">${operacion.position}</p>
+      </div>
+    </div>
+    `;
+		})
+		.join("")}
+  `;
+	document.getElementById("operaciones2").innerHTML = `
+  ${secondOpRow
+		.map(function(operacion) {
+			return `
+    <div class="persona d-flex">
+      <img src="./images/circulo.png" width="75px" height="75px" alt="">
+      <div class="content">
+        <p class="nombre ">${operacion.name}</p>
+        <p class="cargo">${operacion.position}</p>
+      </div>
+    </div>
+    `;
+		})
+		.join("")}
+  `;
+	document.getElementById("operaciones3").innerHTML = `
+  ${thirdOpRow
+		.map(function(operacion) {
+			return `
+    <div class="persona d-flex">
+      <img src="./images/circulo.png" width="75px" height="75px" alt="">
       <div class="content">
         <p class="nombre ">${operacion.name}</p>
         <p class="cargo">${operacion.position}</p>
@@ -104,4 +137,5 @@ fetch("js/test.json")
 		main = data;
 		direccion();
 		asistencia();
+		operaciones();
 	});
