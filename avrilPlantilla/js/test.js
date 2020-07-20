@@ -6,14 +6,14 @@ let direccion = function() {
     ${filterDireccion
 		.map(function(dire) {
 			return `
-    <div class="persona d-flex">
-      <img src="./images/circulo.png" width="75px" height="75px" alt="">
-      <div class="content">
-        <p class="nombre ">${dire.name}</p>
-        <p class="cargo">${dire.position}</p>
+      <div class="persona d-flex">
+        <img src="./images/circulo.png" width="75px" height="75px" alt="">
+        <div class="content">
+          <p class="nombre ">${dire.name}</p>
+          <p class="cargo">${dire.position}</p>
+        </div>
       </div>
-    </div>
-    `;
+      `;
 		})
 		.join("")}
   `;
@@ -28,14 +28,14 @@ let asistencia = function() {
     ${firstRow
 		.map(function(asis) {
 			return `
-    <div class="persona d-flex">
-      <img src="./images/circulo.png" width="75px" height="75px" alt="">
-      <div class="content">
-        <p class="nombre ">${asis.name}</p>
-        <p class="cargo">${asis.position}</p>
+      <div class="persona d-flex">
+        <img src="./images/circulo.png" width="75px" height="75px" alt="">
+        <div class="content">
+          <p class="nombre ">${asis.name}</p>
+          <p class="cargo">${asis.position}</p>
+        </div>
       </div>
-    </div>
-    `;
+      `;
 		})
 		.join("")}
   `;
@@ -43,14 +43,14 @@ let asistencia = function() {
     ${secondRow
 		.map(function(asis) {
 			return `
-    <div class="persona d-flex">
-      <img src="./images/circulo.png" width="75px" height="75px" alt="">
-      <div class="content">
-        <p class="nombre ">${asis.name}</p>
-        <p class="cargo">${asis.position}</p>
+      <div class="persona d-flex">
+        <img src="./images/circulo.png" width="75px" height="75px" alt="">
+        <div class="content">
+          <p class="nombre ">${asis.name}</p>
+          <p class="cargo">${asis.position}</p>
+        </div>
       </div>
-    </div>
-    `;
+      `;
 		})
 		.join("")}
   `;
@@ -66,14 +66,14 @@ let operaciones = function() {
     ${firstOpRow
 		.map(function(operacion) {
 			return `
-    <div class="persona d-flex">
-      <img src="./images/circulo.png" width="75px" height="75px" alt="">
-      <div class="content">
-        <p class="nombre ">${operacion.name}</p>
-        <p class="cargo">${operacion.position}</p>
+      <div class="persona d-flex">
+        <img src="./images/circulo.png" width="75px" height="75px" alt="">
+        <div class="content">
+          <p class="nombre ">${operacion.name}</p>
+          <p class="cargo">${operacion.position}</p>
+        </div>
       </div>
-    </div>
-    `;
+      `;
 		})
 		.join("")}
   `;
@@ -81,14 +81,14 @@ let operaciones = function() {
   ${secondOpRow
 		.map(function(operacion) {
 			return `
-    <div class="persona d-flex">
-      <img src="./images/circulo.png" width="75px" height="75px" alt="">
-      <div class="content">
-        <p class="nombre ">${operacion.name}</p>
-        <p class="cargo">${operacion.position}</p>
+      <div class="persona d-flex">
+        <img src="./images/circulo.png" width="75px" height="75px" alt="">
+        <div class="content">
+          <p class="nombre ">${operacion.name}</p>
+          <p class="cargo">${operacion.position}</p>
+        </div>
       </div>
-    </div>
-    `;
+      `;
 		})
 		.join("")}
   `;
@@ -96,14 +96,14 @@ let operaciones = function() {
   ${thirdOpRow
 		.map(function(operacion) {
 			return `
-    <div class="persona d-flex">
-      <img src="./images/circulo.png" width="75px" height="75px" alt="">
-      <div class="content">
-        <p class="nombre ">${operacion.name}</p>
-        <p class="cargo">${operacion.position}</p>
+      <div class="persona d-flex">
+        <img src="./images/circulo.png" width="75px" height="75px" alt="">
+        <div class="content">
+          <p class="nombre ">${operacion.name}</p>
+          <p class="cargo">${operacion.position}</p>
+        </div>
       </div>
-    </div>
-    `;
+      `;
 		})
 		.join("")}
   `;
@@ -116,14 +116,14 @@ let comerciales = function() {
     ${filterComerciales
 		.map(function(comercio) {
 			return `
-    <div class="persona d-flex">
-      <img src="./images/circulo.png" width="75px" height="75px" alt="">
-      <div class="content">
-        <p class="nombre ">${comercio.name}</p>
-        <p class="cargo">${comercio.position}</p>
+      <div class="persona d-flex">
+        <img src="./images/circulo.png" width="75px" height="75px" alt="">
+        <div class="content">
+          <p class="nombre ">${comercio.name}</p>
+          <p class="cargo">${comercio.position}</p>
+        </div>
       </div>
-    </div>
-    `;
+      `;
 		})
 		.join("")}
   `;
