@@ -104,5 +104,4 @@ fetch("./test.json")
 		main = data;
 		direccion();
 		asistencia();
-		operaciones();
 	});
