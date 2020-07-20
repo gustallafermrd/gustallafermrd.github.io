@@ -96,7 +96,7 @@ let comerciales = function() {
   `;
 };
 
-fetch("http://127.0.0.1:5500/js/test.json")
+fetch("/js/test.json")
 	.then(function(resp) {
 		return resp.json();
 	})
