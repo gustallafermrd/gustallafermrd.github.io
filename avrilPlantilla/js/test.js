@@ -96,7 +96,7 @@ let comerciales = function() {
   `;
 };
 
-fetch("/test.json")
+fetch("test.json")
 	.then(function(resp) {
 		return resp.json();
 	})
