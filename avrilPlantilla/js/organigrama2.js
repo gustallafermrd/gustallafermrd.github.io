@@ -116,8 +116,6 @@ let comerciales = function() {
 	var secondCoRow = filterComerciales.slice(5, 10);
 	var thirdCoRow = filterComerciales.slice(10, 15);
 	var fourthCoRow = filterComerciales.slice(15, 21);
-	//var fifthCoRow = filterComerciales.slice(12, 16);
-	//var sixthCoRow = filterComerciales.slice(15, 19);
 	document.getElementById("comercio").innerHTML = `
     ${firstCoRow
 		.map(function(comercio) {
@@ -165,36 +163,6 @@ let comerciales = function() {
   `;
 	document.getElementById("comercio4").innerHTML = `
     ${fourthCoRow
-		.map(function(comercio) {
-			return `
-      <div class="persona d-flex">
-        <img src="./images/circulo.png" alt="">
-        <div class="contenido">
-          <p class="nombre ">${comercio.name}</p>
-          <p class="cargo">${comercio.position}</p>
-        </div>
-      </div>
-      `;
-		})
-		.join("")}
-  `;
-	document.getElementById("comercio5").innerHTML = `
-    ${fifthCoRow
-		.map(function(comercio) {
-			return `
-      <div class="persona d-flex">
-        <img src="./images/circulo.png" alt="">
-        <div class="contenido">
-          <p class="nombre ">${comercio.name}</p>
-          <p class="cargo">${comercio.position}</p>
-        </div>
-      </div>
-      `;
-		})
-		.join("")}
-  `;
-	document.getElementById("comercio6").innerHTML = `
-    ${sixthCoRow
 		.map(function(comercio) {
 			return `
       <div class="persona d-flex">
