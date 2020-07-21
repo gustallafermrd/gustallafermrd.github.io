@@ -22,26 +22,24 @@
 	margin-bottom: 1.5em;
 
 	img {
-		padding-right: 4px;
+		padding-right: 3px;
 		align-self: center;
-		width: 60px;
-		height: 60px;
+		width: 55px;
+		height: 55px;
 	}
 
 	.contenido {
 		width: 100%;
-		border-left: 3px solid black;
-		padding-left: 4px;
+		border-left: 2px solid black;
+		padding-left: 3px;
 		align-self: center;
 
 		.nombre {
 			color: black;
+			font-size: .7em;
 		}
 		.cargo {
 			font-size: .7em;
-		}
-		.mail {
-			font-size: .6em;
 		}
 		p {
 			margin-bottom: .4em;
