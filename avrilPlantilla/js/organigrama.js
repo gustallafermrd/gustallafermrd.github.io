@@ -112,8 +112,89 @@ let operaciones = function() {
 //Comerciales
 let comerciales = function() {
 	const filterComerciales = main.filter((main) => main.department == "comerciales");
+	var firstCoRow = filterComerciales.slice(0, 4);
+	var secondCoRow = filterComerciales.slice(4, 7);
+	var thirdCoRow = filterComerciales.slice(7, 10);
+	var fourthCoRow = filterComerciales.slice(10, 13);
+	var fifthCoRow = filterComerciales.slice(12, 16);
+	var sixthCoRow = filterComerciales.slice(15, 19);
 	document.getElementById("comercio").innerHTML = `
-    ${filterComerciales
+    ${firstCoRow
+		.map(function(comercio) {
+			return `
+      <div class="persona d-flex">
+        <img src="./images/circulo.png" width="75px" height="75px" alt="">
+        <div class="content">
+          <p class="nombre ">${comercio.name}</p>
+          <p class="cargo">${comercio.position}</p>
+        </div>
+      </div>
+      `;
+		})
+		.join("")}
+  `;
+	document.getElementById("comercio2").innerHTML = `
+    ${secondCoRow
+		.map(function(comercio) {
+			return `
+      <div class="persona d-flex">
+        <img src="./images/circulo.png" width="75px" height="75px" alt="">
+        <div class="content">
+          <p class="nombre ">${comercio.name}</p>
+          <p class="cargo">${comercio.position}</p>
+        </div>
+      </div>
+      `;
+		})
+		.join("")}
+  `;
+	document.getElementById("comercio3").innerHTML = `
+    ${thirdCoRow
+		.map(function(comercio) {
+			return `
+      <div class="persona d-flex">
+        <img src="./images/circulo.png" width="75px" height="75px" alt="">
+        <div class="content">
+          <p class="nombre ">${comercio.name}</p>
+          <p class="cargo">${comercio.position}</p>
+        </div>
+      </div>
+      `;
+		})
+		.join("")}
+  `;
+	document.getElementById("comercio4").innerHTML = `
+    ${fourthCoRow
+		.map(function(comercio) {
+			return `
+      <div class="persona d-flex">
+        <img src="./images/circulo.png" width="75px" height="75px" alt="">
+        <div class="content">
+          <p class="nombre ">${comercio.name}</p>
+          <p class="cargo">${comercio.position}</p>
+        </div>
+      </div>
+      `;
+		})
+		.join("")}
+  `;
+	document.getElementById("comercio5").innerHTML = `
+    ${fifthCoRow
+		.map(function(comercio) {
+			return `
+      <div class="persona d-flex">
+        <img src="./images/circulo.png" width="75px" height="75px" alt="">
+        <div class="content">
+          <p class="nombre ">${comercio.name}</p>
+          <p class="cargo">${comercio.position}</p>
+        </div>
+      </div>
+      `;
+		})
+		.join("")}
+  `;
+	document.getElementById("comercio6").innerHTML = `
+    ${sixthCoRow
 		.map(function(comercio) {
 			return `
       <div class="persona d-flex">
@@ -138,4 +219,5 @@ fetch("js/organigrama.json")
 		direccion();
 		asistencia();
 		operaciones();
+		comerciales();
 	});
