@@ -129,7 +129,7 @@ let comerciales = function() {
   `;
 };
 
-fetch("js/test.json")
+fetch("js/organigrama.json")
 	.then(function(resp) {
 		return resp.json();
 	})
