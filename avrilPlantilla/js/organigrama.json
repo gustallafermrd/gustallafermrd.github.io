@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Martin Ortiz",
+		"name": "Martín Ortiz",
 		"position": "CEO de Avril Assistance",
 		"department": "direccion"
 	},
@@ -10,17 +10,17 @@
 		"department": "direccion"
 	},
 	{
-		"name": "Yesica Diaz",
+		"name": "Yesica Díaz",
 		"position": "Planificación y Producto",
 		"department": "direccion"
 	},
 	{
-		"name": "Florencia Galvan",
+		"name": "Florencia Galván",
 		"position": "Diseño, Imagen y Redes",
 		"department": "direccion"
 	},
 	{
-		"name": "Luciana Centurion",
+		"name": "Luciana Centurión",
 		"position": "Diseño, Imagen y Redes",
 		"department": "direccion"
 	},
@@ -35,12 +35,12 @@
 		"department": "asistencias"
 	},
 	{
-		"name": "Azul Sanchez",
+		"name": "Azul Sánchez",
 		"position": "Prestadores",
 		"department": "asistencias"
 	},
 	{
-		"name": "Eduardo Rodriguez",
+		"name": "Eduardo Rodríguez",
 		"position": "Supervisor de Asistencias",
 		"department": "asistencias"
 	},
@@ -165,12 +165,12 @@
 		"department": "comerciales"
 	},
 	{
-		"name": "Guillermo Sallito",
+		"name": "Guillermo Sallitto",
 		"position": "Ejecutivo Comercial - Mendoza",
 		"department": "comerciales"
 	},
 	{
-		"name": "Elisa Mazzuco",
+		"name": "Elisa Mazzucco",
 		"position": "Ejecutiva Comercial Sgo del Estero & Tocumán",
 		"department": "comerciales"
 	},
@@ -180,12 +180,12 @@
 		"department": "comerciales"
 	},
 	{
-		"name": "José Perino",
+		"name": "José Merino",
 		"position": "Ejecutivo Comercial - Rosario",
 		"department": "comerciales"
 	},
 	{
-		"name": "Nahir López",
+		"name": "Nair López",
 		"position": "Ejecutivo de Atención Telefónica - AGV",
 		"department": "comerciales"
 	},
@@ -220,7 +220,7 @@
 		"department": "comerciales"
 	},
 	{
-		"name": "Alejandra Villaseca",
+		"name": "Alejandra Vilaseca",
 		"position": "Ejecutiva de Atención Telefónica Pcia Buenos Aires",
 		"department": "comerciales"
 	},
