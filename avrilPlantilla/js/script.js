@@ -44,9 +44,9 @@ document.getElementById("header").innerHTML = `
 					<a class="nav-link" href="index.html">Inicio<span class="sr-only"></span></a>
 				</li>
 				<li class="nav-item"><a class="nav-link" href="=reintegros.html">Reintegros</a></li>
-				<li class="nav-item"><a class="nav-link" href="/contacto.html">Contacto</a></li>
+				<li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
 				<li class="nav-item"><a class="nav-link" href="https://emision.avril-assistance.com/" target="_blank">Emisiones</a></li>
-				<li class="nav-item"><a class="nav-link" href="/quienes.html">Quienes Somos</a></li>
+				<li class="nav-item"><a class="nav-link" href="quienes.html">Quienes Somos</a></li>
 				<li class="nav-item nav-link">
 					<a href="https://www.facebook.com/avrilassistance/" target="_blank"><i class="ti-facebook"></i></a>
 					<a href="https://twitter.com/AssistanceAvril" target="_blank"><i class="ti-twitter"></i></a>
