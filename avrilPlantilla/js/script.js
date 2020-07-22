@@ -41,7 +41,7 @@ document.getElementById("header").innerHTML = `
 		<div class="collapse navbar-collapse" id="navbarsExample09">
 			<ul class="navbar-nav">
 				<li class="nav-item active">
-					<a class="nav-link" href="index.html">Inicio<span class="sr-only"></span></a>
+					<a class="nav-link" href="index.html">Inicio</a>
 				</li>
 				<li class="nav-item"><a class="nav-link" href="https://emision.avril-assistance.com/" target="_blank">Emisiones</a></li>
 				<li class="nav-item"><a class="nav-link" href="reintegros.html">Reintegros</a></li>
