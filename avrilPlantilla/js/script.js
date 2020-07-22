@@ -46,7 +46,7 @@ document.getElementById("header").innerHTML = `
 				<li class="nav-item"><a class="nav-link" href="reintegros.html">Reintegros</a></li>
 				<li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
 				<li class="nav-item"><a class="nav-link" href="https://emision.avril-assistance.com/" target="_blank">Emisiones</a></li>
-				<li class="nav-item"><a class="nav-link" href="avrilPlantilla/quienes.html">Quienes Somos</a></li>
+				<li class="nav-item"><a class="nav-link" href="quienes.html">Quienes Somos</a></li>
 				<li class="nav-item nav-link">
 					<a href="https://www.facebook.com/avrilassistance/" target="_blank"><i class="ti-facebook"></i></a>
 					<a href="https://twitter.com/AssistanceAvril" target="_blank"><i class="ti-twitter"></i></a>
@@ -94,11 +94,11 @@ document.getElementById("footer").innerHTML = `
 			<div class="widget">
 				<h4 class="mb-2 text-white text-uppercase">menu</h4>
 				<ul class="list-unstyled footer-menu lh-35">
-					<li><a href="/index.html">Inicio</a></li>
-					<li><a href="/reintegros.html">Reintegros</a></li>
-					<li><a href="/contacto.html">Contacto</a></li>
-					<li><a href="/quienes.html">Quiénes Somos</a></li>
-					<li><a href="/prensa.html">Articulos</a></li>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="reintegros.html">Reintegros</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+					<li><a href="quienes.html">Quiénes Somos</a></li>
+					// <li><a href="prensa.html">Articulos</a></li>
 				</ul>
 			</div>
 		</div>
