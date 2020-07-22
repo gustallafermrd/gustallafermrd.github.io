@@ -6,7 +6,7 @@ let direccion = function() {
     ${filterDireccion
 		.map(function(dire) {
 			return `
-      <div class="mb-2 d-flex">
+      <div class="persona2 d-flex">
         <img src="./images/circulo.png" width="75px" height="75px" alt="">
         <div class="content">
           <p class="nombre ">${dire.name}</p>
@@ -28,7 +28,7 @@ let asistencia = function() {
     ${firstRow
 		.map(function(asis) {
 			return `
-      <div class="mb-2 d-flex">
+      <div class="persona2 d-flex">
         <img src="./images/circulo.png" width="75px" height="75px" alt="">
         <div class="content">
           <p class="nombre ">${asis.name}</p>
@@ -43,7 +43,7 @@ let asistencia = function() {
     ${secondRow
 		.map(function(asis) {
 			return `
-      <div class="mb-2 d-flex">
+      <div class="persona2 d-flex">
         <img src="./images/circulo.png" width="75px" height="75px" alt="">
         <div class="content">
           <p class="nombre ">${asis.name}</p>
@@ -66,7 +66,7 @@ let operaciones = function() {
     ${firstOpRow
 		.map(function(operacion) {
 			return `
-      <div class="mb-2 d-flex">
+      <div class="persona2 d-flex">
         <img src="./images/circulo.png" width="75px" height="75px" alt="">
         <div class="content">
           <p class="nombre ">${operacion.name}</p>
@@ -81,7 +81,7 @@ let operaciones = function() {
   ${secondOpRow
 		.map(function(operacion) {
 			return `
-      <div class="mb-2 d-flex">
+      <div class="persona2 d-flex">
         <img src="./images/circulo.png" width="75px" height="75px" alt="">
         <div class="content">
           <p class="nombre ">${operacion.name}</p>
@@ -96,7 +96,7 @@ let operaciones = function() {
   ${thirdOpRow
 		.map(function(operacion) {
 			return `
-      <div class="mb-2 d-flex">
+      <div class="persona2 d-flex">
         <img src="./images/circulo.png" width="75px" height="75px" alt="">
         <div class="content">
           <p class="nombre ">${operacion.name}</p>
@@ -122,7 +122,7 @@ let comerciales = function() {
     ${firstCoRow
 		.map(function(comercio) {
 			return `
-      <div class="mb-2 d-flex">
+      <div class="persona2 d-flex">
         <img src="./images/circulo.png" width="75px" height="75px" alt="">
         <div class="content">
           <p class="nombre ">${comercio.name}</p>
@@ -137,7 +137,7 @@ let comerciales = function() {
     ${secondCoRow
 		.map(function(comercio) {
 			return `
-      <div class="mb-2 d-flex">
+      <div class="persona2 d-flex">
         <img src="./images/circulo.png" width="75px" height="75px" alt="">
         <div class="content">
           <p class="nombre ">${comercio.name}</p>
@@ -152,7 +152,7 @@ let comerciales = function() {
     ${thirdCoRow
 		.map(function(comercio) {
 			return `
-      <div class="mb-2 d-flex">
+      <div class="persona2 d-flex">
         <img src="./images/circulo.png" width="75px" height="75px" alt="">
         <div class="content">
           <p class="nombre ">${comercio.name}</p>
@@ -167,7 +167,7 @@ let comerciales = function() {
     ${fourthCoRow
 		.map(function(comercio) {
 			return `
-      <div class="mb-2 d-flex">
+      <div class="persona2 d-flex">
         <img src="./images/circulo.png" width="75px" height="75px" alt="">
         <div class="content">
           <p class="nombre ">${comercio.name}</p>
@@ -182,7 +182,7 @@ let comerciales = function() {
     ${fifthCoRow
 		.map(function(comercio) {
 			return `
-      <div class="mb-2 d-flex">
+      <div class="persona2 d-flex">
         <img src="./images/circulo.png" width="75px" height="75px" alt="">
         <div class="content">
           <p class="nombre ">${comercio.name}</p>
@@ -197,7 +197,7 @@ let comerciales = function() {
     ${sixthCoRow
 		.map(function(comercio) {
 			return `
-      <div class="mb-2 d-flex">
+      <div class="persona2 d-flex">
         <img src="./images/circulo.png" width="75px" height="75px" alt="">
         <div class="content">
           <p class="nombre ">${comercio.name}</p>
