@@ -112,21 +112,6 @@ let operaciones = function() {
 		})
 		.join("")}
   `;
-	document.getElementById("operaciones3").innerHTML = `
-  ${thirdOpRow
-		.map(function(operacion) {
-			return `
-      <div class="persona d-flex">
-        <img src="./images/circulo.png" alt="">
-        <div class="contenido">
-          <p class="nombre ">${operacion.name}</p>
-          <p class="cargo">${operacion.position}</p>
-        </div>
-      </div>
-      `;
-		})
-		.join("")}
-  `;
 };
 
 //Recursos Humanos
