@@ -168,7 +168,7 @@ $(window).scroll(function() {
 (function($) {
 	"use strict";
 
-	$(".videoplay").modalVideo();
+	//$(".videoplay").modalVideo();
 
 	$(window).scroll(function() {
 		var $this = $(this),
