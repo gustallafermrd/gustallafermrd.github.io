@@ -8,8 +8,8 @@ let direccion = function() {
 			return `
       <div class="persona d-flex">
         <div class="inner">
-          <img src="./images/circuloDir.png">
-          <img class="inner-image" src="./images/delfinaV.png" alt="">
+          <img src="./images/organigrama/direccion.png">
+          <img class="inner-image" src="./images/organigrama/delfinaV.png" alt="">
         </div>
         <div class="contenido">
           <p class="nombre ">${dire.name}</p>
@@ -30,7 +30,10 @@ let planificacion = function() {
 		.map(function(plani) {
 			return `
         <div class="persona d-flex">
-          <img src="./images/circulo.png" alt="">
+          <div class="inner">
+            <img src="./images/organigrama/planificacion.png">
+            <img class="inner-image" src="./images/organigrama/yesicaD.png" alt="">
+          </div>
           <div class="contenido">
             <p class="nombre ">${plani.name}</p>
             <p class="cargo">${plani.position}</p>
@@ -51,7 +54,10 @@ let asistencia = function() {
 		.map(function(asis) {
 			return `
       <div class="persona d-flex">
-        <img src="./images/circulo.png" alt="">
+        <div class="inner">
+          <img src="./images/organigrama/asistencias.png">
+          <img class="inner-image" src="./images/organigrama/alejandraV.png" alt="">
+        </div>
         <div class="contenido">
           <p class="nombre ">${asis.name}</p>
           <p class="cargo">${asis.position}</p>
@@ -66,7 +72,10 @@ let asistencia = function() {
 		.map(function(asis) {
 			return `
       <div class="persona d-flex">
-        <img src="./images/circulo.png" alt="">
+        <div class="inner">
+          <img src="./images/organigrama/asistencias.png">
+          <img class="inner-image" src="./images/organigrama/alejandraV.png" alt="">
+        </div>
         <div class="contenido">
           <p class="nombre ">${asis.name}</p>
           <p class="cargo">${asis.position}</p>
@@ -89,7 +98,10 @@ let operaciones = function() {
 		.map(function(operacion) {
 			return `
       <div class="persona d-flex">
-        <img src="./images/circulo.png" alt="">
+        <div class="inner">
+          <img src="./images/organigrama/operaciones.png">
+          <img class="inner-image" src="./images/organigrama/camilaAlt.png" alt="">
+        </div>
         <div class="contenido">
           <p class="nombre ">${operacion.name}</p>
           <p class="cargo">${operacion.position}</p>
@@ -104,7 +116,10 @@ let operaciones = function() {
 		.map(function(operacion) {
 			return `
       <div class="persona d-flex">
-        <img src="./images/circulo.png" alt="">
+        <div class="inner">
+          <img src="./images/organigrama/operaciones.png">
+          <img class="inner-image" src="./images/organigrama/camilaAlt.png" alt="">
+        </div>
         <div class="contenido">
           <p class="nombre ">${operacion.name}</p>
           <p class="cargo">${operacion.position}</p>
@@ -124,7 +139,10 @@ let rrhh = function() {
 		.map(function(rrhh) {
 			return `
       <div class="persona d-flex">
-      <img src="./images/circulo.png" alt="">
+        <div class="inner">
+          <img src="./images/organigrama/rrhh.png">
+          <img class="inner-image" src="./images/organigrama/melinaL.png" alt="">
+        </div>
         <div class="contenido">
           <p class="nombre ">${rrhh.name}</p>
           <p class="cargo">${rrhh.position}</p>
@@ -148,7 +166,10 @@ let comerciales = function() {
 		.map(function(comercio) {
 			return `
       <div class="persona d-flex">
-        <img src="./images/circulo.png" alt="">
+        <div class="inner">
+          <img src="./images/organigrama/comercial.png">
+          <img class="inner-image" src="./images/organigrama/denisseA.png" alt="">
+        </div>
         <div class="contenido">
           <p class="nombre ">${comercio.name}</p>
           <p class="cargo">${comercio.position}</p>
@@ -163,7 +184,10 @@ let comerciales = function() {
 		.map(function(comercio) {
 			return `
       <div class="persona d-flex">
-        <img src="./images/circulo.png" alt="">
+        <div class="inner">
+          <img src="./images/organigrama/comercial.png">
+          <img class="inner-image" src="./images/organigrama/denisseA.png" alt="">
+        </div>
         <div class="contenido">
           <p class="nombre ">${comercio.name}</p>
           <p class="cargo">${comercio.position}</p>
@@ -178,7 +202,10 @@ let comerciales = function() {
 		.map(function(comercio) {
 			return `
       <div class="persona d-flex">
-        <img src="./images/circulo.png" alt="">
+        <div class="inner">
+          <img src="./images/organigrama/comercial.png">
+          <img class="inner-image" src="./images/organigrama/denisseA.png" alt="">
+        </div>
         <div class="contenido">
           <p class="nombre ">${comercio.name}</p>
           <p class="cargo">${comercio.position}</p>
@@ -193,7 +220,10 @@ let comerciales = function() {
 		.map(function(comercio) {
 			return `
       <div class="persona d-flex">
-        <img src="./images/circulo.png" alt="">
+        <div class="inner">
+          <img src="./images/organigrama/comercial.png">
+          <img class="inner-image" src="./images/organigrama/denisseA.png" alt="">
+        </div>
         <div class="contenido">
           <p class="nombre ">${comercio.name}</p>
           <p class="cargo">${comercio.position}</p>
