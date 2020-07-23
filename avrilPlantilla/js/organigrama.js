@@ -6,7 +6,7 @@ let direccion = function() {
     ${filterDireccion
 		.map(function(dire) {
 			return `
-      <div class="persona d-flex">
+      <div class="persona d-flex w-50">
         <div class="inner">
           <img src="./images/organigrama/direccion.png">
           <img class="inner-image" src="./images/organigrama/${dire.pic}.png" alt="">
@@ -29,7 +29,7 @@ let planificacion = function() {
     ${filterPlanificacion
 		.map(function(plani) {
 			return `
-        <div class="persona d-flex">
+        <div class="persona d-flex w-1-3">
           <div class="inner">
             <img src="./images/organigrama/planificacion.png">
             <img class="inner-image" src="./images/organigrama/${plani.pic}.png" alt="">
@@ -47,28 +47,8 @@ let planificacion = function() {
 //Asistencias
 let asistencia = function() {
 	const filterAsistencia = main.filter((main) => main.department == "asistencias");
-	var firstRow = filterAsistencia.slice(0, 5);
-	var secondRow = filterAsistencia.slice(5, 10);
 	document.getElementById("asis").innerHTML = `
-    ${firstRow
-		.map(function(asis) {
-			return `
-      <div class="persona d-flex">
-        <div class="inner">
-          <img src="./images/organigrama/asistencias.png">
-          <img class="inner-image" src="./images/organigrama/${asis.pic}.png" alt="">
-        </div>
-        <div class="contenido">
-          <p class="nombre ">${asis.name}</p>
-          <p class="cargo">${asis.position}</p>
-        </div>
-      </div>
-      `;
-		})
-		.join("")}
-  `;
-	document.getElementById("asis2").innerHTML = `
-    ${secondRow
+    ${filterAsistencia
 		.map(function(asis) {
 			return `
       <div class="persona d-flex">
@@ -90,29 +70,8 @@ let asistencia = function() {
 //Operaciones
 let operaciones = function() {
 	const filterOperaciones = main.filter((main) => main.department == "operaciones");
-	var firstOpRow = filterOperaciones.slice(0, 5);
-	var secondOpRow = filterOperaciones.slice(5, 9);
-	var thirdOpRow = filterOperaciones.slice(9, 14);
 	document.getElementById("operaciones").innerHTML = `
-    ${firstOpRow
-		.map(function(operacion) {
-			return `
-      <div class="persona d-flex">
-        <div class="inner">
-          <img src="./images/organigrama/operaciones.png">
-          <img class="inner-image" src="./images/organigrama/${operacion.pic}.png" alt="">
-        </div>
-        <div class="contenido">
-          <p class="nombre ">${operacion.name}</p>
-          <p class="cargo">${operacion.position}</p>
-        </div>
-      </div>
-      `;
-		})
-		.join("")}
-  `;
-	document.getElementById("operaciones2").innerHTML = `
-  ${secondOpRow
+    ${filterOperaciones
 		.map(function(operacion) {
 			return `
       <div class="persona d-flex">
@@ -157,66 +116,8 @@ let rrhh = function() {
 //Comerciales
 let comerciales = function() {
 	const filterComerciales = main.filter((main) => main.department == "comerciales");
-	var firstCoRow = filterComerciales.slice(0, 5);
-	var secondCoRow = filterComerciales.slice(5, 10);
-	var thirdCoRow = filterComerciales.slice(10, 15);
-	var fourthCoRow = filterComerciales.slice(15, 21);
 	document.getElementById("comercio").innerHTML = `
-    ${firstCoRow
-		.map(function(comercio) {
-			return `
-      <div class="persona d-flex">
-        <div class="inner">
-          <img src="./images/organigrama/comercial.png">
-          <img class="inner-image" src="./images/organigrama/${comercio.pic}.png" alt="">
-        </div>
-        <div class="contenido">
-          <p class="nombre ">${comercio.name}</p>
-          <p class="cargo">${comercio.position}</p>
-        </div>
-      </div>
-      `;
-		})
-		.join("")}
-  `;
-	document.getElementById("comercio2").innerHTML = `
-    ${secondCoRow
-		.map(function(comercio) {
-			return `
-      <div class="persona d-flex">
-        <div class="inner">
-          <img src="./images/organigrama/comercial.png">
-          <img class="inner-image" src="./images/organigrama/${comercio.pic}.png" alt="">
-        </div>
-        <div class="contenido">
-          <p class="nombre ">${comercio.name}</p>
-          <p class="cargo">${comercio.position}</p>
-        </div>
-      </div>
-      `;
-		})
-		.join("")}
-  `;
-	document.getElementById("comercio3").innerHTML = `
-    ${thirdCoRow
-		.map(function(comercio) {
-			return `
-      <div class="persona d-flex">
-        <div class="inner">
-          <img src="./images/organigrama/comercial.png">
-          <img class="inner-image" src="./images/organigrama/${comercio.pic}.png" alt="">
-        </div>
-        <div class="contenido">
-          <p class="nombre ">${comercio.name}</p>
-          <p class="cargo">${comercio.position}</p>
-        </div>
-      </div>
-      `;
-		})
-		.join("")}
-  `;
-	document.getElementById("comercio4").innerHTML = `
-    ${fourthCoRow
+    ${filterComerciales
 		.map(function(comercio) {
 			return `
       <div class="persona d-flex">
