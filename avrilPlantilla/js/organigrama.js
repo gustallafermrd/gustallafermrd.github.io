@@ -129,6 +129,26 @@ let operaciones = function() {
   `;
 };
 
+//Recursos Humanos
+let rrhh = function() {
+	const filterRRHH = main.filter((main) => main.department == "rrhh");
+	document.getElementById("rrhh").innerHTML = `
+    ${filterRRHH
+		.map(function(rrhh) {
+			return `
+      <div class="persona d-flex">
+      <img src="./images/circulo.png" alt="">
+        <div class="contenido">
+          <p class="nombre ">${rrhh.name}</p>
+          <p class="cargo">${rrhh.position}</p>
+        </div>
+      </div>
+    `;
+		})
+		.join("")}
+  `;
+};
+
 //Comerciales
 let comerciales = function() {
 	const filterComerciales = main.filter((main) => main.department == "comerciales");
@@ -209,4 +229,5 @@ fetch("js/organigrama.json")
 		asistencia();
 		operaciones();
 		comerciales();
+		rrhh();
 	});

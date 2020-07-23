@@ -1,7 +1,6 @@
 // Organigrama
 
 .titulo-org {
-	background: $organigrama;
 	padding: 10px;
 	width: 100%;
 	text-transform: uppercase;
@@ -11,6 +10,24 @@
 	color: white;
 	border: 1px solid transparent;
 	border-radius: 8px 8px 0 0;
+}
+.direccion {
+	background: $direccion;
+}
+.planificacion {
+	background: $planificacion;
+}
+.asistencias {
+	background: $asistencia;
+}
+.rrhh {
+	background: $rrhh;
+}
+.comerciales {
+	background: $comerciales;
+}
+.operaciones {
+	background: $operaciones;
 }
 
 .persona {
