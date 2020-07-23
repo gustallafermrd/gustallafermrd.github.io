@@ -9,7 +9,7 @@ let direccion = function() {
       <div class="persona d-flex">
         <div class="inner">
           <img src="./images/organigrama/direccion.png">
-          <img class="inner-image" src="./images/organigrama/delfinaV.png" alt="">
+          <img class="inner-image" src="./images/organigrama/${dire.pic}.png" alt="">
         </div>
         <div class="contenido">
           <p class="nombre ">${dire.name}</p>
@@ -32,7 +32,7 @@ let planificacion = function() {
         <div class="persona d-flex">
           <div class="inner">
             <img src="./images/organigrama/planificacion.png">
-            <img class="inner-image" src="./images/organigrama/yesicaD.png" alt="">
+            <img class="inner-image" src="./images/organigrama/${plani.pic}.png" alt="">
           </div>
           <div class="contenido">
             <p class="nombre ">${plani.name}</p>
@@ -56,7 +56,7 @@ let asistencia = function() {
       <div class="persona d-flex">
         <div class="inner">
           <img src="./images/organigrama/asistencias.png">
-          <img class="inner-image" src="./images/organigrama/alejandraV.png" alt="">
+          <img class="inner-image" src="./images/organigrama/${asis.pic}.png" alt="">
         </div>
         <div class="contenido">
           <p class="nombre ">${asis.name}</p>
@@ -74,7 +74,7 @@ let asistencia = function() {
       <div class="persona d-flex">
         <div class="inner">
           <img src="./images/organigrama/asistencias.png">
-          <img class="inner-image" src="./images/organigrama/alejandraV.png" alt="">
+          <img class="inner-image" src="./images/organigrama/${asis.pic}.png" alt="">
         </div>
         <div class="contenido">
           <p class="nombre ">${asis.name}</p>
@@ -100,7 +100,7 @@ let operaciones = function() {
       <div class="persona d-flex">
         <div class="inner">
           <img src="./images/organigrama/operaciones.png">
-          <img class="inner-image" src="./images/organigrama/camilaAlt.png" alt="">
+          <img class="inner-image" src="./images/organigrama/${operacion.pic}.png" alt="">
         </div>
         <div class="contenido">
           <p class="nombre ">${operacion.name}</p>
@@ -118,7 +118,7 @@ let operaciones = function() {
       <div class="persona d-flex">
         <div class="inner">
           <img src="./images/organigrama/operaciones.png">
-          <img class="inner-image" src="./images/organigrama/camilaAlt.png" alt="">
+          <img class="inner-image" src="./images/organigrama/${operacion.pic}.png" alt="">
         </div>
         <div class="contenido">
           <p class="nombre ">${operacion.name}</p>
@@ -141,7 +141,7 @@ let rrhh = function() {
       <div class="persona d-flex">
         <div class="inner">
           <img src="./images/organigrama/rrhh.png">
-          <img class="inner-image" src="./images/organigrama/melinaL.png" alt="">
+          <img class="inner-image" src="./images/organigrama/${rrhh.pic}.png" alt="">
         </div>
         <div class="contenido">
           <p class="nombre ">${rrhh.name}</p>
@@ -168,7 +168,7 @@ let comerciales = function() {
       <div class="persona d-flex">
         <div class="inner">
           <img src="./images/organigrama/comercial.png">
-          <img class="inner-image" src="./images/organigrama/denisseA.png" alt="">
+          <img class="inner-image" src="./images/organigrama/${comercio.pic}.png" alt="">
         </div>
         <div class="contenido">
           <p class="nombre ">${comercio.name}</p>
@@ -186,7 +186,7 @@ let comerciales = function() {
       <div class="persona d-flex">
         <div class="inner">
           <img src="./images/organigrama/comercial.png">
-          <img class="inner-image" src="./images/organigrama/denisseA.png" alt="">
+          <img class="inner-image" src="./images/organigrama/${comercio.pic}.png" alt="">
         </div>
         <div class="contenido">
           <p class="nombre ">${comercio.name}</p>
@@ -204,7 +204,7 @@ let comerciales = function() {
       <div class="persona d-flex">
         <div class="inner">
           <img src="./images/organigrama/comercial.png">
-          <img class="inner-image" src="./images/organigrama/denisseA.png" alt="">
+          <img class="inner-image" src="./images/organigrama/${comercio.pic}.png" alt="">
         </div>
         <div class="contenido">
           <p class="nombre ">${comercio.name}</p>
@@ -222,7 +222,7 @@ let comerciales = function() {
       <div class="persona d-flex">
         <div class="inner">
           <img src="./images/organigrama/comercial.png">
-          <img class="inner-image" src="./images/organigrama/denisseA.png" alt="">
+          <img class="inner-image" src="./images/organigrama/${comercio.pic}.png" alt="">
         </div>
         <div class="contenido">
           <p class="nombre ">${comercio.name}</p>

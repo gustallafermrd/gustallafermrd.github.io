@@ -2,295 +2,246 @@
 	{
 		"name": "Martín Ortiz",
 		"position": "CEO de Avril Assistance",
-		"department": "direccion",
-		"pic": "martinO"
+		"department": "direccion"
 	},
 	{
 		"name": "Delfina Villalba",
 		"position": "Asistente de Dirección",
-		"department": "direccion",
-		"pic": "delfinaV"
+		"department": "direccion"
 	},
 	{
 		"name": "Yesica Díaz",
 		"position": "Planificación y Producto",
-		"department": "planificacion",
-		"pic": "yesicaD"
+		"department": "planificacion"
 	},
 	{
 		"name": "Florencia Galván",
 		"position": "Diseño, Imagen y Redes",
-		"department": "planificacion",
-		"pic": "florenciaG"
+		"department": "planificacion"
 	},
 	{
 		"name": "Luciana Centurión",
 		"position": "Diseño, Imagen y Redes",
-		"department": "planificacion",
-		"pic": "lucianaC"
+		"department": "planificacion"
 	},
 	{
 		"name": "Ariel Pierini",
 		"position": "Director de Asistencias",
-		"department": "asistencias",
-		"pic": "arielP"
+		"department": "asistencias"
 	},
 	{
 		"name": "Cecilia Martellini",
 		"position": "Reintegros",
-		"department": "asistencias",
-		"pic": "ceciliaM"
+		"department": "asistencias"
 	},
 	{
 		"name": "Azul Sánchez",
 		"position": "Prestadores",
-		"department": "asistencias",
-		"pic": "azulS"
+		"department": "asistencias"
 	},
 	{
 		"name": "Eduardo Rodríguez",
 		"position": "Supervisor de Asistencias",
-		"department": "asistencias",
-		"pic": "eduardoR"
+		"department": "asistencias"
 	},
 	{
 		"name": "Tomás Pérez",
 		"position": "Coordinación de Asistencias",
-		"department": "asistencias",
-		"pic": "tomasP"
+		"department": "asistencias"
 	},
 	{
 		"name": "Elyer Maldonado",
 		"position": "Coordinación de Asistencias",
-		"department": "asistencias",
-		"pic": "elyerM"
+		"department": "asistencias"
 	},
 	{
 		"name": "Mariem Hernández",
 		"position": "Coordinación de Asistencias",
-		"department": "asistencias",
-		"pic": "mariemH"
+		"department": "asistencias"
 	},
 	{
 		"name": "Gabriela Sánchez",
 		"position": "Coordinación de Asistencias",
-		"department": "asistencias",
-		"pic": "gabrielaS"
+		"department": "asistencias"
 	},
 	{
 		"name": "Gabriel Mendoza",
 		"position": "Coordinación de Asistencias",
-		"department": "asistencias",
-		"pic": "gabrielM"
+		"department": "asistencias"
 	},
 	{
 		"name": "Mario Amaya",
 		"position": "Coordinación de Asistencias",
-		"department": "asistencias",
-		"pic": "marioA"
+		"department": "asistencias"
 	},
 	{
 		"name": "Melisa Villalón",
 		"position": "Directora de Operaciones",
-		"department": "operaciones",
-		"pic": "melisaV"
+		"department": "operaciones"
 	},
 	{
 		"name": "Camila Alexandre",
 		"position": "Supervisora de Administración",
-		"department": "operaciones",
-		"pic": "camilaAle"
+		"department": "operaciones"
 	},
 	{
 		"name": "Rocío Galdara",
 		"position": "Administración",
-		"department": "operaciones",
-		"pic": "rocioG"
+		"department": "operaciones"
 	},
 	{
 		"name": "Camila Venzi",
 		"position": "Administración",
-		"department": "operaciones",
-		"pic": "camilaV"
+		"department": "operaciones"
 	},
 	{
 		"name": "Naim Villalón",
 		"position": "Logística/Stock",
-		"department": "operaciones",
-		"pic": "naimV"
+		"department": "operaciones"
 	},
 	{
 		"name": "Aylén Petry",
 		"position": "Operaciones Comerciales",
-		"department": "operaciones",
-		"pic": "aylenP"
+		"department": "operaciones"
 	},
 	{
 		"name": "Yanina Seib",
 		"position": "Operaciones Comerciales",
-		"department": "operaciones",
-		"pic": "yaninaS"
+		"department": "operaciones"
 	},
 	{
 		"name": "Marling Sosa",
 		"position": "Operaciones Comerciales",
-		"department": "operaciones",
-		"pic": "marlingS"
+		"department": "operaciones"
 	},
 	{
 		"name": "Camila Altamirano",
 		"position": "Operaciones Comerciales",
-		"department": "operaciones",
-		"pic": "camilaAlt"
+		"department": "operaciones"
 	},
 	{
 		"name": "Fernando Seta",
 		"position": "Gerente Comercial",
-		"department": "comerciales",
-		"pic": "fernandoS"
+		"department": "comerciales"
 	},
 	{
 		"name": "Melisa Nadal",
 		"position": "Jefa Comercial",
-		"department": "comerciales",
-		"pic": "melisaN"
+		"department": "comerciales"
 	},
 	{
 		"name": "Fernando Scrigna",
 		"position": "Jefe Comercial",
-		"department": "comerciales",
-		"pic": "fernandoSc"
+		"department": "comerciales"
 	},
 	{
 		"name": "Sandro Cobas",
 		"position": "Jefe Comercial",
-		"department": "comerciales",
-		"pic": "sandroC"
+		"department": "comerciales"
 	},
 	{
 		"name": "Guillermo Sallitto",
 		"position": "Ejecutivo Comercial",
-		"department": "comerciales",
-		"pic": "guillermoS"
+		"department": "comerciales"
 	},
 	{
 		"name": "Elisa Mazzucco",
 		"position": "Ejecutiva Comercial",
-		"department": "comerciales",
-		"pic": "elisaM"
+		"department": "comerciales"
 	},
 	{
 		"name": "Paola Aguirre",
 		"position": "Ejecutiva Comercial",
-		"department": "comerciales",
-		"pic": "paolaA"
+		"department": "comerciales"
 	},
 	{
 		"name": "José Merino",
 		"position": "Ejecutivo Comercial",
-		"department": "comerciales",
-		"pic": "joseM"
+		"department": "comerciales"
 	},
 	{
 		"name": "Nair López",
 		"position": "Ejecutivo Comercial Atención Telefónica",
-		"department": "comerciales",
-		"pic": "nairL"
+		"department": "comerciales"
 	},
 	{
 		"name": "Emiliano Palú",
 		"position": "Ejecutivo Comercial",
-		"department": "comerciales",
-		"pic": "emilianoP"
+		"department": "comerciales"
 	},
 	{
 		"name": "Florencia Alonso",
 		"position": "Ejecutiva Comercial",
-		"department": "comerciales",
-		"pic": "florenciaA"
+		"department": "comerciales"
 	},
 	{
 		"name": "Sol Fernández",
 		"position": "Ejecutiva Comercial",
-		"department": "comerciales",
-		"pic": "solF"
+		"department": "comerciales"
 	},
 	{
 		"name": "Yanina Ahumada",
 		"position": "Ejecutiva Comerical Atención Telefónica",
-		"department": "comerciales",
-		"pic": "yaninaA"
+		"department": "comerciales"
 	},
 	{
 		"name": "Melisa Zugarramurdi",
 		"position": "Ejecutiva Comercial",
-		"department": "comerciales",
-		"pic": "melisaZ"
+		"department": "comerciales"
 	},
 	{
 		"name": "Clara Olivera",
 		"position": "Ejecutiva Comercial",
-		"department": "comerciales",
-		"pic": "claraO"
+		"department": "comerciales"
 	},
 	{
 		"name": "Alejandra Vilaseca",
 		"position": "Ejecutiva Comercial Atención Telefónica",
-		"department": "comerciales",
-		"pic": "alejandraV"
+		"department": "comerciales"
 	},
 	{
 		"name": "Bárbara Brandan",
 		"position": "Ejecutiva Comercial",
-		"department": "comerciales",
-		"pic": "barbaraB"
+		"department": "comerciales"
 	},
 	{
 		"name": "Juliana Quiroga",
 		"position": "Ejecutiva Comercial",
-		"department": "comerciales",
-		"pic": "julianaQ"
+		"department": "comerciales"
 	},
 	{
 		"name": "Denisse Arjona",
 		"position": "Ejecutiva Comercial Atención Telefónica",
-		"department": "comerciales",
-		"pic": "denisseA"
+		"department": "comerciales"
 	},
 	{
 		"name": "Adriel Tuyarot",
 		"position": "Ejecutivo Comercial",
-		"department": "comerciales",
-		"pic": "adrielT"
+		"department": "comerciales"
 	},
 	{
 		"name": "Melina Lerana",
 		"position": "Encargada de RRHH",
-		"department": "rrhh",
-		"pic": "melinaL"
+		"department": "rrhh"
 	},
 	{
 		"name": "Rocío Díaz",
 		"position": "Recepción",
-		"department": "rrhh",
-		"pic": "rocioD"
+		"department": "rrhh"
 	},
 	{
 		"name": "Gisela Gavilán",
 		"position": "Mantenimiento de Oficinas",
-		"department": "rrhh",
-		"pic": "giselaG"
+		"department": "rrhh"
 	},
 	{
 		"name": "Facundo Romero",
 		"position": "Mantenimiento",
-		"department": "rrhh",
-		"pic": "facundoR"
+		"department": "rrhh"
 	},
 	{
 		"name": "Gustavo Tallaferro",
 		"position": "Soporte IT & Comunicaciones",
-		"department": "rrhh",
-		"pic": "gustavoT"
+		"department": "rrhh"
 	}
 ]
