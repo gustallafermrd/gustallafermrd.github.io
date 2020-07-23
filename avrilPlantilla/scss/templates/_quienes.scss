@@ -38,12 +38,24 @@
 	// border-radius: 8px;
 	padding: 0.5em .5em;
 	width: 100%;
-
 	img {
 		padding-right: 10px;
 		align-self: center;
 		width: 55px;
 		height: 55px;
+	}
+
+	.inner {
+		position: relative;
+
+		.inner-image {
+			position: absolute;
+			width: 80%;
+			height: 80%;
+			top: 50%;
+			left: 0;
+			transform: translate(15%, -50%);
+		}
 	}
 
 	.contenido {

@@ -7,7 +7,10 @@ let direccion = function() {
 		.map(function(dire) {
 			return `
       <div class="persona d-flex">
-        <img src="./images/circulo.png" alt="">
+        <div class="inner">
+          <img src="./images/circuloDir.png">
+          <img class="inner-image" src="./images/delfinaV.png" alt="">
+        </div>
         <div class="contenido">
           <p class="nombre ">${dire.name}</p>
           <p class="cargo">${dire.position}</p>
@@ -38,7 +41,6 @@ let planificacion = function() {
 		.join("")}
   `;
 };
-
 //Asistencias
 let asistencia = function() {
 	const filterAsistencia = main.filter((main) => main.department == "asistencias");
