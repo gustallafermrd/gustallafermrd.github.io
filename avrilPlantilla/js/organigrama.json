@@ -12,17 +12,17 @@
 	{
 		"name": "Yesica Díaz",
 		"position": "Planificación y Producto",
-		"department": "direccion"
+		"department": "planificacion"
 	},
 	{
 		"name": "Florencia Galván",
 		"position": "Diseño, Imagen y Redes",
-		"department": "direccion"
+		"department": "planificacion"
 	},
 	{
 		"name": "Luciana Centurión",
 		"position": "Diseño, Imagen y Redes",
-		"department": "direccion"
+		"department": "planificacion"
 	},
 	{
 		"name": "Ariel Pierini",
@@ -117,31 +117,6 @@
 	{
 		"name": "Camila Altamirano",
 		"position": "Operaciones Comerciales",
-		"department": "operaciones"
-	},
-	{
-		"name": "Melina Lerana",
-		"position": "Encargada de RRHH",
-		"department": "operaciones"
-	},
-	{
-		"name": "Rocío Díaz",
-		"position": "Recepción",
-		"department": "operaciones"
-	},
-	{
-		"name": "Gisela Gavilán",
-		"position": "Mantenimiento de Oficinas",
-		"department": "operaciones"
-	},
-	{
-		"name": "Facundo Romero",
-		"position": "Mantenimiento",
-		"department": "operaciones"
-	},
-	{
-		"name": "Gustavo Tallaferro",
-		"position": "Soporte IT & Comunicaciones",
 		"department": "operaciones"
 	},
 	{
@@ -243,5 +218,30 @@
 		"name": "Adriel Tuyarot",
 		"position": "Ejecutivo Comercial",
 		"department": "comerciales"
+	},
+	{
+		"name": "Melina Lerana",
+		"position": "Encargada de RRHH",
+		"department": "rrhh"
+	},
+	{
+		"name": "Rocío Díaz",
+		"position": "Recepción",
+		"department": "rrhh"
+	},
+	{
+		"name": "Gisela Gavilán",
+		"position": "Mantenimiento de Oficinas",
+		"department": "rrhh"
+	},
+	{
+		"name": "Facundo Romero",
+		"position": "Mantenimiento",
+		"department": "rrhh"
+	},
+	{
+		"name": "Gustavo Tallaferro",
+		"position": "Soporte IT & Comunicaciones",
+		"department": "rrhh"
 	}
 ]

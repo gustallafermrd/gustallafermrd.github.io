@@ -19,6 +19,26 @@ let direccion = function() {
   `;
 };
 
+//Planificacion y Producto
+let planificacion = function() {
+	const filterPlanificacion = main.filter((main) => main.department == "planificacion");
+	document.getElementById("planificacion").innerHTML = `
+    ${filterPlanificacion
+		.map(function(plani) {
+			return `
+        <div class="persona d-flex">
+          <img src="./images/circulo.png" alt="">
+          <div class="contenido">
+            <p class="nombre ">${plani.name}</p>
+            <p class="cargo">${plani.position}</p>
+          </div>
+        </div>
+      `;
+		})
+		.join("")}
+  `;
+};
+
 //Asistencias
 let asistencia = function() {
 	const filterAsistencia = main.filter((main) => main.department == "asistencias");
@@ -185,6 +205,7 @@ fetch("js/organigrama.json")
 	.then(function(data) {
 		main = data;
 		direccion();
+		planificacion();
 		asistencia();
 		operaciones();
 		comerciales();
