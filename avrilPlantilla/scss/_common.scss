@@ -18,6 +18,9 @@
 .modal {
 	background: $bg-gradient;
 }
+.modal-dialog {
+	max-height: 80%;
+}
 
 input[type="email"],
 input[type="password"],

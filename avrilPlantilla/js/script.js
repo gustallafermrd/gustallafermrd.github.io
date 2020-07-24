@@ -145,28 +145,22 @@ aria-hidden="true">
 			</div>
 			<div class="modal-body mx-3">
 				<div class="mb-1">
-					<label data-error="wrong" data-success="right" for="agencia">Nombre de la Agencia</label>
-					<input type="text" id="agencia" class="form-control validate">
+					<input type="text" placeholder="Nombre de la Agencia" id="agencia" class="form-control validate">
 				</div>
 				<div class="mb-1">
-					<label data-error="wrong" data-success="right" for="representante">Nombre del Representante</label>
-					<input type="text" id="representante" class="form-control validate">
+					<input type="text" placeholder="Nombre del Representante" id="representante" class="form-control validate">
 				</div>
 				<div class="mb-1">
-					<label data-error="wrong" data-success="right" for="telefono">Teléfono</label>
-					<input type="text" id="telefono" class="form-control validate">
+					<input type="text" placeholder="Teléfono" id="telefono" class="form-control validate">
 				</div>
 				<div class="mb-1">
-					<label data-error="wrong" data-success="right" for="localidad">Localidad</label>
-					<input type="text" id="localidad" class="form-control validate">
+					<input type="text" placeholder="Localidad" id="localidad" class="form-control validate">
 				</div>
 				<div class="mb-1">
-					<label data-error="wrong" data-success="right" for="provincia">Provincia</label>
-					<input type="text" id="provincia" class="form-control validate">
+					<input type="text" placeholder="Provincia" id="provincia" class="form-control validate">
 				</div>
-				<div class="md-form mb-2">
-					<label data-error="wrong" data-success="right" for="email">Email</label>
-					<input type="email" id="email" class="form-control validate">
+				<div class="mb-1">
+					<input type="email" placeholder="E-mail" id="email" class="form-control validate">
 				</div>
 			</div>
 			<div class="modal-footer d-flex justify-content-center">
