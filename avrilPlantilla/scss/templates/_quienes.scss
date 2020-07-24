@@ -50,17 +50,18 @@
 
 	.inner {
 		position: relative;
+		width: 95%;
 	}
 
 	.contenido {
-		width: 140%;
+		width: 154%;
 		padding-left: 10px;
 		align-self: center;
 		border-left: 2px solid black;
 
 		.nombre {
 			color: black;
-			font-size: .9em;
+			font-size: .8em;
 		}
 
 		.cargo {
@@ -71,10 +72,6 @@
 			line-height: 1em;
 		}
 	}
-}
-
-#operaciones2 {
-	width: 80%;
 }
 
 .quienes-intro {
