@@ -28,7 +28,7 @@ document.getElementById("header").innerHTML = `
 					</div>
 					<div class="align-self-center">
 						<a href="https://emision.avril-assistance.com/" target="_blank" class="btn btn-avril">Ingresar</a>
-						<a href="#" target="_blank" class="btn btn-avril">Registrarse</a>
+						<a href="" data-toggle="modal" data-target="#formEmi" class="btn btn-avril">Darse de alta</a>
 					</div>
 				</div>
 
@@ -125,6 +125,52 @@ document.getElementById("footer").innerHTML = `
 				<div class="copyright">
 					<p>&copy; <strong>Avril Assistance</strong>. Todos los derechos reservados</p>
 				</div>
+			</div>
+		</div>
+	</div>
+</div>
+`;
+
+//modal Box form
+document.getElementById("emisionesModal").innerHTML = `
+<div class="modal fade" id="formEmi" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header text-center">
+				<h4 class="modal-title w-100 font-weight-bold">Llena el Formulario</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body mx-3">
+				<div class="md-form mb-2">
+					<label data-error="wrong" data-success="right" for="agencia">Nombre de la Agencia</label>
+					<input type="text" id="agencia" class="form-control validate">
+				</div>
+				<div class="md-form mb-2">
+					<label data-error="wrong" data-success="right" for="representante">Nombre del Representante</label>
+					<input type="text" id="representante" class="form-control validate">
+				</div>
+				<div class="md-form mb-2">
+					<label data-error="wrong" data-success="right" for="telefono">Teléfono</label>
+					<input type="text" id="telefono" class="form-control validate">
+				</div>
+				<div class="md-form mb-2">
+					<label data-error="wrong" data-success="right" for="localidad">Localidad</label>
+					<input type="text" id="localidad" class="form-control validate">
+				</div>
+				<div class="md-form mb-2">
+					<label data-error="wrong" data-success="right" for="provincia">Provincia</label>
+					<input type="text" id="provincia" class="form-control validate">
+				</div>
+				<div class="md-form mb-2">
+					<label data-error="wrong" data-success="right" for="email">Email</label>
+					<input type="email" id="email" class="form-control validate">
+				</div>
+			</div>
+			<div class="modal-footer d-flex justify-content-center">
+				<button class="btn btn-primary">Enviar</button>
 			</div>
 		</div>
 	</div>
