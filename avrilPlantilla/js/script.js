@@ -144,23 +144,23 @@ aria-hidden="true">
 				</button>
 			</div>
 			<div class="modal-body mx-3">
-				<div class="md-form mb-2">
+				<div class="mb-1">
 					<label data-error="wrong" data-success="right" for="agencia">Nombre de la Agencia</label>
 					<input type="text" id="agencia" class="form-control validate">
 				</div>
-				<div class="md-form mb-2">
+				<div class="mb-1">
 					<label data-error="wrong" data-success="right" for="representante">Nombre del Representante</label>
 					<input type="text" id="representante" class="form-control validate">
 				</div>
-				<div class="md-form mb-2">
+				<div class="mb-1">
 					<label data-error="wrong" data-success="right" for="telefono">Teléfono</label>
 					<input type="text" id="telefono" class="form-control validate">
 				</div>
-				<div class="md-form mb-2">
+				<div class="mb-1">
 					<label data-error="wrong" data-success="right" for="localidad">Localidad</label>
 					<input type="text" id="localidad" class="form-control validate">
 				</div>
-				<div class="md-form mb-2">
+				<div class="mb-1">
 					<label data-error="wrong" data-success="right" for="provincia">Provincia</label>
 					<input type="text" id="provincia" class="form-control validate">
 				</div>
