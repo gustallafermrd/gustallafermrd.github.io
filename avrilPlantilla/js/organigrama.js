@@ -11,8 +11,7 @@ async function getData() {
 			return `
       <div class="persona d-flex w-50">
         <div class="inner">
-          <img src="./images/organigrama/direccion.png">
-          <img class="inner-image" src="./images/organigrama/${dire.pic}.png" alt="">
+          <img src="./images/organigrama/${dire.pic}.png" alt="">
         </div>
         <div class="contenido">
           <p class="nombre ">${dire.name}</p>
@@ -31,7 +30,6 @@ async function getData() {
 			return `
         <div class="persona d-flex w-1-3">
           <div class="inner">
-            <img src="./images/organigrama/planificacion.png">
             <img class="inner-image" src="./images/organigrama/${plani.pic}.png" alt="">
           </div>
           <div class="contenido">
@@ -51,7 +49,6 @@ async function getData() {
 			return `
         <div class="persona d-flex">
           <div class="inner">
-            <img src="./images/organigrama/asistencias.png">
             <img class="inner-image" src="./images/organigrama/${asis.pic}.png" alt="">
           </div>
           <div class="contenido">
@@ -71,7 +68,6 @@ async function getData() {
 			return `
       <div class="persona d-flex">
         <div class="inner">
-          <img src="./images/organigrama/operaciones.png">
           <img class="inner-image" src="./images/organigrama/${operacion.pic}.png" alt="">
         </div>
         <div class="contenido">
@@ -91,7 +87,6 @@ async function getData() {
 			return `
       <div class="persona d-flex">
         <div class="inner">
-          <img src="./images/organigrama/operaciones.png">
           <img class="inner-image" src="./images/organigrama/${admin.pic}.png" alt="">
         </div>
         <div class="contenido">
@@ -111,7 +106,6 @@ async function getData() {
 			return `
       <div class="persona d-flex">
         <div class="inner">
-          <img src="./images/organigrama/rrhh.png">
           <img class="inner-image" src="./images/organigrama/${rrhh.pic}.png" alt="">
         </div>
         <div class="contenido">
@@ -131,7 +125,6 @@ async function getData() {
 			return `
       <div class="persona d-flex">
         <div class="inner">
-          <img src="./images/organigrama/comercial.png">
           <img class="inner-image" src="./images/organigrama/${comercio.pic}.png" alt="">
         </div>
         <div class="contenido">
