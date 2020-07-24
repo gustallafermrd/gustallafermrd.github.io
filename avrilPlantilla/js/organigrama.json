@@ -96,30 +96,6 @@
 		"pic": "melisaV"
 	},
 	{
-		"name": "Camila Alexandre",
-		"position": "Supervisora de Administración",
-		"department": "operaciones",
-		"pic": "camilaAle"
-	},
-	{
-		"name": "Rocío Galdara",
-		"position": "Administración",
-		"department": "operaciones",
-		"pic": "rocioG"
-	},
-	{
-		"name": "Camila Venzi",
-		"position": "Administración",
-		"department": "operaciones",
-		"pic": "camilaV"
-	},
-	{
-		"name": "Naim Villalón",
-		"position": "Logística/Stock",
-		"department": "operaciones",
-		"pic": "naimV"
-	},
-	{
 		"name": "Aylén Petry",
 		"position": "Operaciones Comerciales",
 		"department": "operaciones",
@@ -142,6 +118,30 @@
 		"position": "Operaciones Comerciales",
 		"department": "operaciones",
 		"pic": "camilaAlt"
+	},
+	{
+		"name": "Camila Alexandre",
+		"position": "Supervisora de Administración",
+		"department": "administracion",
+		"pic": "camilaAle"
+	},
+	{
+		"name": "Rocío Galdara",
+		"position": "Administración",
+		"department": "administracion",
+		"pic": "rocioG"
+	},
+	{
+		"name": "Camila Venzi",
+		"position": "Administración",
+		"department": "administracion",
+		"pic": "camilaV"
+	},
+	{
+		"name": "Naim Villalón",
+		"position": "Logística/Stock",
+		"department": "administracion",
+		"pic": "naimV"
 	},
 	{
 		"name": "Fernando Seta",

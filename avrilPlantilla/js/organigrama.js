@@ -83,6 +83,26 @@ async function getData() {
 		})
 		.join("")}
   `;
+	//Administracion
+	const filterAdministracion = data.filter((data) => data.department == "administracion");
+	document.getElementById("administracion").innerHTML = `
+    ${filterAdministracion
+		.map(function(admin) {
+			return `
+      <div class="persona d-flex">
+        <div class="inner">
+          <img src="./images/organigrama/operaciones.png">
+          <img class="inner-image" src="./images/organigrama/${admin.pic}.png" alt="">
+        </div>
+        <div class="contenido">
+          <p class="nombre ">${admin.name}</p>
+          <p class="cargo">${admin.position}</p>
+        </div>
+      </div>
+      `;
+		})
+		.join("")}
+  `;
 	//RRHH
 	const filterRRHH = data.filter((data) => data.department == "rrhh");
 	document.getElementById("rrhh").innerHTML = `
