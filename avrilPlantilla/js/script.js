@@ -137,6 +137,7 @@ document.getElementById("emisionesModal").innerHTML = `
 aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
+			<form action="mail.php" method="POST">
 			<div class="modal-header text-center">
 				<h4 class="modal-title w-100 font-weight-bold">Llena el Formulario</h4>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
@@ -164,8 +165,9 @@ aria-hidden="true">
 				</div>
 			</div>
 			<div class="modal-footer d-flex justify-content-center">
-				<button class="btn btn-primary">Enviar</button>
+				<button class="btn btn-primary" name="enviar" type="submit">Enviar</button>
 			</div>
+			</form>
 		</div>
 	</div>
 </div>
