@@ -1,9 +1,12 @@
-let main = {};
-//Direccion
-let direccion = function() {
-	const filterDireccion = main.filter((main) => main.department == "direccion");
+getData();
+
+async function getData() {
+	const resp = await fetch("js/organigrama.json");
+	const data = await resp.json();
+	//Direccion
+	const filterDireccion = data.filter((data) => data.department == "direccion");
 	document.getElementById("dire").innerHTML = `
-    ${filterDireccion
+  ${filterDireccion
 		.map(function(dire) {
 			return `
       <div class="persona d-flex w-50">
@@ -20,11 +23,8 @@ let direccion = function() {
 		})
 		.join("")}
   `;
-};
-
-//Planificacion y Producto
-let planificacion = function() {
-	const filterPlanificacion = main.filter((main) => main.department == "planificacion");
+	//Planificacion y Producto
+	const filterPlanificacion = data.filter((data) => data.department == "planificacion");
 	document.getElementById("planificacion").innerHTML = `
     ${filterPlanificacion
 		.map(function(plani) {
@@ -43,33 +43,28 @@ let planificacion = function() {
 		})
 		.join("")}
   `;
-};
-//Asistencias
-let asistencia = function() {
-	const filterAsistencia = main.filter((main) => main.department == "asistencias");
+	//Asistencias
+	const filterAsistencia = data.filter((data) => data.department == "asistencias");
 	document.getElementById("asis").innerHTML = `
     ${filterAsistencia
 		.map(function(asis) {
 			return `
-      <div class="persona d-flex">
-        <div class="inner">
-          <img src="./images/organigrama/asistencias.png">
-          <img class="inner-image" src="./images/organigrama/${asis.pic}.png" alt="">
+        <div class="persona d-flex">
+          <div class="inner">
+            <img src="./images/organigrama/asistencias.png">
+            <img class="inner-image" src="./images/organigrama/${asis.pic}.png" alt="">
+          </div>
+          <div class="contenido">
+            <p class="nombre ">${asis.name}</p>
+            <p class="cargo">${asis.position}</p>
+          </div>
         </div>
-        <div class="contenido">
-          <p class="nombre ">${asis.name}</p>
-          <p class="cargo">${asis.position}</p>
-        </div>
-      </div>
       `;
 		})
 		.join("")}
   `;
-};
-
-//Operaciones
-let operaciones = function() {
-	const filterOperaciones = main.filter((main) => main.department == "operaciones");
+	//Operaciones
+	const filterOperaciones = data.filter((data) => data.department == "operaciones");
 	document.getElementById("operaciones").innerHTML = `
     ${filterOperaciones
 		.map(function(operacion) {
@@ -88,11 +83,8 @@ let operaciones = function() {
 		})
 		.join("")}
   `;
-};
-
-//Recursos Humanos
-let rrhh = function() {
-	const filterRRHH = main.filter((main) => main.department == "rrhh");
+	//RRHH
+	const filterRRHH = data.filter((data) => data.department == "rrhh");
 	document.getElementById("rrhh").innerHTML = `
     ${filterRRHH
 		.map(function(rrhh) {
@@ -111,11 +103,8 @@ let rrhh = function() {
 		})
 		.join("")}
   `;
-};
-
-//Comerciales
-let comerciales = function() {
-	const filterComerciales = main.filter((main) => main.department == "comerciales");
+	//Comerciales
+	const filterComerciales = data.filter((data) => data.department == "comerciales");
 	document.getElementById("comercio").innerHTML = `
     ${filterComerciales
 		.map(function(comercio) {
@@ -134,18 +123,4 @@ let comerciales = function() {
 		})
 		.join("")}
   `;
-};
-
-fetch("js/organigrama.json")
-	.then(function(resp) {
-		return resp.json();
-	})
-	.then(function(data) {
-		main = data;
-		direccion();
-		planificacion();
-		asistencia();
-		operaciones();
-		comerciales();
-		rrhh();
-	});
+}
