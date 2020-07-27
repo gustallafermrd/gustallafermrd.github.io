@@ -9,7 +9,7 @@ async function getData() {
   ${filterDireccion
 		.map(function(dire) {
 			return `
-      <div class="persona d-flex w-50">
+      <div class="persona d-flex">
         <div class="inner">
           <img src="./images/organigrama/${dire.pic}.png" alt="">
         </div>
@@ -28,7 +28,7 @@ async function getData() {
     ${filterPlanificacion
 		.map(function(plani) {
 			return `
-        <div class="persona d-flex w-1-3">
+        <div class="persona d-flex">
           <div class="inner">
             <img class="inner-image" src="./images/organigrama/${plani.pic}.png" alt="">
           </div>
@@ -56,25 +56,6 @@ async function getData() {
             <p class="cargo">${asis.position}</p>
           </div>
         </div>
-      `;
-		})
-		.join("")}
-  `;
-	//Operaciones
-	const filterOperaciones = data.filter((data) => data.department == "operaciones");
-	document.getElementById("operaciones").innerHTML = `
-    ${filterOperaciones
-		.map(function(operacion) {
-			return `
-      <div class="persona d-flex">
-        <div class="inner">
-          <img class="inner-image" src="./images/organigrama/${operacion.pic}.png" alt="">
-        </div>
-        <div class="contenido">
-          <p class="nombre ">${operacion.name}</p>
-          <p class="cargo">${operacion.position}</p>
-        </div>
-      </div>
       `;
 		})
 		.join("")}

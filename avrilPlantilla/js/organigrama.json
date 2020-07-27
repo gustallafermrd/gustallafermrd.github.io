@@ -13,7 +13,7 @@
 	},
 	{
 		"name": "Yesica Díaz",
-		"position": "Planificación y Producto",
+		"position": "Planificación & Producto",
 		"department": "planificacion",
 		"pic": "yesicaD"
 	},
@@ -25,9 +25,21 @@
 	},
 	{
 		"name": "Luciana Centurión",
-		"position": "Diseño, Imagen y Redes",
+		"position": "Design & Advertising",
 		"department": "planificacion",
 		"pic": "lucianaC"
+	},
+	{
+		"name": "Nair López",
+		"position": "Head - Promotion & Training",
+		"department": "planificacion",
+		"pic": "nairL"
+	},
+	{
+		"name": "Gustavo Tallaferro",
+		"position": "Soporte IT & Comunicaciones",
+		"department": "planificacion",
+		"pic": "gustavoT"
 	},
 	{
 		"name": "Ariel Pierini",
@@ -91,32 +103,32 @@
 	},
 	{
 		"name": "Melisa Villalón",
-		"position": "Directora de Operaciones",
-		"department": "operaciones",
+		"position": "Directora de Operaciones & Administración",
+		"department": "administracion",
 		"pic": "melisaV"
 	},
 	{
 		"name": "Aylén Petry",
 		"position": "Operaciones Comerciales",
-		"department": "operaciones",
+		"department": "administracion",
 		"pic": "aylenP"
 	},
 	{
 		"name": "Yanina Seib",
 		"position": "Operaciones Comerciales",
-		"department": "operaciones",
+		"department": "administracion",
 		"pic": "yaninaS"
 	},
 	{
 		"name": "Marling Sosa",
 		"position": "Operaciones Comerciales",
-		"department": "operaciones",
+		"department": "administracion",
 		"pic": "marlingS"
 	},
 	{
 		"name": "Camila Altamirano",
-		"position": "Operaciones Comerciales",
-		"department": "operaciones",
+		"position": "Assistant - Alliances & Marketing",
+		"department": "administracion",
 		"pic": "camilaAlt"
 	},
 	{
@@ -139,127 +151,121 @@
 	},
 	{
 		"name": "Naim Villalón",
-		"position": "Logística/Stock",
+		"position": "Logística & Stock",
 		"department": "administracion",
 		"pic": "naimV"
 	},
 	{
 		"name": "Fernando Seta",
-		"position": "Gerente Comercial",
+		"position": "Manager - Alliances & New Business",
 		"department": "comerciales",
 		"pic": "fernandoS"
 	},
 	{
 		"name": "Melisa Nadal",
-		"position": "Jefa Comercial",
+		"position": "Jefa Comercial - Córdoba",
 		"department": "comerciales",
 		"pic": "melisaN"
 	},
 	{
 		"name": "Fernando Scrigna",
-		"position": "Jefe Comercial",
+		"position": "Head - Alliances & New Business",
 		"department": "comerciales",
 		"pic": "fernandoSc"
 	},
 	{
 		"name": "Sandro Cobas",
-		"position": "Jefe Comercial",
+		"position": "Head - Alliances & New Business",
 		"department": "comerciales",
 		"pic": "sandroC"
 	},
 	{
 		"name": "Guillermo Sallitto",
-		"position": "Ejecutivo Comercial",
+		"position": "Ejecutivo Comercial - Mendoza",
 		"department": "comerciales",
 		"pic": "guillermoS"
 	},
 	{
 		"name": "Elisa Mazzucco",
-		"position": "Ejecutiva Comercial",
+		"position": "Ejecutiva Comercial - Sgo. del Estero & Tucumán",
 		"department": "comerciales",
 		"pic": "elisaM"
 	},
 	{
 		"name": "Paola Aguirre",
-		"position": "Ejecutiva Comercial",
+		"position": "Ejecutiva Comercial - Misiones",
 		"department": "comerciales",
 		"pic": "paolaA"
 	},
 	{
 		"name": "José Merino",
-		"position": "Ejecutivo Comercial",
+		"position": "Ejecutivo Comercial - Santa Fe",
 		"department": "comerciales",
 		"pic": "joseM"
 	},
 	{
-		"name": "Nair López",
-		"position": "Ejecutivo Comercial Atención Telefónica",
-		"department": "comerciales",
-		"pic": "nairL"
-	},
-	{
 		"name": "Emiliano Palú",
-		"position": "Ejecutivo Comercial",
+		"position": "Ejecutivo Comercial - Córdoba",
 		"department": "comerciales",
 		"pic": "emilianoP"
 	},
 	{
 		"name": "Florencia Alonso",
-		"position": "Ejecutiva Comercial",
+		"position": "Ejecutiva Comercial - Córdoba",
 		"department": "comerciales",
 		"pic": "florenciaA"
 	},
 	{
 		"name": "Sol Fernández",
-		"position": "Ejecutiva Comercial",
+		"position": "Ejecutiva Comercial - Mar del Plata & Costa Atlántica",
 		"department": "comerciales",
 		"pic": "solF"
 	},
 	{
 		"name": "Yanina Ahumada",
-		"position": "Ejecutiva Comerical Atención Telefónica",
+		"position": "Ejecutiva de Atención Telefónica - Interior",
 		"department": "comerciales",
 		"pic": "yaninaA"
 	},
 	{
 		"name": "Melisa Zugarramurdi",
-		"position": "Ejecutiva Comercial",
+		"position": "Ejecutiva Comercial - Bahía Blanca",
 		"department": "comerciales",
 		"pic": "melisaZ"
 	},
 	{
 		"name": "Clara Olivera",
-		"position": "Ejecutiva Comercial",
+		"position": "Ejecutiva Comercial - Pcia. Bs. As.",
 		"department": "comerciales",
 		"pic": "claraO"
 	},
 	{
 		"name": "Alejandra Vilaseca",
-		"position": "Ejecutiva Comercial Atención Telefónica",
+		"position": "Ejecutiva de Atención Telefónica - Pcia. Bs. As.",
 		"department": "comerciales",
 		"pic": "alejandraV"
 	},
 	{
 		"name": "Bárbara Brandan",
-		"position": "Ejecutiva Comercial",
+		"position": "Ejecutiva Comercial - CABA / AMBA",
 		"department": "comerciales",
 		"pic": "barbaraB"
 	},
 	{
 		"name": "Juliana Quiroga",
-		"position": "Ejecutiva Comercial",
+		"position": "Ejecutiva Comercial - La Plata",
 		"department": "comerciales",
 		"pic": "julianaQ"
 	},
 	{
 		"name": "Denisse Arjona",
-		"position": "Ejecutiva Comercial Atención Telefónica",
+		"position": "Ejecutiva de Atención Telefónica - CABA / AMBA",
 		"department": "comerciales",
 		"pic": "denisseA"
 	},
 	{
 		"name": "Adriel Tuyarot",
-		"position": "Ejecutivo Comercial",
+		"position": "Head - Alliances & New Business",
 		"department": "comerciales",
 		"pic": "adrielT"
 	},
@@ -286,11 +292,5 @@
 		"position": "Mantenimiento",
 		"department": "rrhh",
 		"pic": "facundoR"
-	},
-	{
-		"name": "Gustavo Tallaferro",
-		"position": "Soporte IT & Comunicaciones",
-		"department": "rrhh",
-		"pic": "gustavoT"
 	}
 ]
