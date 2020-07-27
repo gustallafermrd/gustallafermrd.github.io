@@ -91,14 +91,38 @@
 	transform: translate(0, -50%);
 }
 
-@mixin mobile-xs {
+@include mobile-xs {
 	.persona {
 		width: 50% !important;
 	}
+	#trabajo {
+		text-align: left;
+	}
+	textarea {
+		width: 90% !important;
+	}
+	.w-30 {
+		width: 90% !important;
+	}
+	.w-60 {
+		width: 90% !important;
+	}
 }
 
-@mixin mobile {
+@include mobile {
 	.persona {
 		width: 50% !important;
+	}
+	#trabajo {
+		text-align: left;
+	}
+	textarea {
+		width: 90% !important;
+	}
+	.w-30 {
+		width: 90% !important;
+	}
+	.w-60 {
+		width: 90% !important;
 	}
 }
