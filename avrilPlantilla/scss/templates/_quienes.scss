@@ -8,37 +8,35 @@
 	font-weight: 500;
 	font-size: 1.3em;
 	color: $black-light;
-	position: relative;
-	text-align: center;
 }
 .direccion {
-	@include gradient-text;
 	background: $direccion;
+	@include gradient-text;
 	border-bottom: 2px solid $black-light;
 }
 .planificacion {
-	@include gradient-text;
 	background: $planificacion;
+	@include gradient-text;
 	border-bottom: 2px solid $carrot;
 }
 .asistencias {
-	@include gradient-text;
 	background: $asistencia;
+	@include gradient-text;
 	border-bottom: 2px solid $estetoscopio;
 }
 .rrhh {
-	@include gradient-text;
 	background: $rrhh;
+	@include gradient-text;
 	border-bottom: 2px solid $recursos;
 }
 .comerciales {
-	@include gradient-text;
 	background: $comerciales;
+	@include gradient-text;
 	border-bottom: 2px solid $mensaje;
 }
 .administracion {
-	@include gradient-text;
 	background: $administracion;
+	@include gradient-text;
 	border-bottom: 2px solid $admin;
 }
 
