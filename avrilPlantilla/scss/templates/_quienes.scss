@@ -90,3 +90,15 @@
 	left: 0;
 	transform: translate(0, -50%);
 }
+
+@mixin mobile-xs {
+	.persona {
+		width: 50% !important;
+	}
+}
+
+@mixin mobile {
+	.persona {
+		width: 50% !important;
+	}
+}
