@@ -12,32 +12,32 @@
 .direccion {
 	background: $direccion;
 	@include gradient-text;
-	border-bottom: 2px solid $black-light;
+	border-bottom: 4px solid $black-light;
 }
 .planificacion {
 	background: $planificacion;
 	@include gradient-text;
-	border-bottom: 2px solid $carrot;
+	border-bottom: 4px solid $carrot;
 }
 .asistencias {
 	background: $asistencia;
 	@include gradient-text;
-	border-bottom: 2px solid $estetoscopio;
+	border-bottom: 4px solid $estetoscopio;
 }
 .rrhh {
 	background: $rrhh;
 	@include gradient-text;
-	border-bottom: 2px solid $recursos;
+	border-bottom: 4px solid $recursos;
 }
 .comerciales {
 	background: $comerciales;
 	@include gradient-text;
-	border-bottom: 2px solid $mensaje;
+	border-bottom: 4px solid $comercio;
 }
 .administracion {
 	background: $administracion;
 	@include gradient-text;
-	border-bottom: 2px solid $admin;
+	border-bottom: 4px solid $admin;
 }
 
 .persona {
