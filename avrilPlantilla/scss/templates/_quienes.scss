@@ -11,37 +11,47 @@
 	border: 1px solid transparent;
 	border-radius: 15px;
 }
-.direccion {
-	background: $direccion;
-	//@include gradient-text;
+.titulodire {
+	border-bottom: 4px solid $black-light;
+	.direccion {
+		background: $direccion;
+	}
 }
-.titulobb {
-	border-bottom: 4px solid $direccion;
+.tituloasis {
+	border-bottom: 4px solid $asistencias;
+	.asistencias {
+		background: $asistencia;
+	}
 }
-.planificacion {
-	background: $planificacion;
-	@include gradient-text;
-	border-bottom: 4px solid $carrot;
-}
-.asistencias {
-	background: $asistencia;
-	@include gradient-text;
-	border-bottom: 4px solid $estetoscopio;
-}
-.rrhh {
-	background: $rrhh;
-	@include gradient-text;
-	border-bottom: 4px solid $recursos;
-}
-.comerciales {
-	background: $comerciales;
-	@include gradient-text;
-	border-bottom: 4px solid $comercio;
-}
-.administracion {
-	background: $administracion;
-	@include gradient-text;
+.tituloplan {
 	border-bottom: 4px solid $admin;
+	.planificacion {
+		background: $planificacion;
+	}
+}
+.titulorrhh {
+	border-bottom: 4px solid $recursos;
+	.rrhh {
+		background: $rrhh;
+	}
+}
+.titulocomer {
+	border-bottom: 4px solid $comercio;
+	.comerciales {
+		background: $comerciales;
+	}
+}
+.tituloadmin {
+	border-bottom: 4px solid $admin;
+	.administracion {
+		background: $administracion;
+	}
+}
+.titulointen {
+	border-bottom: 4px solid $admin;
+	.intendencia {
+		background: $admin;
+	}
 }
 
 .persona {
