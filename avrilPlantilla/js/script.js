@@ -28,7 +28,7 @@ document.getElementById("header").innerHTML = `
 					</div>
 					<div class="align-self-center">
 						<a href="https://emision.avril-assistance.com/" target="_blank" class="btn btn-avril">Ingresar</a>
-						<a href="" data-toggle="modal" data-target="#formEmi" class="btn btn-avril">Darse de alta</a>
+						<a href="" data-toggle="modal" data-target="#formEmi" class="btn btn-avril">Solicitá el alta</a>
 					</div>
 				</div>
 
@@ -40,13 +40,11 @@ document.getElementById("header").innerHTML = `
 	
 		<div class="collapse navbar-collapse" id="navbarsExample09">
 			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="index.html">Inicio</a>
-				</li>
+				<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
 				<li class="nav-item"><a class="nav-link" href="https://emision.avril-assistance.com/" target="_blank">Emisiones</a></li>
+				<li class="nav-item"><a class="nav-link" href="quienes.html">Quienes Somos</a></li>
 				<li class="nav-item"><a class="nav-link" href="reintegros.html">Reintegros</a></li>
 				<li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-				<li class="nav-item"><a class="nav-link" href="quienes.html">Quienes Somos</a></li>
 				<li class="nav-item nav-link">
 					<a href="https://www.facebook.com/avrilassistance/" target="_blank"><i class="ti-facebook"></i></a>
 					<a href="https://twitter.com/AssistanceAvril" target="_blank"><i class="ti-twitter"></i></a>
@@ -139,17 +137,17 @@ aria-hidden="true">
 		<div class="modal-content">
 			<form action="mail.php" method="POST">
 			<div class="modal-header text-center">
-				<h4 class="modal-title w-100 font-weight-bold">Llena el Formulario</h4>
+				<h4 class="modal-title w-100 font-weight-bold">Envíanos los siguientes datos</h4>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
 					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
 			<div class="modal-body mx-3">
 				<div class="mb-1">
-					<input type="text" placeholder="Nombre de la Agencia" id="agencia" class="form-control validate">
+					<input type="text" placeholder="Razón Social" id="agencia" class="form-control validate">
 				</div>
 				<div class="mb-1">
-					<input type="text" placeholder="Nombre del Representante" id="representante" class="form-control validate">
+					<input type="text" placeholder="Nombres y Apellidos del Titular" id="representante" class="form-control validate">
 				</div>
 				<div class="mb-1">
 					<input type="text" placeholder="Teléfono" id="telefono" class="form-control validate">
@@ -159,6 +157,12 @@ aria-hidden="true">
 				</div>
 				<div class="mb-1">
 					<input type="text" placeholder="Provincia" id="provincia" class="form-control validate">
+				</div>
+				<div class="mb-1">
+					<input type="text" placeholder="CUIT" id="cuit" class="form-control validate">
+				</div>
+				<div class="mb-1">
+					<input type="text" placeholder="Dirección" id="direccion" class="form-control validate">
 				</div>
 				<div class="mb-1">
 					<input type="email" placeholder="E-mail" id="email" class="form-control validate">

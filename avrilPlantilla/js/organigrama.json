@@ -162,12 +162,6 @@
 		"pic": "fernandoS"
 	},
 	{
-		"name": "Melisa Nadal",
-		"position": "Jefa Comercial - Córdoba",
-		"department": "comerciales",
-		"pic": "melisaN"
-	},
-	{
 		"name": "Fernando Scrigna",
 		"position": "Head - Alliances & New Business",
 		"department": "comerciales",
@@ -180,10 +174,22 @@
 		"pic": "sandroC"
 	},
 	{
+		"name": "Adriel Tuyarot",
+		"position": "Head - Alliances & New Business",
+		"department": "comerciales",
+		"pic": "adrielT"
+	},
+	{
 		"name": "Guillermo Sallitto",
-		"position": "Ejecutivo Comercial - Mendoza",
+		"position": "Head - Alliances & New Business",
 		"department": "comerciales",
 		"pic": "guillermoS"
+	},
+	{
+		"name": "Melisa Nadal",
+		"position": "Jefa Comercial - Córdoba",
+		"department": "comerciales",
+		"pic": "melisaN"
 	},
 	{
 		"name": "Elisa Mazzucco",
@@ -234,12 +240,6 @@
 		"pic": "melisaZ"
 	},
 	{
-		"name": "Clara Olivera",
-		"position": "Ejecutiva Comercial - Pcia. Bs. As.",
-		"department": "comerciales",
-		"pic": "claraO"
-	},
-	{
 		"name": "Alejandra Vilaseca",
 		"position": "Ejecutiva de Atención Telefónica - Pcia. Bs. As.",
 		"department": "comerciales",
@@ -264,12 +264,6 @@
 		"pic": "denisseA"
 	},
 	{
-		"name": "Adriel Tuyarot",
-		"position": "Head - Alliances & New Business",
-		"department": "comerciales",
-		"pic": "adrielT"
-	},
-	{
 		"name": "Melina Lerana",
 		"position": "Encargada de RRHH",
 		"department": "rrhh",
@@ -284,13 +278,13 @@
 	{
 		"name": "Gisela Gavilán",
 		"position": "Mantenimiento de Oficinas",
-		"department": "rrhh",
+		"department": "intendencia",
 		"pic": "giselaG"
 	},
 	{
 		"name": "Facundo Romero",
 		"position": "Mantenimiento",
-		"department": "rrhh",
+		"department": "intendencia",
 		"pic": "facundoR"
 	}
 ]

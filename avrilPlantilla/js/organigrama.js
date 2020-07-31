@@ -98,6 +98,25 @@ async function getData() {
 		})
 		.join("")}
   `;
+	//Intendencia
+	const filterIntendencia = data.filter((data) => data.department == "intendencia");
+	document.getElementById("intendencia").innerHTML = `
+    ${filterIntendencia
+		.map(function(intendencia) {
+			return `
+      <div class="persona d-flex">
+        <div class="inner">
+          <img class="inner-image" src="./images/organigrama/${intendencia.pic}.png" alt="">
+        </div>
+        <div class="contenido">
+          <p class="nombre ">${intendencia.name}</p>
+          <p class="cargo">${intendencia.position}</p>
+        </div>
+      </div>
+    `;
+		})
+		.join("")}
+  `;
 	//Comerciales
 	const filterComerciales = data.filter((data) => data.department == "comerciales");
 	document.getElementById("comercio").innerHTML = `
