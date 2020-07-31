@@ -85,6 +85,8 @@ h6,
 .degradado {
 	background: $bg-reintegros;
 	color: #fff;
+	border: 1px solid transparent;
+	border-radius: 8px;
 }
 .degradado2 {
 	background: $student-gradient;
