@@ -153,10 +153,12 @@ aria-hidden="true">
 					<input type="text" placeholder="Teléfono" id="telefono" class="form-control validate">
 				</div>
 				<div class="mb-1">
-					<input type="text" placeholder="Localidad" id="localidad" class="form-control validate">
+					<select name="provincias" id="provincias">
+						<option value="select">Provincia</option>
+					</select>
 				</div>
 				<div class="mb-1">
-					<input type="text" placeholder="Provincia" id="provincia" class="form-control validate">
+					<input type="text" placeholder="Localidad" id="localidad" class="form-control validate">
 				</div>
 				<div class="mb-1">
 					<input type="text" placeholder="CUIT" id="cuit" class="form-control validate">
