@@ -6,14 +6,15 @@ async function getProvincias() {
 
 	const provin = data;
 
+	var filter = provin.filter((data) => data.nombre_id);
 	var ele = document.getElementById("provincias");
 	ele.innerHTML =
 		ele.innerHTML +
 		`
-		${provin.map(geo => geo.provincia_id > 1 ){
+		${filter.map((geo) => {
 			return `
-				<option value="${geo.id}">${geo.nombre}</option>
-			`;
+        <option value="${geo.id}">${geo.nombre}</option>
+      `;
 		})};
   `;
 
@@ -21,4 +22,17 @@ async function getProvincias() {
 	datos.addEventListener("change", function() {
 		datos = this.value;
 	});
+
+	var filterLocal = provin.filter((data) => data.nombre_id == datos.value);
+	console.log(datos);
+	var ele = document.getElementById("localidad");
+	ele.innerHTML =
+		ele.innerHTML +
+		`
+		${filter.map((geo) => {
+			return `
+        <option value="${geo.id}">${geo.localidad}</option>
+      `;
+		})};
+  `;
 }
