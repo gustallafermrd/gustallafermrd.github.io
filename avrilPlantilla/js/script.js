@@ -60,7 +60,7 @@ document.getElementById("footer").innerHTML = `
 	<div class="row justify-content-center">
 		<div class="col-lg-3 col-sm-6">
 			<div class="widget">
-				<h4 class="mb-2 text-white text-uppercase">Avril Assistance</h4>
+				<h4 class="mb-2 name2">Avril Assistance</h4>
 				<p class="text-white">
 					Av. Alicia Moreau de Justo 1150,<br />piso 2 Puerto Madero<br />
 					Buenos Aires, Argentina</p>
@@ -73,7 +73,7 @@ document.getElementById("footer").innerHTML = `
 
 		<div class="col-lg-2 col-md-6 col-sm-6">
 			<div class="widget text-white">
-				<h4 class="mb-2 text-white text-uppercase">servicios</h4>
+				<h4 class="mb-2 name2">servicios</h4>
 				<ul class="list-unstyled footer-menu lh-35">
 					<li><a href="https://emision.avril-assistance.com/" target="_blank">Emisiones</a></li>
 					<li class="btn-group dropup">
@@ -90,7 +90,7 @@ document.getElementById("footer").innerHTML = `
 		</div>
 		<div class="col-lg-2 col-md-6 col-sm-6">
 			<div class="widget">
-				<h4 class="mb-2 text-white text-uppercase">menu</h4>
+				<h4 class="mb-2 name2">menu</h4>
 				<ul class="list-unstyled footer-menu lh-35">
 					<li><a href="index.html">Inicio</a></li>
 					<li><a href="reintegros.html">Reintegros</a></li>
@@ -102,7 +102,7 @@ document.getElementById("footer").innerHTML = `
 		</div>
 		<div class="col-lg-2 col-md-6 col-sm-6">
 			<div class="widget">
-				<h4 class="mb-2 text-white text-uppercase">seguinos</h4>
+				<h4 class="mb-2 name2">seguinos</h4>
 				<ul class="list-unstyled footer-socials text-white">
 					<li><a href="https://www.facebook.com/avrilassistance/" target="_blank"><i class="ti-facebook mr-2 text-muted"></i>facebook</a></li>
 					<li><a href="https://twitter.com/AssistanceAvril" target="_blank"><i class="ti-twitter mr-2 text-muted"></i>Twitter</a></li>
@@ -112,7 +112,7 @@ document.getElementById("footer").innerHTML = `
 		</div>
 		<div class="col-lg-2 col-md-6 col-sm-6">
 			<div class="widget">
-				<h4 class="mb-2 text-white text-uppercase">data fiscal</h4>
+				<h4 class="mb-2 name2">data fiscal</h4>
 				<img src="./images/afip.png" width="140px" height="auto" alt="">
 			</div>
 		</div>
