@@ -1,0 +1,247 @@
+[
+	{
+		"name": "Martín Ortiz",
+		"position": "CEO de Avril Assistance",
+		"department": "direccion"
+	},
+	{
+		"name": "Delfina Villalba",
+		"position": "Asistente de Dirección",
+		"department": "direccion"
+	},
+	{
+		"name": "Yesica Díaz",
+		"position": "Planificación y Producto",
+		"department": "planificacion"
+	},
+	{
+		"name": "Florencia Galván",
+		"position": "Diseño, Imagen y Redes",
+		"department": "planificacion"
+	},
+	{
+		"name": "Luciana Centurión",
+		"position": "Diseño, Imagen y Redes",
+		"department": "planificacion"
+	},
+	{
+		"name": "Ariel Pierini",
+		"position": "Director de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Cecilia Martellini",
+		"position": "Reintegros",
+		"department": "asistencias"
+	},
+	{
+		"name": "Azul Sánchez",
+		"position": "Prestadores",
+		"department": "asistencias"
+	},
+	{
+		"name": "Eduardo Rodríguez",
+		"position": "Supervisor de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Tomás Pérez",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Elyer Maldonado",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Mariem Hernández",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Gabriela Sánchez",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Gabriel Mendoza",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Mario Amaya",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias"
+	},
+	{
+		"name": "Melisa Villalón",
+		"position": "Directora de Operaciones",
+		"department": "operaciones"
+	},
+	{
+		"name": "Camila Alexandre",
+		"position": "Supervisora de Administración",
+		"department": "operaciones"
+	},
+	{
+		"name": "Rocío Galdara",
+		"position": "Administración",
+		"department": "operaciones"
+	},
+	{
+		"name": "Camila Venzi",
+		"position": "Administración",
+		"department": "operaciones"
+	},
+	{
+		"name": "Naim Villalón",
+		"position": "Logística/Stock",
+		"department": "operaciones"
+	},
+	{
+		"name": "Aylén Petry",
+		"position": "Operaciones Comerciales",
+		"department": "operaciones"
+	},
+	{
+		"name": "Yanina Seib",
+		"position": "Operaciones Comerciales",
+		"department": "operaciones"
+	},
+	{
+		"name": "Marling Sosa",
+		"position": "Operaciones Comerciales",
+		"department": "operaciones"
+	},
+	{
+		"name": "Camila Altamirano",
+		"position": "Operaciones Comerciales",
+		"department": "operaciones"
+	},
+	{
+		"name": "Fernando Seta",
+		"position": "Gerente Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "Melisa Nadal",
+		"position": "Jefa Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "Fernando Scrigna",
+		"position": "Jefe Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "Sandro Cobas",
+		"position": "Jefe Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "Guillermo Sallitto",
+		"position": "Ejecutivo Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "Elisa Mazzucco",
+		"position": "Ejecutiva Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "Paola Aguirre",
+		"position": "Ejecutiva Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "José Merino",
+		"position": "Ejecutivo Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "Nair López",
+		"position": "Ejecutivo Comercial Atención Telefónica",
+		"department": "comerciales"
+	},
+	{
+		"name": "Emiliano Palú",
+		"position": "Ejecutivo Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "Florencia Alonso",
+		"position": "Ejecutiva Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "Sol Fernández",
+		"position": "Ejecutiva Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "Yanina Ahumada",
+		"position": "Ejecutiva Comerical Atención Telefónica",
+		"department": "comerciales"
+	},
+	{
+		"name": "Melisa Zugarramurdi",
+		"position": "Ejecutiva Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "Clara Olivera",
+		"position": "Ejecutiva Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "Alejandra Vilaseca",
+		"position": "Ejecutiva Comercial Atención Telefónica",
+		"department": "comerciales"
+	},
+	{
+		"name": "Bárbara Brandan",
+		"position": "Ejecutiva Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "Juliana Quiroga",
+		"position": "Ejecutiva Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "Denisse Arjona",
+		"position": "Ejecutiva Comercial Atención Telefónica",
+		"department": "comerciales"
+	},
+	{
+		"name": "Adriel Tuyarot",
+		"position": "Ejecutivo Comercial",
+		"department": "comerciales"
+	},
+	{
+		"name": "Melina Lerana",
+		"position": "Encargada de RRHH",
+		"department": "rrhh"
+	},
+	{
+		"name": "Rocío Díaz",
+		"position": "Recepción",
+		"department": "rrhh"
+	},
+	{
+		"name": "Gisela Gavilán",
+		"position": "Mantenimiento de Oficinas",
+		"department": "rrhh"
+	},
+	{
+		"name": "Facundo Romero",
+		"position": "Mantenimiento",
+		"department": "rrhh"
+	},
+	{
+		"name": "Gustavo Tallaferro",
+		"position": "Soporte IT & Comunicaciones",
+		"department": "rrhh"
+	}
+]
