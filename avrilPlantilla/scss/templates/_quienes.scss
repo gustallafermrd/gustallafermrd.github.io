@@ -2,56 +2,60 @@
 
 .titulo-org {
 	padding: 10px;
-	width: 100%;
 	text-transform: uppercase;
-	text-align: center;
 	font-weight: 500;
-	font-size: 1.3em;
+	font-size: 15px;
 	color: white;
-	border: 1px solid transparent;
-	border-radius: 15px;
+	transform: skew(15deg);
 }
+
 .titulodire {
 	border-bottom: 4px solid $black-light;
 	.direccion {
 		background: $direccion;
-		font-size: 14px;
+		@include titles;
 	}
 }
 .tituloasis {
 	border-bottom: 4px solid $asistencias;
 	.asistencias {
 		background: $asistencia;
+		@include titles;
 	}
 }
 .tituloplan {
 	border-bottom: 4px solid $carrot;
 	.planificacion {
 		background: $planificacion;
+		@include titles;
 	}
 }
 .titulorrhh {
 	border-bottom: 4px solid $recursos;
 	.rrhh {
 		background: $rrhh;
+		@include titles;
 	}
 }
 .titulocomer {
 	border-bottom: 4px solid $comercio;
 	.comerciales {
 		background: $comerciales;
+		@include titles;
 	}
 }
 .tituloadmin {
 	border-bottom: 4px solid $admin;
 	.administracion {
 		background: $administracion;
+		@include titles;
 	}
 }
 .titulointen {
 	border-bottom: 4px solid $mant;
 	.intendencia {
 		background: $mantenimiento;
+		@include titles;
 	}
 }
 
