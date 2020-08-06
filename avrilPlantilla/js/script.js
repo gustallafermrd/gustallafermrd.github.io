@@ -62,7 +62,7 @@ document.getElementById("footer").innerHTML = `
 			<div class="widget">
 				<h4 class="mb-2 text-white text-uppercase">Avril Assistance</h4>
 				<p class="text-white">
-					Av. Alicia Moreau de Justo 1150,<br />piso 2 Oficina 206 A, C1107<br />
+					Av. Alicia Moreau de Justo 1150,<br />piso 2 Puerto Madero<br />
 					Buenos Aires, Argentina</p>
 				<a href="tel:+54-11-5353-2662" class="text-white"><i class="fa fa-phone"></i> +54 11 5353 2662</a>
 				<div>
@@ -84,7 +84,7 @@ document.getElementById("footer").innerHTML = `
 							<li class="dropdown-item"><a href="./pdf/ccgg-br.pdf" target="_blank">Condições Gerais</a></li>
 						</ul>
 					</li>
-					<li><a href="./pdf/folleto-comercial.pdf" target="_blank">Folleto Comercial</a></li>
+					<li><a href="./pdf/folleto-comercial.pdf" target="_blank">Productos & tarifas</a></li>
 				</ul>
 			</div>
 		</div>

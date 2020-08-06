@@ -1,6 +1,7 @@
 .footer {
 	background: #24282f;
 	padding-bottom: 10px;
+	font-size: 0.8em;
 
 	.copyright {
 		a {
@@ -9,6 +10,7 @@
 	}
 	.condiciones {
 		ul li ul {
+			font-size: 0.8em;
 			display: block;
 			background: white;
 			width: 100px;
@@ -36,7 +38,7 @@
 	}
 }
 
-.footer-btm {
+.footer-btn {
 	border-top: 1px solid rgba(255, 255, 255, .03);
 }
 
