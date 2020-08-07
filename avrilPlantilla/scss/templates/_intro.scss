@@ -35,18 +35,8 @@
 
 .student {
 	line-height: 1.3em;
-	.margenes {
-		padding: 3em 0;
-	}
 	p {
 		font-size: 0.85em;
 		color: white;
-	}
-}
-@include desktop {
-	.student {
-		.margenes {
-			padding: 3em 0;
-		}
 	}
 }
