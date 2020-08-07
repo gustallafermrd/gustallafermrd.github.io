@@ -56,3 +56,10 @@
 	-ms-transform: skew(-15deg, 0deg);
 	transform: skew(-15deg);
 }
+
+@mixin borderTitle() {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 99.3%;
+}

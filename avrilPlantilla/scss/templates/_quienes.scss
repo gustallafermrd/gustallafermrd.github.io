@@ -10,49 +10,70 @@
 }
 
 .titulodire {
-	border-bottom: 4px solid $black-light;
+	&::after {
+		@include borderTitle;
+		border-bottom: 4px solid $black-light;
+	}
 	.direccion {
 		background: $direccion;
 		@include titles;
 	}
 }
 .tituloasis {
-	border-bottom: 4px solid $asistencias;
+	&::after {
+		@include borderTitle;
+		border-bottom: 4px solid $asistencias;
+	}
 	.asistencias {
 		background: $asistencia;
 		@include titles;
 	}
 }
 .tituloplan {
-	border-bottom: 4px solid $carrot;
+	&::after {
+		@include borderTitle;
+		border-bottom: 4px solid $carrot;
+	}
 	.planificacion {
 		background: $planificacion;
 		@include titles;
 	}
 }
 .titulorrhh {
-	border-bottom: 4px solid $recursos;
+	&::after {
+		@include borderTitle;
+		border-bottom: 4px solid $recursos;
+	}
 	.rrhh {
 		background: $rrhh;
 		@include titles;
 	}
 }
 .titulocomer {
-	border-bottom: 4px solid $comercio;
+	&::after {
+		@include borderTitle;
+		border-bottom: 4px solid $comercio;
+	}
 	.comerciales {
 		background: $comerciales;
 		@include titles;
 	}
 }
 .tituloadmin {
-	border-bottom: 4px solid $admin;
+	&::after {
+		@include borderTitle;
+		border-bottom: 4px solid $admin;
+	}
 	.administracion {
 		background: $administracion;
 		@include titles;
 	}
 }
 .titulointen {
-	border-bottom: 4px solid $mant;
+	&::after {
+		@include borderTitle;
+		border-bottom: 4px solid $mant;
+	}
 	.intendencia {
 		background: $mantenimiento;
 		@include titles;
