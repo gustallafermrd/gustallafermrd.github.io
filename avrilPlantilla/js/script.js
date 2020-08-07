@@ -15,7 +15,7 @@ document.getElementById("header").innerHTML = `
 		</div>
 	</div>
 	<nav class="navbar main-nav py-3" id="navbar">
-		<div class="container justify-content-between">
+		<div class="container-fluid justify-content-between">
 		  <a class="navbar-brand" href="index.html">
 		  	<img src="./images/logo.png" alt="logo" width="auto" height="70px"></span>
 			</a>

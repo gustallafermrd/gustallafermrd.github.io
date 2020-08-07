@@ -33,28 +33,10 @@
 	}
 }
 
-.agencias {
-	padding: 20px;
-	text-align: center;
-	border-radius: 5px;
-	h4,
+.student {
+	line-height: 1.3em;
 	p {
-		color: #fff;
-	}
-	background: $bg-reintegros; //linear-gradient(90deg, rgba(9, 180, 191, 1) 0%, rgba(16, 174, 190, 1) 25%, rgba(81, 116, 184, 1) 75%);
-	.border {
-		border: 1px solid #fff !important;
-	}
-	.btn {
-		padding: 1rem;
-		border-radius: 5px;
-	}
-}
-
-@include mobile {
-	.agencias {
-		.border {
-			margin: 15px;
-		}
+		font-size: 0.85em;
+		color: white;
 	}
 }
