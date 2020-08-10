@@ -18,28 +18,6 @@ async function getData() {
             <p class="cargo">${dire.position}</p>
           </div>
         </div>
-
-      // <div class="persona d-flex">
-      //   <div class="inner-box">
-      //   <div class="textoOr d-flex">
-      //     <div class="inner">
-      //       <img class="inner-image" src="./images/organigrama/${dire.pic}.png" alt="">
-      //     </div>
-      //     <div class="contenido">
-      //       <p class="nombre ">${dire.name}</p>
-      //       <p class="cargo">${dire.position}</p>
-      //     </div>
-      //       <div class="overlay-box">
-      //         <div class="overlay-inner">
-      //           <div class="overlay-content text-center">
-      //             <i class="fas fa-envelope float-left text-white"></i>
-      //             <a href="mailto:martin.ortiz@avril-assistance.com" class="text-white-50">Enviar E-mail</a>
-      //           </div>
-      //         </div>
-      //       </div>
-      //     </div>
-      //   </div>
-      // </div>
       `;
 		})
 		.join("")}
