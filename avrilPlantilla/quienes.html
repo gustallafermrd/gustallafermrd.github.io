@@ -177,11 +177,20 @@
 					<div>
 						<h2 class="text-white">Trabajá con nosotros</h2>
 					</div>
-					<form action="" id="trabajo">
+					<form method="POST" action="quienes.php" id="rrhh-form" class="rrhh__form" enctype="multipart/form-data">
+						<!-- form message -->
+						<div class="row">
+							<div class="col-12">
+								<div class="alert alert-success rrhh__msg" style="display: none" role="alert">
+									Su mensaje fue enviado con exito.
+								</div>
+							</div>
+						</div>
+						<!-- end message -->
 						<div class="d-sm-block d-md-flex justify-content-between">
 							<div class="w-60">
-								<label for="fname">Nombre y Apellido</label>
-								<input name="fname" type="text" class="form-control">
+								<label for="name">Nombre y Apellido</label>
+								<input name="name" type="text" class="form-control">
 							</div>
 							<div class="w-30">
 								<label for="phone">Teléfono</label>
@@ -213,7 +222,8 @@
 						<div class="d-sm-block d-md-flex justify-content-between">
 							<div>
 								<label for="file">Subí tu CV <span class="text-sm text-danger">(Formato PDF.)</span></label>
-								<input type="file" name="CV" id="cv" accept="application/pdf"/>
+								<input type="hidden" name="MAX_FILE_SIZE" value="100000">
+								<input type="file" name="userfile" accept="application/pdf"/>
 							</div>
 							<div class="align-self-end mt-2">
 								<button class="btn btn-main">Enviar</button>
@@ -232,7 +242,7 @@
 
 	<!-- Main jQuery -->
 	<script src="plugins/jquery/jquery.js"></script>
-	<script src="js/contact.js"></script>
+	<script src="js/rrhh.js"></script>
 	<!-- Bootstrap 4.3.1 -->
 	<script src="plugins/bootstrap/js/popper.js"></script>
 	<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
