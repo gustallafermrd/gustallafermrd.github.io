@@ -13,7 +13,7 @@ async function getProvincias() {
 		`
 		${provin.map((geo) => {
 			return `
-				<option value="${geo.id}">${geo.nombre}</option>
+				<option value="${geo.nombre}">${geo.nombre}</option>
 			`;
 		})};
 	`;

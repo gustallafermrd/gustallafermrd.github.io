@@ -15,7 +15,7 @@ document.getElementById("header").innerHTML = `
 		</div>
 	</div>
 	<nav class="navbar main-nav py-3" id="navbar">
-		<div class="container-fluid justify-content-between">
+		<div class="container justify-content-between">
 		  <a class="navbar-brand" href="index.html">
 		  	<img src="./images/logo.png" alt="logo" width="auto" height="70px"></span>
 			</a>
@@ -135,7 +135,7 @@ document.getElementById("emisionesModal").innerHTML = `
 aria-hidden="true">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
-			<form action="mail.php" method="POST">
+			<form method="POST" action="emisiones.php">
 			<div class="modal-header text-center">
 				<h4 class="modal-title w-100 font-weight-bold">Envíanos los siguientes datos</h4>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
@@ -144,30 +144,30 @@ aria-hidden="true">
 			</div>
 			<div class="modal-body mx-3">
 				<div class="mb-1">
-					<input type="text" placeholder="Razón Social" id="agencia" class="form-control validate">
+					<input type="text" placeholder="Razón Social" name="agencia" class="form-control validate">
 				</div>
 				<div class="mb-1">
-					<input type="text" placeholder="Nombres y Apellidos del Titular" id="representante" class="form-control validate">
+					<input type="text" placeholder="Nombres y Apellidos del Titular" name="representante" class="form-control validate">
 				</div>
 				<div class="mb-1">
-					<input type="text" placeholder="Teléfono" id="telefono" class="form-control validate">
+					<input type="text" placeholder="Teléfono" name="telefono" class="form-control validate">
 				</div>
 				<div class="mb-1">
-					<select name="provincias" id="provincias">
+					<select name="provincia" id="provincias">
 						<option value="select">Provincia</option>
 					</select>
 				</div>
 				<div class="mb-1">
-					<input type="text" placeholder="Localidad" id="localidad" class="form-control validate">
+					<input type="text" placeholder="Localidad" name="localidad" class="form-control validate">
 				</div>
 				<div class="mb-1">
-					<input type="text" placeholder="CUIT" id="cuit" class="form-control validate">
+					<input type="text" placeholder="CUIT" name="cuit" class="form-control validate">
 				</div>
 				<div class="mb-1">
-					<input type="text" placeholder="Dirección" id="direccion" class="form-control validate">
+					<input type="text" placeholder="Dirección" name="direccion" class="form-control validate">
 				</div>
 				<div class="mb-1">
-					<input type="email" placeholder="E-mail" id="email" class="form-control validate">
+					<input type="email" placeholder="E-mail" name="email" class="form-control validate">
 				</div>
 			</div>
 			<div class="modal-footer d-flex justify-content-center">
@@ -215,8 +215,6 @@ $(window).scroll(function() {
 
 (function($) {
 	"use strict";
-
-	//$(".videoplay").modalVideo();
 
 	$(window).scroll(function() {
 		var $this = $(this),

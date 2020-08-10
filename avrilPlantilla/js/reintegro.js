@@ -1,8 +1,8 @@
 (function ($) {
     'use strict';
 
-    var form = $('.contact__form'),
-        message = $('.contact__msg'),
+    var form = $('.reintegro__form'),
+        message = $('.reintegro__msg'),
         form_data;
 
     // Success function
@@ -11,7 +11,7 @@
         message.text(response);
         setTimeout(function () {
             message.fadeOut();
-        }, 2000);
+        }, 10000);
         form.find('input:not([type="submit"]), textarea').val('');
     }
 
