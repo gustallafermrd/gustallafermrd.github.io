@@ -42,7 +42,7 @@
 .masthead {
 	height: 30vh;
 	min-height: 200px;
-	background: url('../imgs/bodas/header.jpg');
+	background: url('/../imgs/bodas/header.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
