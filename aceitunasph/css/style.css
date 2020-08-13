@@ -1,0 +1,58 @@
+.navbar {
+	position: absolute;
+	width: 100%;
+	z-index: 500;
+}
+.navbar-nav {
+	background: #35b5b8;
+	height: auto;
+	width: 150px;
+	padding: 0 20px;
+	text-align: center;
+	position: fixed;
+	top: 20%;
+	right: 2%;
+	border-radius: 10px;
+}
+
+.nav-link {
+	color: white;
+}
+
+.nav-link:hover {
+	color: white;
+}
+
+.navbar-toggler {
+	background: transparent;
+	padding: 10px;
+}
+
+.gal {
+	-ms-column-count: 3;
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+	-moz-column-count: 3; /* Firefox */
+	column-count: 3;
+}
+.gal img {
+	width: 100%;
+	padding: 7px 0;
+}
+
+.masthead {
+	height: 30vh;
+	min-height: 200px;
+	background-image: url('/imgs/bodas/header.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+@media (max-width: 500px) {
+	.gal {
+		-ms-column-count: 1;
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+		-moz-column-count: 1; /* Firefox */
+		column-count: 1;
+	}
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/fontawesome/css/all.css">
+  <!-- Owl Carousel CSS -->
+	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/style.css">
+
+  <title>Bodas</title>
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="navigation">
+    <div class="header-top d-block">
+      <nav class="navbar main-nav" id="navbar">
+        <div class="container justify-content-between">
+          <a class="navbar-brand" href="index.html">
+            <img src="./imgs/logo.png" alt="logo" width="auto" height="100px"></span>
+          </a>
+            
+          <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span>
+          </button>
+        </div>
+      
+        <div class="collapse navbar-collapse" id="navbarsExample09">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Bodas</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Parques</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          <h1 class="font-weight-light">Bodas</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="col-md-12">
+      <div class="row">
+      <hr>
+        <div class="gal">
+          <a href="/imgs/bodas/boda-1.jpg" data-toggle="lightbox">
+            <img src="/imgs/bodas/boda-1.jpg" alt="">
+          </a>
+          <a href="/imgs/bodas/boda-3.jpg" data-toggle="lightbox">
+            <img src="/imgs/bodas/boda-3.jpg" alt="">
+          </a>
+          <a href="https://preview.ibb.co/mysOxk/3.jpg" data-toggle="lightbox">
+            <img src="https://preview.ibb.co/mysOxk/3.jpg" alt="">
+          </a>
+          
+          <a href="/imgs/bodas/boda-7.jpg" data-toggle="lightbox">
+            <img src="/imgs/bodas/boda-7.jpg" alt="">
+          </a>
+          <a href="/imgs/bodas/boda-2.jpg" data-toggle="lightbox">
+            <img src="/imgs/bodas/boda-2.jpg" alt="">
+          </a>
+          <a href="/imgs/bodas/boda-5.jpg" data-toggle="lightbox">
+            <img src="/imgs/bodas/boda-5.jpg" alt="">
+          </a>
+          <a href="/imgs/bodas/boda-5.jpg" data-toggle="lightbox">
+            <img src="/imgs/bodas/boda-5.jpg" alt="">
+          </a>
+          <a href="/imgs/bodas/boda-8.jpg" data-toggle="lightbox">
+            <img src="/imgs/bodas/boda-8.jpg" alt="">
+          </a>
+          <a href="/imgs/bodas/boda-3.jpg" data-toggle="lightbox">
+            <img src="/imgs/bodas/boda-3.jpg" alt="">
+          </a>             
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Main jQuery -->
+	<script src="plugins/jquery/jquery.js"></script>
+	<!-- Bootstrap 4.3.1 -->
+  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+  <script>
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
+  </script>
+</body>
+</html>
