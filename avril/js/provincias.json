@@ -1,0 +1,122 @@
+[
+	{
+		"nombre": "Buenos Aires",
+		"id": 6,
+		"iso_id": "AR-B"
+	},
+	{
+		"nombre": "Catamarca",
+		"id": 10,
+		"iso_id": "AR-K"
+	},
+	{
+		"nombre": "Chaco",
+		"id": 22,
+		"iso_id": "AR-H"
+	},
+	{
+		"nombre": "Chubut",
+		"id": 26,
+		"iso_id": "AR-U"
+	},
+	{
+		"nombre": "Ciudad Autónoma de Buenos Aires",
+		"id": 2,
+		"iso_id": "AR-C"
+	},
+	{
+		"nombre": "Córdoba",
+		"id": 14,
+		"iso_id": "AR-X"
+	},
+	{
+		"nombre": "Corrientes",
+		"id": 18,
+		"iso_id": "AR-W"
+	},
+	{
+		"nombre": "Entre Ríos",
+		"id": 30,
+		"iso_id": "AR-E"
+	},
+	{
+		"nombre": "Formosa",
+		"id": 34,
+		"iso_id": "AR-P"
+	},
+	{
+		"nombre": "Jujuy",
+		"id": 38,
+		"iso_id": "AR-Y"
+	},
+	{
+		"nombre": "La Pampa",
+		"id": 42,
+		"iso_id": "AR-L"
+	},
+	{
+		"nombre": "La Rioja",
+		"id": 46,
+		"iso_id": "AR-F"
+	},
+	{
+		"nombre": "Mendoza",
+		"id": 50,
+		"iso_id": "AR-M"
+	},
+	{
+		"nombre": "Misiones",
+		"id": 54,
+		"iso_id": "AR-N"
+	},
+	{
+		"nombre": "Neuquén",
+		"id": 58,
+		"iso_id": "AR-Q"
+	},
+	{
+		"nombre": "Río Negro",
+		"id": 62,
+		"iso_id": "AR-R"
+	},
+	{
+		"nombre": "Salta",
+		"id": 66,
+		"iso_id": "AR-A"
+	},
+	{
+		"nombre": "San Juan",
+		"id": 70,
+		"iso_id": "AR-J"
+	},
+	{
+		"nombre": "San Luis",
+		"id": 74,
+		"iso_id": "AR-D"
+	},
+	{
+		"nombre": "Santa Cruz",
+		"id": 78,
+		"iso_id": "AR-Z"
+	},
+	{
+		"nombre": "Santa Fe",
+		"id": 82,
+		"iso_id": "AR-S"
+	},
+	{
+		"nombre": "Santiago del Estero",
+		"id": 86,
+		"iso_id": "AR-G"
+	},
+	{
+		"nombre": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+		"id": 94,
+		"iso_id": "AR-V"
+	},
+	{
+		"nombre": "Tucumán",
+		"id": 90,
+		"iso_id": "AR-T"
+	}
+]

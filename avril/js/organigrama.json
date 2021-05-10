@@ -1,0 +1,254 @@
+[
+	{
+		"name": "Martín Ortiz",
+		"position": "CEO de Avril Assistance",
+		"department": "direccion",
+		"pic": "martinO"
+	},
+	{
+		"name": "Delfina Villalba",
+		"position": "Asistente de Dirección",
+		"department": "direccion",
+		"pic": "delfinaV"
+	},
+	{
+		"name": "Yesica Díaz",
+		"position": "Planificación & Producto",
+		"department": "planificacion",
+		"pic": "yesicaD"
+	},
+	{
+		"name": "Florencia Galván",
+		"position": "Diseño, Imagen y Redes",
+		"department": "planificacion",
+		"pic": "florenciaG"
+	},
+	{
+		"name": "Luciana Centurión",
+		"position": "Design & Advertising",
+		"department": "planificacion",
+		"pic": "lucianaC"
+	},
+	{
+		"name": "Nair López",
+		"position": "Head -Promotion & Training",
+		"department": "planificacion",
+		"pic": "nairL"
+	},
+	{
+		"name": "Gustavo Tallaferro",
+		"position": "Soporte IT & Comunicaciones",
+		"department": "planificacion",
+		"pic": "gustavoT"
+	},
+	{
+		"name": "Ariel Pierini",
+		"position": "Director de Asistencias",
+		"department": "asistencias",
+		"pic": "arielP"
+	},
+	{
+		"name": "Cecilia Martellini",
+		"position": "Reintegros",
+		"department": "asistencias",
+		"pic": "ceciliaM"
+	},
+	{
+		"name": "Azul Sánchez",
+		"position": "Prestadores",
+		"department": "asistencias",
+		"pic": "azulS"
+	},
+	{
+		"name": "Eduardo Rodríguez",
+		"position": "Supervisor de Asistencias",
+		"department": "asistencias",
+		"pic": "eduardoR"
+	},
+	{
+		"name": "Tomás Pérez",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias",
+		"pic": "tomasP"
+	},
+	{
+		"name": "Mariem Hernández",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias",
+		"pic": "mariemH"
+	},
+	{
+		"name": "Gabriela Sánchez",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias",
+		"pic": "gabrielaS"
+	},
+	{
+		"name": "Gabriel Mendoza",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias",
+		"pic": "gabrielM"
+	},
+	{
+		"name": "Mario Amaya",
+		"position": "Coordinación de Asistencias",
+		"department": "asistencias",
+		"pic": "marioA"
+	},
+	{
+		"name": "Melisa Villalón",
+		"position": "Directora de Operaciones & Administración",
+		"department": "administracion",
+		"pic": "melisaV"
+	},
+	{
+		"name": "Aylén Petry",
+		"position": "Operaciones Comerciales",
+		"department": "administracion",
+		"pic": "aylenP"
+	},
+	{
+		"name": "Yanina Seib",
+		"position": "Operaciones Comerciales",
+		"department": "administracion",
+		"pic": "yaninaS"
+	},
+	{
+		"name": "Marling Sosa",
+		"position": "Operaciones Comerciales",
+		"department": "administracion",
+		"pic": "marlingS"
+	},
+	{
+		"name": "Camila Altamirano",
+		"position": "Assistant - Alliances & Marketing",
+		"department": "administracion",
+		"pic": "camilaAlt"
+	},
+	{
+		"name": "Rocío Galdara",
+		"position": "Administración",
+		"department": "administracion",
+		"pic": "rocioG"
+	},
+	{
+		"name": "Naim Villalón",
+		"position": "Administración",
+		"department": "administracion",
+		"pic": "naimV"
+	},
+	{
+		"name": "Fernando Scrigna",
+		"position": "Head - Alliances & New Business",
+		"department": "comerciales",
+		"pic": "fernandoSc"
+	},
+	{
+		"name": "Sandro Cobas",
+		"position": "Head - Alliances & New Business",
+		"department": "comerciales",
+		"pic": "sandroC"
+	},
+	{
+		"name": "Adriel Tuyarot",
+		"position": "Head - Alliances & New Business",
+		"department": "comerciales",
+		"pic": "adrielT"
+	},
+	{
+		"name": "Melisa Nadal",
+		"position": "Jefa Comercial - Córdoba",
+		"department": "comerciales",
+		"pic": "melisaN"
+	},
+	{
+		"name": "Elisa Mazzucco",
+		"position": "Ejecutiva Comercial - Sgo. del Estero & Tucumán",
+		"department": "comerciales",
+		"pic": "elisaM"
+	},
+	{
+		"name": "Paola Aguirre",
+		"position": "Ejecutiva Comercial - Misiones",
+		"department": "comerciales",
+		"pic": "paolaA"
+	},
+	{
+		"name": "José Merino",
+		"position": "Ejecutivo Comercial - Santa Fe",
+		"department": "comerciales",
+		"pic": "joseM"
+	},
+	{
+		"name": "Sol Fernández",
+		"position": "Ejecutiva Comercial - Mar del Plata & Costa Atlántica",
+		"department": "comerciales",
+		"pic": "solF"
+	},
+	{
+		"name": "Yanina Ahumada",
+		"position": "Ejecutiva de Atención Telefónica - Interior",
+		"department": "comerciales",
+		"pic": "yaninaA"
+	},
+	{
+		"name": "Melisa Zugarramurdi",
+		"position": "Ejecutiva Comercial - Bahía Blanca",
+		"department": "comerciales",
+		"pic": "melisaZ"
+	},
+	{
+		"name": "Alejandra Vilaseca",
+		"position": "Ejecutiva de Atención Telefónica - Pcia. Bs. As.",
+		"department": "comerciales",
+		"pic": "alejandraV"
+	},
+	{
+		"name": "Bárbara Brandan",
+		"position": "Ejecutiva Comercial - CABA / AMBA",
+		"department": "comerciales",
+		"pic": "barbaraB"
+	},
+	{
+		"name": "Juliana Quiroga",
+		"position": "Ejecutiva Comercial - La Plata",
+		"department": "comerciales",
+		"pic": "julianaQ"
+	},
+	{
+		"name": "Denisse Arjona",
+		"position": "Ejecutiva de Atención Telefónica - CABA / AMBA",
+		"department": "comerciales",
+		"pic": "denisseA"
+	},
+	{
+		"name": "Clara Olivera",
+		"position": "Ejecutiva Comercial - Provincia de Buenos Aires",
+		"department": "comerciales",
+		"pic": "claraO"
+	},
+	{
+		"name": "Melina Lerana",
+		"position": "Encargada de RRHH",
+		"department": "rrhh",
+		"pic": "melinaL"
+	},
+	{
+		"name": "Rocío Díaz",
+		"position": "Recepción",
+		"department": "rrhh",
+		"pic": "rocioD"
+	},
+	{
+		"name": "Gisela Gavilán",
+		"position": "Mantenimiento de Oficinas",
+		"department": "intendencia",
+		"pic": "giselaG"
+	},
+	{
+		"name": "Facundo Romero",
+		"position": "Mantenimiento",
+		"department": "intendencia",
+		"pic": "facundoR"
+	}
+]

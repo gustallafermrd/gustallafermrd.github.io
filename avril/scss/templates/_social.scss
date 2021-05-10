@@ -1,0 +1,77 @@
+.social-box {
+	position: fixed;
+	top: 180px;
+	left: 10px;
+	padding: 5px 10px;
+	width: auto;
+	z-index: 99;
+	background: $social-bg;
+	border-radius: 5px;
+
+	&:hover {
+		transform: scale(1.8);
+		transition: all .2s linear;
+	}
+
+	li:hover {
+		transform: scale(1.5);
+		transition: all .3s linear;
+		overflow: hidden;
+
+		i {
+			color: $primary-color;
+		}
+	}
+	ul {
+		margin: 0;
+	}
+}
+
+.text-cyan {
+	color: #fff; //rgba(81, 116, 184, 1) !important;
+}
+
+.emisiones-box {
+	opacity: 1;
+	transition: opacity 0.5s ease;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	background: linear-gradient(
+		90deg,
+		rgba(16, 174, 190, .5) 0%,
+		rgba(16, 174, 190, .6) 25%,
+		rgba(81, 116, 184, .5) 100%
+	);
+	padding: 10px;
+	border-radius: 10px;
+	z-index: 99999999999;
+	width: auto;
+	text-align: center;
+	color: white;
+
+	.btn-avril {
+		padding: 6px;
+		margin: 5px;
+		background: white;
+		color: $primary-color;
+
+		&:hover {
+			color: white;
+			background: none;
+			border: 1px solid white;
+			border-radius: 3px;
+		}
+	}
+}
+
+.emisiones-hide {
+	opacity: 0;
+	pointer-events: none;
+}
+
+@mixin large-desktop {
+	.social-box {
+		left: 30px;
+	}
+}

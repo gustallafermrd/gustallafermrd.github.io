@@ -1,0 +1,60 @@
+// Intro Section
+
+.intro-item {
+	i {
+		font-size: 60px;
+		line-height: 60px;
+	}
+}
+
+.color-one {
+	color: $primary-color;
+}
+.color-two {
+	color: #00d747;
+}
+.color-three {
+	color: #524ba8;
+}
+.color-four {
+	color: #3d8ec5;
+}
+
+.intro {
+	img {
+		margin: 0 auto;
+		display: block;
+	}
+}
+
+.main-wrapper {
+	h2 {
+		text-transform: uppercase;
+	}
+}
+
+.student {
+	line-height: 1.2em;
+	p {
+		font-size: 0.8em;
+		color: white;
+	}
+
+	.arreglo {
+		padding: 0.5em 0 0.5em 5.5em;
+	}
+}
+
+@include mobile {
+	.student {
+		line-height: 1.2em;
+		p {
+			font-size: 0.8em;
+			color: black;
+		}
+
+		.arreglo {
+			padding: 0 !important;
+		}
+	}
+}
