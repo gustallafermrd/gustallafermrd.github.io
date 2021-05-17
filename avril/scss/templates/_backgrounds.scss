@@ -54,7 +54,12 @@
 	background: url("../images/student.jpg") no-repeat 0% 50%;
 	background-size: cover;
 	padding: 0 !important;
-	height: 2440px;
+}
+
+.social{
+	background: url("../images/bg/redes.jpg") no-repeat 0% 50%;
+	background-size: cover;
+	padding: 0 !important;
 }
 
 @include mobile {
