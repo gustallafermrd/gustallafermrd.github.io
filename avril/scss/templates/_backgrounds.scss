@@ -55,6 +55,12 @@
 	background-size: cover;
 	padding: 0 !important;
 }
+.student-bg {
+	background: url("../images/student-bg.jpg") no-repeat;
+	background-size: cover;
+	padding: 0 !important;
+	img{display:flex; margin:0 auto;}
+}
 
 .social{
 	background: url("../images/bg/redes.jpg") no-repeat 0% 50%;
