@@ -44,6 +44,22 @@
 		padding: 0.5em 0 0.5em 5.5em;
 	}
 }
+.container-rrss{
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.rrss{
+	display: grid;
+	grid-gap: 15px;
+}
+.rrss-left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 840px;
+}
 
 @include mobile {
 	.student {
