@@ -7,13 +7,13 @@
 	.grid{
 		color:white;
 		display: grid;
-  	grid-template-columns: repeat(4, 1fr);
+  	grid-template-columns: repeat(5, 1fr);
   	grid-template-rows: auto;
   	grid-template-areas: 
-    "col-1 . . ."
-    ". col-2 . ."
-    ". . col-3 ."
-    ". . . col-4";
+    "col-1 col-1 . . ."
+    ". col-2 col-2 . ."
+    ". . col-3 col-3 ."
+    ". . . col-4 col-4";
 		.grid-1{
 			grid-area: col-1;
 		}
