@@ -64,12 +64,16 @@
 	flex-direction: column;
 	justify-content: center;
 	padding: 2em 0;
-	width: 50%;
+	width: 80%;
+	h2, h3{
+		font-weight: bolder;
+	}
 	//height: 840px;
 }
 .rrss-right{
-	width: 50%;
+	width: 20%;
 	padding: 2em 0;
+	margin: 0 0 0 auto;
 	//height: 840px;
 }
 
