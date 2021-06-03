@@ -127,6 +127,7 @@ document.getElementById("footer").innerHTML = `
 			</div>
 		</div>
 	</div>
+	<a href="https://wa.me/#" class="whatsapp" target="_blank"> <i class="fab fa-whatsapp whatsapp-icon"></i></a>
 </div>
 `;
 
