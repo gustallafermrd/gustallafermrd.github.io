@@ -68,9 +68,14 @@
 }
 
 .social{
-	background: url("../images/bg/redes.jpg") no-repeat 0% 50%;
-	background-size: cover;
+	background: url("../images/bg/redes.jpg") no-repeat;
+	height: 86.5vh;
 	padding: 0 !important;
+	.container{
+		max-width: 1200px;
+		display: flex;
+		height: 100%;
+	}
 }
 
 @include mobile {
