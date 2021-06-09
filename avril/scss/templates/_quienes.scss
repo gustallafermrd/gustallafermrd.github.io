@@ -1,15 +1,15 @@
 .container-quienes{
-	width: 1280px;
-	max-width: 90%;
-	//margin: 0 auto;
+	width: 1140px;
+	margin: 0 auto;
 	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	height: 100%;
 	p{
 		text-align: justify;
-		font-size: 1.25rem;
+		font-size: 1.15rem;
+	}
+	h1{
+		width:50%;
+		text-align: center;
 	}
 	.text{
 		width: 50%;
@@ -22,29 +22,6 @@
 				height: 100%;
 				padding-right: 10px;
 			}
-		}
-	}
-	.grid{
-		color:white;
-		display: grid;
-  	grid-template-columns: repeat(5, 1fr);
-  	grid-template-rows: auto;
-  	grid-template-areas: 
-    "col-1 col-1 . . ."
-    ". col-2 col-2 . ."
-    ". . col-3 col-3 ."
-    ". . . col-4 col-4";
-		.grid-1{
-			grid-area: col-1;
-		}
-		.grid-2{
-			grid-area: col-2;
-		}
-		.grid-3{
-			grid-area: col-3;
-		}
-		.grid-4{
-			grid-area: col-4;
 		}
 	}
 }
