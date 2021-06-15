@@ -127,7 +127,19 @@ document.getElementById("footer").innerHTML = `
 			</div>
 		</div>
 	</div>
-	<a href="https://wa.me/#" class="whatsapp" target="_blank"> <i class="fab fa-whatsapp whatsapp-icon"></i></a>
+	<div id="abc">
+		<div class="popupContact">
+			<form action="" id="form" name="form">
+				<i class="fa fa-times-circle" id="close" onclick="div_hide()"></i>
+				<input type="text" id="name" name="nombre" placeholder="Nombre y Apellido">
+				<input type="text" id="telefono" name="telefono" placeholder="Telefono">
+				<input type="text" id="email" name="email" placeholder="E-mail">
+				<textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+				<a href="javascript:%20check_empty()" id="submit">Enviar</a>
+			</form>
+		</div>
+	</div>
+	<button id="popup" onclick="div_show()"><i class="fa fa-envelope email-icon"></i></button>
 </div>
 `;
 
@@ -357,3 +369,23 @@ $(window).scroll(function() {
 		}
 	});
 })(jQuery);
+
+// Validating Empty Field
+function check_empty() {
+	if (document.getElementById('nombre').value == "" || document.getElementById('email').value == "" || document.getElementById('telefono').value == "" || document.getElementById('mensaje').value == "") {
+	alert("por favor llena todos los campos");
+	} else {
+	document.getElementById('form').submit();
+	alert("Formulario enviado exitosamente");
+	}
+	}
+	//Function To Display Popup
+	function div_show() {
+	document.getElementById('abc').style.display = "block";
+	document.getElementById('popup').style.display = "none";
+	}
+	//Function to Hide Popup
+	function div_hide(){
+	document.getElementById('abc').style.display = "none";
+	document.getElementById('popup').style.display = "block";
+	}
