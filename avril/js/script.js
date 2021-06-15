@@ -381,8 +381,10 @@ function check_empty() {
 	}
 	//Function To Display Popup
 	function div_show() {
-	document.getElementById('abc').style.display = "block";
-	document.getElementById('popup').style.display = "none";
+		let abc = document.getElementById('abc').style.display = "block";
+		if(abc = true){
+			document.getElementById('popup').style.display = "none";
+		}
 	}
 	//Function to Hide Popup
 	function div_hide(){

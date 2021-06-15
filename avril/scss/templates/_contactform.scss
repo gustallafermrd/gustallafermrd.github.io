@@ -4,7 +4,7 @@
   opacity:.90;
   bottom:40px;
   right:40px;
-  display:none;
+  display:block;
   position:fixed;
   background-color:#8f37f8;
   overflow:auto
@@ -75,7 +75,7 @@ textarea {
   bottom:40px;
   right:40px;
   position:fixed;
-  display:block;
+  display:none;
   font-size:18px;
   cursor:pointer;
 }
