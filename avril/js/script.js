@@ -129,13 +129,13 @@ document.getElementById("footer").innerHTML = `
 	</div>
 	<div id="abc">
 		<div class="popupContact">
-			<form action="" id="form" name="form">
+			<form action="contactForm.php" method="POST" id="form" name="form">
 				<i class="fa fa-times-circle" id="close" onclick="div_hide()"></i>
 				<input type="text" id="name" name="nombre" placeholder="Nombre y Apellido">
 				<input type="text" id="telefono" name="telefono" placeholder="Telefono">
 				<input type="text" id="email" name="email" placeholder="E-mail">
 				<textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
-				<a href="javascript:%20check_empty()" id="submit">Enviar</a>
+				<a href="javascript:%20check_empty()" id="submit" type="submit">Enviar</a>
 			</form>
 		</div>
 	</div>
@@ -375,19 +375,19 @@ function check_empty() {
 	if (document.getElementById('nombre').value == "" || document.getElementById('email').value == "" || document.getElementById('telefono').value == "" || document.getElementById('mensaje').value == "") {
 	alert("por favor llena todos los campos");
 	} else {
-	document.getElementById('form').submit();
-	alert("Formulario enviado exitosamente");
+		document.getElementById('form').submit();
+		alert("Formulario enviado exitosamente");
 	}
+}
+//Function To Display Popup
+function div_show() {
+	let abc = document.getElementById('abc').style.display = "block";
+	if(abc = true){
+		document.getElementById('popup').style.display = "none";
 	}
-	//Function To Display Popup
-	function div_show() {
-		let abc = document.getElementById('abc').style.display = "block";
-		if(abc = true){
-			document.getElementById('popup').style.display = "none";
-		}
-	}
-	//Function to Hide Popup
-	function div_hide(){
+}
+//Function to Hide Popup
+function div_hide(){
 	document.getElementById('abc').style.display = "none";
 	document.getElementById('popup').style.display = "block";
-	}
+}
