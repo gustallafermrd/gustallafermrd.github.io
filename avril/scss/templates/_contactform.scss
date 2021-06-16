@@ -7,7 +7,8 @@
   display:block;
   position:fixed;
   background-color:#8f37f8;
-  overflow:auto
+  overflow:auto;
+  z-index:2500;
 }
 #close {
   position:absolute;
@@ -33,7 +34,6 @@ form {
 p {
   margin-top:30px;
 }
-
 input[type=text] {
   width:100%;
   padding:10px;
@@ -64,7 +64,6 @@ textarea {
   cursor:pointer;
   border-radius:4px;
 }
-
 #popup {
   width:60px;
   height:60px;
