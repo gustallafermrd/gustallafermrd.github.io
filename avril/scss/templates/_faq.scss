@@ -65,7 +65,7 @@ section {
 
 .accordion-link .ti-arrow-down{
   display: none;
-  font-size: 1rem;
+  font-size: 12px;
 }
 
 .answer{
@@ -90,10 +90,10 @@ section {
 
 .accordion-item:target .accordion-link .ti-arrow-right{
   display: none;
-  font-size: 1rem !important;
+  font-size: 12px;
 }
 
 .accordion-item:target .accordion-link .ti-arrow-down{
   display: block;
-  font-size: 1rem;
+  font-size: 12px;
 }
