@@ -42,9 +42,14 @@
 	background-size: cover;
 	@extend .overly-3;
 }
-
 .bg-8 {
 	background: url("../images/bg/trabaja.jpg") no-repeat;
+	content: "";
+	background-size: cover;
+	@extend .overly-3;
+}
+.bg-9 {
+	background: url("../images/bg/faq1.jpg") no-repeat;
 	content: "";
 	background-size: cover;
 	@extend .overly-3;
