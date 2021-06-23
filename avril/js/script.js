@@ -135,7 +135,7 @@ document.getElementById("footer").innerHTML = `
 				<input type="text" id="telefono" name="telefono" placeholder="Telefono">
 				<input type="text" id="email" name="email" placeholder="E-mail">
 				<textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
-				<a href="javascript:%20check_empty()" id="submit" type="submit">Enviar</a>
+				<button id="submit" type="submit">Enviar</button>
 			</form>
 		</div>
 	</div>
