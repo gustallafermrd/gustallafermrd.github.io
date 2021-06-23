@@ -63,7 +63,7 @@
   display: flex;
 }
 
-.accordion-link .ion-md-arrow-down{
+.accordion-link .ti-arrow-down{
   display: none;
 }
 
@@ -87,10 +87,10 @@
   max-height: 20rem;
 }
 
-.accordion-item:target .accordion-link .ion-md-arrow-forward{
+.accordion-item:target .accordion-link .ti-arrow-right{
   display: none
 }
 
-.accordion-item:target .accordion-link .ion-md-arrow-down{
+.accordion-item:target .accordion-link .ti-arrow-down{
   display: block;
 }
