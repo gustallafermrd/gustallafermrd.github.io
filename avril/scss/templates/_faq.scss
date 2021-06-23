@@ -64,7 +64,7 @@
   display: flex;
 }
 
-.accordion-link .ti-arrow-down{
+.accordion-link .ion-md-arrow-down{
   display: none;
   font-size: 12px;
 }
@@ -89,12 +89,12 @@
   max-height: 15rem;
 }
 
-.accordion-item:target .accordion-link .ti-arrow-right{
+.accordion-item:target .accordion-link .ion-md-arrow-forward{
   display: none;
   font-size: 12px;
 }
 
-.accordion-item:target .accordion-link .ti-arrow-down{
+.accordion-item:target .accordion-link .ion-md-arrow-down{
   display: block;
   font-size: 12px;
 }
