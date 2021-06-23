@@ -41,23 +41,23 @@
 }
 
 .accordion-link i{
-  color: #e7d5ff;
+  color: black;
   padding: .5rem;
   
 }
 
-.accordion-link ul{
-  display:flex;
-  align-items: flex-end;
-  list-style-type: none;
-  margin-left: 25px;
-}
+// .accordion-link ul{
+//   display:flex;
+//   align-items: flex-end;
+//   list-style-type: none;
+//   margin-left: 25px;
+// }
 
-.accordion-link li{
-  font-size: 10px;
-  color: rgba(255, 255, 255, 0.4);
-  padding: 0 0 1px 5px;
-}
+// .accordion-link li{
+//   font-size: 10px;
+//   color: rgba(255, 255, 255, 0.4);
+//   padding: 0 0 1px 5px;
+// }
 
 .accordion-link div{
   display: flex;
@@ -71,7 +71,7 @@
   max-height: 0;
   overflow: hidden;
   position: relative;
-  background-color: #000;
+  background-color: #fff;
   transition: max-height 650ms;
 }
 
