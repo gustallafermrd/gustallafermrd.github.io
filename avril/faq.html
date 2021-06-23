@@ -80,90 +80,25 @@
 
 	<div class="section main-reint">
 		<div class="row justify-content-center">
-			<div class="col-lg-9 py-3">
-				<h2 class="text-center shadow degradado">¿QUE DEBO HACER PARA SOLICITAR REINTEGROS?</h2>
-			</div>
+			
 			<div class="d-sm-block d-md-flex d-lg-flex justify-content-center">
-				<div class="col-lg-3 text-center">
-					<!-- <div class="d-flex"> -->
-						<i class="fas fa-cog fa-2x text-center p-2 text-blue"></i>
-						<h3 class="text-blue"> Comunicate con la Central de Asistencias</h3>
-					<!-- </div> -->
-					<p>Podés encontrar los números en la parte inferior del Voucher. Los datos que van a solicitarte son: número de voucher, nombre y apellido, DNI y un teléfono de contacto. <strong>Recomendamos NO realizar ningún gasto sin nuestra previa autorización.</strong></p>					
-				</div>
-				<div class="barra"></div>
-				<div class="col-lg-3 text-center">
-					<!-- <div class="d-flex"> -->
-						<i class="fas fa-cog fa-2x align-self-center p-2 text-blue"></i>
-						<h3 class="text-blue"> ¡Guardá los comprobantes!</h3>
-					<!-- </div> -->
-					<p>Es importante que guardes todos los comprobantes de pago de medicamentos o cualquier otro gasto que generes en tu viaje para generar el trámite dentro de los 30 días desde tu llegada.</p>					
-				</div>
-				<div class="barra"></div>
-				<div class="col-lg-3 text-center">
-					<!-- <div class="d-flex"> -->
-						<i class="fas fa-cog fa-2x align-self-center p-2 text-blue"></i>
-						<h3 class="text-blue"> Proceso de Reintegros</h3>
-					<!-- </div> -->
-					<p>Finalmente deberás adjuntar en este formulario la documentación solicitada o enviarla a <a href="mailto:reintegros@avril-assistance.com"> reintegros@avril-assistance.com</a>. <strong>Si los importes superan los 200 USD deberás presentarlos físicamente.</strong> Recordá que el proceso demora aproximadamente 15 días hábiles.</p>
-				</div>
-			</div>		
+				<p>1) Mi equipaje se extravió, ¿Qué debo hacer?</p>
+				En caso de que tu equipaje se extravíe en viaje, deberás realizar la denuncia correspondiente en la compañía aérea y posteriormente llamar a nuestra Central de Asistencias a los teléfonos de contacto que figuran en el voucher.
+
+				<p>2) ¿Tengo incluido el traslado o la repatriación sanitaria?</p>
+				<p>Sí. Nuestros productos incluyen traslados y repatriación sanitaria. Podés chequearlo en la lista de beneficios y servicios desde tu voucher. </p> 
+
+				<p>3) ¿Cómo me contacto con la Central de Asistencias?</p>
+				<ul>
+					<li>Podrás contactarte a través de los siguientes medios:</li>
+					<li>-Telefónicamente al (+54 11) 5353-2662 - Desde el resto del mundo por cobro revertido (solicitando a la operadora local) o en forma directa</li>
+					<li>-WhatsApp (+54 9 11) 2260 - 8613 (Solo texto - No llamadas)</li>
+				</ul>
+			</div>
+				
 		</div>
 	</div>
 
-	<div class="section formulario-reintegro">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-5 col-sm-10">
-					<h3 class="text-center text-color">Formulario</h3>
-					<form method="POST" action="reintegro.php" enctype="multipart/form-data">
-						<div class="form-group">
-							<input name="voucher" type="text" class="form-control" placeholder="Número de Voucher">
-						</div>
-						<div class="form-group">
-							<input name="name" type="text" class="form-control" placeholder="Nombre">
-						</div>
-						<div class="form-group">
-							<input name="tlf" type="tel" class="form-control" placeholder="Teléfono">
-						</div>
-						<div class="form-group">
-							<input name="email" type="email" class="form-control" placeholder="Email">
-						</div>
-						<div class="form-group d-flex">
-							<input name="monto" type="text" class="form-control" placeholder="Gestión de Reintegro Web">
-						</div>
-						<div class="form-group d-flex">
-							<textarea name="obs" placeholder="Observaciones: Ej. Cuenta Bancaria, Datos bancarios, etc" id="" cols="100%" rows="2" maxlength="500"></textarea>
-						</div>
-						<div class="d-sm-block d-md-flex justify-content-between">
-							<div>
-								<input type="hidden" name="MAX_FILE_SIZE" value="10000000">
-								<input name="userfile[]" type="file" multiple="multiple">
-								<label for="file">Subí tus documentos.</label>
-							</div>
-							<button class="btn btn-main text-uppercase float-right" name="submit" type="submit">Enviar</button>
-						</div>
-					</form>
-					
-				</div>
-				<div class="col-lg-5 col-sm-10">
-					<h3 class="text-center text-color">Requisitos</h3>
-					<p>Aquella solicitud de reintegro que supere el monto de <br /><span class="name">USD 200.-</span> se deberán presentar los comprobantes originales.</p>
-					<ul>
-						<li>Imágen del DNI o Pasaporte de la persona asistida.</li>
-						<li>Comprobantes de los gastos realizados.</li>
-						<li>Notas médicas / Recetas.</li>
-						<li>Datos bancarios:</li>
-						<li>Titular de la cuenta.</li>
-						<li>Imágen del comprobante de CBU en Pesos (clave bancaria uniforme).</li>
-						<li>Imágen de la constancia de CUIL.</li>
-						<li>Entidad Bancaria.</li>
-						<li>Autorización debidamente completa <a href="./pdf/Autorizacion Reintegros - Avril Assistance.pdf" target="_blank">Descarga aquí</a>.</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<footer class="footer section" id="footer"></footer>
 
