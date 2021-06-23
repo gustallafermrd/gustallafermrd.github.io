@@ -41,7 +41,8 @@ section {
 }
 
 .accordion-link i{
-  color: black;
+  font-size: 14px;
+  color: #009FE3;
   padding: .5rem;
   
 }
@@ -85,7 +86,7 @@ section {
 }
 
 .accordion-item:target .answer{
-  max-height: 20rem;
+  max-height: 15rem;
 }
 
 .accordion-item:target .accordion-link .ti-arrow-right{
