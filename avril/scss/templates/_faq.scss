@@ -90,7 +90,7 @@
 
 .accordion-item:target .accordion-link .ti-arrow-right{
   display: none;
-  font-size: 1rem;
+  font-size: 1rem !important;
 }
 
 .accordion-item:target .accordion-link .ti-arrow-down{
