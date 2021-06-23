@@ -14,10 +14,10 @@
 //   padding: 0 1.5rem;
 // }
 
-.accordion-item{
-  background-color: #000000;
-  border-radius: .4rem;
-}
+// .accordion-item{
+//   background-color: #000000;
+//   border-radius: .4rem;
+// }
 
 .accordion-item hr{
   border: 1px solid #009FE3;
@@ -27,7 +27,7 @@
   font-size: 1.6rem;
   color: rgba(255,255,255,.8);
   text-decoration: none;
-  background-color: #000000;
+  background-color: #fff;
   width: 100%;
   display: flex;
   align-items: center;
@@ -74,7 +74,6 @@
   background-color: #000;
   transition: max-height 650ms;
 }
-
 
 
 .answer p{
