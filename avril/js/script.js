@@ -97,7 +97,7 @@ document.getElementById("footer").innerHTML = `
 					<li><a href="reintegros.html">Reintegros</a></li>
 					<li><a href="contacto.html">Contacto</a></li>
 					<li><a href="quienes.html">Quiénes Somos</a></li>
-					<li><a href="faq.html">Articulos</a></li>
+					<li><a href="faq.html">Preguntas Frecuentes</a></li>
 				</ul>
 			</div>
 		</div>
