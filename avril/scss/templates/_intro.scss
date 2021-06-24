@@ -1,0 +1,90 @@
+// Intro Section
+
+.intro-item {
+	i {
+		font-size: 60px;
+		line-height: 60px;
+	}
+}
+
+.color-one {
+	color: $primary-color;
+}
+.color-two {
+	color: #00d747;
+}
+.color-three {
+	color: #524ba8;
+}
+.color-four {
+	color: #3d8ec5;
+}
+
+.intro {
+	img {
+		margin: 0 auto;
+		display: block;
+	}
+}
+
+.main-wrapper {
+	h2 {
+		text-transform: uppercase;
+	}
+}
+
+.student {
+	line-height: 1.2em;
+	p {
+		font-size: 0.8em;
+		color: white;
+	}
+
+	.arreglo {
+		padding: 0.5em 0 0.5em 5.5em;
+	}
+}
+#student{
+	img{
+		width: 100%;
+	}
+}
+
+.rrss{
+	display: grid;
+	grid-gap: 15px;
+	img{width: 40%;}
+}
+.rrss-left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2em 0;
+	width: 70%;
+	h2, h3{
+		font-weight: bolder;
+	}
+	h2{font-size:30px;}
+	h3{font-size:26px;}
+	//height: 840px;
+}
+.rrss-right{
+	width: 30%;
+	padding: 2em 0;
+	margin: 0 0 0 auto;
+	//height: 840px;
+}
+
+@include mobile {
+	.student {
+		line-height: 1.2em;
+		p {
+			font-size: 0.8em;
+			color: black;
+		}
+
+		.arreglo {
+			padding: 0 !important;
+		}
+	}
+}
