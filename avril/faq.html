@@ -156,6 +156,46 @@
 		</div>
 	</div>
 
+  <div class="bg-8 mb-4">
+		<div class="containerfaq">
+			<div class="row">
+				<div class="col-sm-8 col-lg-12 m-2 text-white">
+					<div>
+						<h2 class="text-white">Para más información completá el formulario</h2>
+					</div>
+          <form action="contactForm.php" method="POST" id="faqform" name="faqform">
+            <div class="d-sm-block d-md-flex justify-content-between">
+              <div class="w-30">
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" id="name" name="nombre" class="form-control">
+              </div>
+              <div class="w-30">
+                <label for="telefono">Teléfono</label>
+                <input type="text" id="telefono" name="telefono" placeholder="Ej: 11-5353-2662" class="form-control">
+              </div>
+              <div class="w-30">
+								<label for="email">Email</label>
+								<input type="text" id="email" name="email" class="form-control">
+							</div>
+            </div>
+            <div>
+							<label for="direccion">Mensaje</label>
+							<div class="form-group">
+								<textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea>
+							</div>
+						</div>
+            <!-- <input type="text" id="name" name="nombre" placeholder="Nombre y Apellido">
+            <input type="text" id="telefono" name="telefono" placeholder="Telefono">
+            <input type="text" id="email" name="email" placeholder="E-mail">
+            <textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea> -->
+            <div class="text-right">
+              <button class="btn btn-main" type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
 	<footer class="footer section" id="footer"></footer>
 
