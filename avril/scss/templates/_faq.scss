@@ -43,7 +43,7 @@
 .accordion-link i{
   color: #009FE3;
   padding: .5rem;
-  font-size: 14px;
+  //font-size: 14px;
   
 }
 
@@ -75,8 +75,16 @@
   background-color: #fff;
   transition: max-height 650ms;
 }
-
-
+.answer::before{
+  content: "";
+  position: relative;
+  width: .6rem;
+  height: 90%;
+  background-color: #009FE3;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
 .answer p{
   color: #000;
   font-size: 15px;
@@ -96,4 +104,46 @@
 
 .accordion-item:target .accordion-link .ti-arrow-down{
   display: block;
+}
+
+// faq2
+
+summary {
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #fff;
+  color: #000;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border-radius: 0.25rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  border-bottom: 1px solid #009FE3;
+}
+details > summary::after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+}
+details[open] > summary::after {
+  position: absolute;
+  content: "-";
+  right: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+.faq__content{
+  padding-left: 20px;
+  text-align: justify;
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px}
+  100%  {opacity: 1; margin-top: 0px}
 }
