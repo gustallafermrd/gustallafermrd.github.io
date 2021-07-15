@@ -146,17 +146,18 @@
   }
   .right-1 {
     grid-area: 1 / 6 / 3 / 7;
-    background-image: url('../../images/fondo_computadora.png');
-    background-size: contain;
-    width: 320px;
-    height: 856px;
     .d-row{
       width: 80%;
-      margin: 10px auto;
+      margin: 30px auto;
+      p{
+        margin-top: 10px;
+        color: white;
+      }
     }
     .logos{
       width: 80%;
       margin: 0 auto;
+      position: relative;
       img{width:100%;}
     }
   }

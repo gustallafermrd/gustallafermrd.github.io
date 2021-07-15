@@ -54,6 +54,13 @@
 	background-size: cover;
 	@extend .overly-3;
 }
+.bg-counter{
+	background: url("../images/fondo_computadora.png");
+	position: relative;
+	content: "";
+	top: 0px;
+	@extend .overly-3;
+}
 
 .student {
 	background: url("../images/student.jpg") no-repeat 0% 50%;
