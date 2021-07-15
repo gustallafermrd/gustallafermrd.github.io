@@ -1,0 +1,163 @@
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .left-1 {
+    grid-area: 1 / 1 / 2 / 6;
+    background-image: url('../images/new-bg.png');
+    background-size: cover;
+    height: 526px;
+    .protect{
+      position: relative;
+      .left-side{
+        position: absolute;
+        top: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        .frame{
+          position: absolute;
+          top:0;
+          left: 0;
+        }
+        .on-top{z-index: 10;}
+        .blue-line{
+          background:#8aecee;
+          //padding: 10px;
+          width: 500px;
+          border-radius: 0px 50px 50px 0;
+          box-shadow: 2px 2px #292929;
+          z-index: 10;
+          p{
+            text-transform: uppercase;
+            text-align: center;
+            margin: 0;
+            font-weight: bold;
+          }
+        }
+      }
+      .right-side{
+        position: absolute;
+        top:0;
+        right:0;
+        width: 50%;
+        height: 100%;
+        .mini-grid{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(2, auto);
+          grid-column-gap: 5px;
+          grid-row-gap: 5px;
+          height: 90%;
+          justify-items: center;
+          align-items: center;
+          padding: 25px;
+
+          .grid{
+            background: white;
+            border-radius: 5px;
+            border: 1px solid white;
+            box-shadow: 2px 2px #292929;
+            padding: 0 5px;
+            width: 85%;
+            height: 85%;
+            line-height: 1.25em;
+            .title1, .title2{
+              position: relative;
+              left: -1.5em;
+              width: 100%;
+              img{width:100%;}
+              .title-text{
+                position: absolute;
+                color: white;
+                top: 0;
+                text-align: center;
+                width: 100%;
+                line-height: 37px;
+              }
+            }
+            .text{
+              //position: relative;
+              img{
+                display: block;
+                margin: 0 auto;
+              }
+            }        
+            p{
+              text-align: center;
+              margin: 0;
+              font-size: 13px;
+              line-height: 1.25em;
+            }
+          }
+        }
+        .blue-title{
+          position: relative;
+          img{width:100%;}
+          .frame2{
+            position: absolute;
+            top: 0;
+            right: 0;
+          }
+          p{
+            position: relative;
+            width: 100%;
+            top:0;
+            margin: 0;
+            text-align: center;
+            line-height: 42px;
+            text-transform: uppercase;
+            color: white;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .left-2 {
+    grid-area: 2 / 1 / 3 / 6;
+    .main-title{
+      background: linear-gradient(90deg, rgba(3,188,241,1) 0%, rgba(2,104,241,1) 100%);
+      padding: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 2em;
+      color: white;
+    }
+    .icons{
+      width: 90%;
+      display: flex;
+      margin: 0 auto;
+      padding: 10px;
+      text-align: center;
+      .row-icon{
+        width: 12.5%;
+        padding: 5px;
+      }
+    }
+  
+  }
+  .right-1 {
+    grid-area: 1 / 6 / 3 / 7;
+    background-image: url('../../images/fondo_computadora.png');
+    background-size: contain;
+    width: 320px;
+    height: 856px;
+    .d-row{
+      width: 80%;
+      margin: 10px auto;
+    }
+    .logos{
+      width: 80%;
+      margin: 0 auto;
+      img{width:100%;}
+    }
+  }
+  
