@@ -16,17 +16,21 @@
       .left-side{
         position: absolute;
         top: 0;
+        width:50%;
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
+        align-items: inherit;
+        justify-content: space-evenly;
         .frame{
           position: absolute;
           top:0;
           left: 0;
         }
-        .on-top{z-index: 10;}
+        .on-top{
+          position: relative;
+          width: 55%;
+        }
         .blue-line{
           background:#8aecee;
           //padding: 10px;
@@ -64,14 +68,14 @@
             border-radius: 5px;
             border: 1px solid white;
             box-shadow: 2px 2px #292929;
-            padding: 0 5px;
+            padding: 0 10px;
             width: 85%;
             height: 85%;
             line-height: 1.25em;
             .title1, .title2{
               position: relative;
-              left: -1.5em;
-              width: 100%;
+              left: -1.8em;
+              width: 110%;
               img{width:100%;}
               .title-text{
                 position: absolute;
@@ -79,6 +83,8 @@
                 top: 0;
                 text-align: center;
                 width: 100%;
+                text-transform: uppercase;
+                font-weight: bold;
                 line-height: 37px;
               }
             }
@@ -104,6 +110,7 @@
             position: absolute;
             top: 0;
             right: 0;
+            height: 50px;
           }
           p{
             position: relative;
@@ -111,7 +118,7 @@
             top:0;
             margin: 0;
             text-align: center;
-            line-height: 42px;
+            line-height: 50px;
             text-transform: uppercase;
             color: white;
             font-weight: bold;
