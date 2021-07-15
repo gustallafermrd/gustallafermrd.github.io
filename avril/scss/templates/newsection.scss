@@ -139,15 +139,15 @@
       color: white;
     }
     .icons{
-      width: 90%;
+      width: 80%;
       display: flex;
       margin: 0 auto;
-      padding: 10px;
+      padding: 10px 0;
       text-align: center;
       .row-icon{
         width: 12.5%;
-        padding: 5px;
-        p{font-size: 14px;}
+        //padding: 5px;
+        p{font-size: 13px;}
       }
     }
   
