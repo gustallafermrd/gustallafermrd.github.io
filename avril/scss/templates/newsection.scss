@@ -30,6 +30,7 @@
         .on-top{
           position: relative;
           width: 55%;
+          top:-1.25em;
         }
         .blue-line{
           background:#8aecee;
@@ -134,8 +135,8 @@
       padding: 10px;
       text-align: center;
       text-transform: uppercase;
-      font-weight: bold;
-      font-size: 2em;
+      font-weight: 400;
+      font-size: 1.5em;
       color: white;
     }
     .icons{
