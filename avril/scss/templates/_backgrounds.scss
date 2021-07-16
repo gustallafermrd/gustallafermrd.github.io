@@ -61,6 +61,18 @@
 	top: 0px;
 	@extend .overly-3;
 }
+.bg-redes{
+	background: url("../images/fondo_redes.jpg");
+	background-size: cover;
+	width: 100%;
+	height:auto;
+}
+.bg-reintegros{
+	background: url("../images/fondo_reintegros.jpg");
+	background-size: cover;
+	width: 100%;
+	height:auto;
+}
 
 .student {
 	background: url("../images/student.jpg") no-repeat 0% 50%;
