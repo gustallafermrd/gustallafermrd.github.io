@@ -63,9 +63,8 @@
 }
 .bg-redes{
 	background: url("../images/fondo_redes.jpg");
-	background-size: cover;
-	width: 100%;
-	height:auto;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .bg-reintegros{
 	background: url("../images/fondo_reintegros.jpg");
