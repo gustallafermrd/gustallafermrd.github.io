@@ -165,6 +165,10 @@
   .d-row{
     width: 80%;
     margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    //height: 65%;
+    justify-content: space-evenly;
     .flex-item{
       display: flex;
       justify-content: center;
