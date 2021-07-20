@@ -79,7 +79,10 @@
 .avril-pasaporte-2,
 .avril-maletas,
 .avril-viaje {
+	color: $estetoscopio;
 	&:hover {
+		color:white;
+		background: $estetoscopio;
 		transform: scale(1.5);
 		-webkit-transform: scale(1.5);
 		-webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
@@ -90,55 +93,55 @@
 		padding: 6px;
 	}
 }
-.avril-dental {
-	color: $dental;
-	&:hover {
-		color: #fff;
-		background: $dental;
-	}
-}
+// .avril-dental {
+// 	color: $dental;
+// 	&:hover {
+// 		color: #fff;
+// 		background: $dental;
+// 	}
+// }
 
-.avril-estetoscopio {
-	color: $estetoscopio;
-	&:hover {
-		color: #fff;
-		background: $estetoscopio;
-	}
-}
+// .avril-estetoscopio {
+// 	color: $estetoscopio;
+// 	&:hover {
+// 		color: #fff;
+// 		background: $estetoscopio;
+// 	}
+// }
 
-.avril-pildora {
-	color: $pildora;
-	&:hover {
-		color: #fff;
-		background: $pildora;
-	}
-}
+// .avril-pildora {
+// 	color: $pildora;
+// 	&:hover {
+// 		color: #fff;
+// 		background: $pildora;
+// 	}
+// }
 
-.avril-mensaje {
-	color: $mensaje;
-	&:hover {
-		color: #fff;
-		background: $mensaje;
-	}
-}
+// .avril-mensaje {
+// 	color: $mensaje;
+// 	&:hover {
+// 		color: #fff;
+// 		background: $mensaje;
+// 	}
+// }
 
-.avril-pasaporte {
-	color: $pasaporte;
-	&:hover {
-		color: #fff;
-		background: $pasaporte;
-	}
-}
+// .avril-pasaporte {
+// 	color: $pasaporte;
+// 	&:hover {
+// 		color: #fff;
+// 		background: $pasaporte;
+// 	}
+// }
 
-.avril-viaje,
-.avril-gymnasio,
-.avril-maletas {
-	color: $purple;
-	&:hover {
-		color: #fff;
-		background: $purple;
-	}
-}
+// .avril-viaje,
+// .avril-gymnasio,
+// .avril-maletas {
+// 	color: $purple;
+// 	&:hover {
+// 		color: #fff;
+// 		background: $purple;
+// 	}
+// }
 
 /* Student section */
 .avril-estetoscopio-2 {
